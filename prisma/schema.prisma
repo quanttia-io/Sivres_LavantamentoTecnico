@@ -1,0 +1,402 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ─────────────────────────────────────────────
+// ENUMS
+// ─────────────────────────────────────────────
+
+enum Role {
+  SUPERVISOR
+  CONSULTOR
+  GESTOR
+  ADMINISTRADOR
+}
+
+enum TipoPortaria {
+  ASSISTIDA
+  AUTONOMA
+  CONTROLE_ACESSO
+}
+
+enum TipoRecolhimento {
+  DIURNO
+  NOTURNO
+}
+
+enum VistoriaStatus {
+  EM_ANDAMENTO
+  AGUARDANDO_APROVACAO
+  APROVADO
+  REPROVADO
+}
+
+enum FotoCategoria {
+  FRENTE_CONDOMINIO
+  PORTAO_VEICULAR_FRENTE
+  PORTAO_VEICULAR_COSTAS
+  PORTAO_PEDESTRE_FRENTE
+  PORTAO_PEDESTRE_COSTAS
+  ELEVADORES
+  HALL
+  GUARITA
+  LIXEIRA
+  VISTA_SUPERIOR_MAPS
+  OUTROS
+}
+
+enum AnexoTipo {
+  CROQUI
+  PROJETO_TECNICO
+  OUTRO
+}
+
+enum AssinaturaTipo {
+  SUPERVISOR
+  CONSULTOR
+}
+
+enum AprovacaoAcao {
+  APROVADO
+  REPROVADO
+  SOLICITADO_AJUSTE
+}
+
+enum NotificacaoTipo {
+  NOVA_VISTORIA
+  APROVACAO
+  REPROVACAO
+  SOLICITACAO_AJUSTE
+  EDICAO_SOLICITADA
+}
+
+// ─────────────────────────────────────────────
+// USERS
+// ─────────────────────────────────────────────
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      Role     @default(CONSULTOR)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  visitoriasSupervisor Vistoria[]    @relation("supervisor")
+  visitoriasConsultor  Vistoria[]    @relation("consultor")
+  auditLogs            AuditLog[]
+  editLocks            EditLock[]
+  notificacoes         Notificacao[]
+  assinaturas          Assinatura[]
+  aprovacoes           Aprovacao[]
+
+  @@map("users")
+}
+
+// ─────────────────────────────────────────────
+// CONDOMINIO
+// ─────────────────────────────────────────────
+
+model Condominio {
+  id        String    @id @default(uuid())
+  nome      String
+  endereco  String
+  cidade    String
+  estado    String
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  vistorias Vistoria[]
+
+  @@unique([nome, endereco])
+  @@map("condominios")
+}
+
+// ─────────────────────────────────────────────
+// VISTORIA
+// ─────────────────────────────────────────────
+
+model VistoriaSequence {
+  ano    Int @id
+  ultimo Int @default(0)
+
+  @@map("vistoria_sequences")
+}
+
+model Vistoria {
+  id        String @id @default(uuid())
+  numero    String @unique
+  ano       Int
+  sequencia Int
+
+  condominioId String
+  condominio   Condominio @relation(fields: [condominioId], references: [id])
+
+  supervisorId String
+  supervisor   User   @relation("supervisor", fields: [supervisorId], references: [id])
+  consultorId  String
+  consultor    User   @relation("consultor", fields: [consultorId], references: [id])
+
+  tipoPortaria TipoPortaria
+
+  qtdUnidades          Int?
+  qtdPortoesVeiculares Int?
+  qtdPortoesPedestres  Int?
+  qtdElevadores        Int?
+  possuiLixeira        Boolean          @default(false)
+  tipoRecolhimento     TipoRecolhimento?
+
+  observacoesGerais String?
+
+  status    VistoriaStatus @default(EM_ANDAMENTO)
+  deletedAt DateTime?
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  // Extensível para IA futura (sugestões, embeddings, scoring)
+  metadata Json?
+
+  itens        VistoriaItem[]
+  checklist    VistoriaChecklistItem[]
+  fotos        VistoriaFoto[]
+  anexos       VistoriaAnexo[]
+  assinaturas  Assinatura[]
+  editLock     EditLock?
+  auditLogs    AuditLog[]
+  aprovacoes   Aprovacao[]
+  notificacoes Notificacao[]
+
+  @@map("vistorias")
+}
+
+// ─────────────────────────────────────────────
+// PRODUTOS
+// ─────────────────────────────────────────────
+
+model Produto {
+  id        String    @id @default(uuid())
+  codigo    String    @unique
+  descricao String
+  custo     Decimal   @db.Decimal(10, 2)
+  ativo     Boolean   @default(true)
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  templateItens TemplateItem[]
+  vistoriaItens VistoriaItem[]
+
+  @@map("produtos")
+}
+
+model VistoriaItem {
+  id         String   @id @default(uuid())
+  vistoriaId String
+  vistoria   Vistoria @relation(fields: [vistoriaId], references: [id])
+  produtoId  String
+  produto    Produto  @relation(fields: [produtoId], references: [id])
+  quantidade Int
+  custoUnit  Decimal  @db.Decimal(10, 2)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([vistoriaId, produtoId])
+  @@map("vistoria_itens")
+}
+
+// ─────────────────────────────────────────────
+// TEMPLATES
+// ─────────────────────────────────────────────
+
+model Template {
+  id           String       @id @default(uuid())
+  tipoPortaria TipoPortaria @unique
+  nome         String
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  itens TemplateItem[]
+
+  @@map("templates")
+}
+
+model TemplateItem {
+  id         String   @id @default(uuid())
+  templateId String
+  template   Template @relation(fields: [templateId], references: [id])
+  produtoId  String
+  produto    Produto  @relation(fields: [produtoId], references: [id])
+  quantidade Int      @default(1)
+
+  @@unique([templateId, produtoId])
+  @@map("template_itens")
+}
+
+// ─────────────────────────────────────────────
+// CHECKLIST
+// ─────────────────────────────────────────────
+
+model ChecklistTemplate {
+  id           String       @id @default(uuid())
+  tipoPortaria TipoPortaria
+  ordem        Int
+  pergunta     String
+  obrigatorio  Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  respostas VistoriaChecklistItem[]
+
+  @@map("checklist_templates")
+}
+
+model VistoriaChecklistItem {
+  id                  String            @id @default(uuid())
+  vistoriaId          String
+  vistoria            Vistoria          @relation(fields: [vistoriaId], references: [id])
+  checklistTemplateId String
+  checklistTemplate   ChecklistTemplate @relation(fields: [checklistTemplateId], references: [id])
+  resposta            Boolean?
+  observacao          String?
+  updatedAt           DateTime          @updatedAt
+
+  @@unique([vistoriaId, checklistTemplateId])
+  @@map("vistoria_checklist_itens")
+}
+
+// ─────────────────────────────────────────────
+// FOTOS
+// ─────────────────────────────────────────────
+
+model VistoriaFoto {
+  id           String        @id @default(uuid())
+  vistoriaId   String
+  vistoria     Vistoria      @relation(fields: [vistoriaId], references: [id])
+  categoria    FotoCategoria
+  descricao    String?
+  storageKey   String        @unique
+  url          String
+  tamanhoBytes Int?
+  ordem        Int           @default(0)
+  createdAt    DateTime      @default(now())
+
+  @@map("vistoria_fotos")
+}
+
+// ─────────────────────────────────────────────
+// ANEXOS
+// ─────────────────────────────────────────────
+
+model VistoriaAnexo {
+  id         String    @id @default(uuid())
+  vistoriaId String
+  vistoria   Vistoria  @relation(fields: [vistoriaId], references: [id])
+  tipo       AnexoTipo
+  nome       String
+  storageKey String    @unique
+  url        String
+  mimeType   String
+  createdAt  DateTime  @default(now())
+
+  @@map("vistoria_anexos")
+}
+
+// ─────────────────────────────────────────────
+// ASSINATURAS
+// ─────────────────────────────────────────────
+
+model Assinatura {
+  id         String         @id @default(uuid())
+  vistoriaId String
+  vistoria   Vistoria       @relation(fields: [vistoriaId], references: [id])
+  userId     String
+  user       User           @relation(fields: [userId], references: [id])
+  tipo       AssinaturaTipo
+  storageKey String         @unique
+  url        String
+  createdAt  DateTime       @default(now())
+
+  @@unique([vistoriaId, tipo])
+  @@map("assinaturas")
+}
+
+// ─────────────────────────────────────────────
+// EDIT LOCK
+// ─────────────────────────────────────────────
+
+model EditLock {
+  id         String   @id @default(uuid())
+  vistoriaId String   @unique
+  vistoria   Vistoria @relation(fields: [vistoriaId], references: [id])
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+
+  @@map("edit_locks")
+}
+
+// ─────────────────────────────────────────────
+// APROVAÇÃO
+// ─────────────────────────────────────────────
+
+model Aprovacao {
+  id         String        @id @default(uuid())
+  vistoriaId String
+  vistoria   Vistoria      @relation(fields: [vistoriaId], references: [id])
+  userId     String
+  user       User          @relation(fields: [userId], references: [id])
+  acao       AprovacaoAcao
+  comentario String
+  createdAt  DateTime      @default(now())
+
+  @@map("aprovacoes")
+}
+
+// ─────────────────────────────────────────────
+// AUDITORIA
+// ─────────────────────────────────────────────
+
+model AuditLog {
+  id          String    @id @default(uuid())
+  vistoriaId  String?
+  vistoria    Vistoria? @relation(fields: [vistoriaId], references: [id])
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  acao        String
+  entidade    String
+  entidadeId  String
+  dadosAntes  Json?
+  dadosDepois Json?
+  createdAt   DateTime  @default(now())
+
+  @@map("audit_logs")
+}
+
+// ─────────────────────────────────────────────
+// NOTIFICAÇÕES
+// ─────────────────────────────────────────────
+
+model Notificacao {
+  id         String          @id @default(uuid())
+  userId     String
+  user       User            @relation(fields: [userId], references: [id])
+  vistoriaId String?
+  vistoria   Vistoria?       @relation(fields: [vistoriaId], references: [id])
+  tipo       NotificacaoTipo
+  titulo     String
+  mensagem   String
+  lida       Boolean         @default(false)
+  createdAt  DateTime        @default(now())
+
+  @@map("notificacoes")
+}
