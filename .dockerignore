@@ -1,0 +1,11 @@
+node_modules
+apps/frontend
+apps/backend/dist
+apps/backend/node_modules
+.next
+.turbo
+.git
+*.log
+.env
+.env.local
+coverage
