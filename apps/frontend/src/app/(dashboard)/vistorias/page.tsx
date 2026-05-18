@@ -129,7 +129,7 @@ export default function VistoriasPage() {
                     <p className="text-sm text-gray-500 truncate">
                       {v.condominio?.cidade}/{v.condominio?.estado}
                     </p>
-                    <p className="text-xs text-gray-400 mt-1.5">
+                    <p className="text-xs text-gray-400 mt-1.5" suppressHydrationWarning>
                       {v.supervisor?.name} ·{' '}
                       {format(new Date(v.createdAt), 'dd/MM/yyyy', { locale: ptBR })}
                     </p>

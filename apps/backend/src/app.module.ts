@@ -26,6 +26,8 @@ import { PdfModule } from './modules/pdf/pdf.module';
 import { AuditoriaModule } from './modules/auditoria/auditoria.module';
 import { LixeiraModule } from './modules/lixeira/lixeira.module';
 import { StorageModule } from './modules/storage/storage.module';
+import { ConfiguradorModule } from './modules/configurador/configurador.module';
+import { PrecificacaoModule } from './modules/precificacao/precificacao.module';
 
 @Module({
   imports: [
@@ -51,6 +53,8 @@ import { StorageModule } from './modules/storage/storage.module';
     PdfModule,
     AuditoriaModule,
     LixeiraModule,
+    ConfiguradorModule,
+    PrecificacaoModule,
   ],
   providers: [
     { provide: APP_FILTER, useClass: AllExceptionsFilter },

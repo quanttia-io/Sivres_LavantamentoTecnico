@@ -46,12 +46,163 @@ export class PdfService {
     return Buffer.from(pdf);
   }
 
+  private buildConfiguracaoHtml(cfg: any): string {
+    if (!cfg) return '';
+
+    const row = (label: string, v: any): string | null => {
+      if (v === undefined || v === null || v === 0 || v === '' || v === false) return null;
+      return `<div class="info-item"><label>${label}:</label><span>${v}</span></div>`;
+    };
+
+    const lixeiraLabel = (v: number | undefined) =>
+      v === 1 ? 'Interfone' : v === 2 ? 'Botão' : null;
+    const cercaLabel = (v: number | undefined) =>
+      v === 1 ? 'Completa' : v === 2 ? 'Apenas fiação' : null;
+    const saidaPedLabel = (v: number | undefined) =>
+      v === 0 ? 'Interfone' : v === 1 ? 'Botão' : null;
+
+    const groups: { title: string; rows: Array<string | null> }[] = [
+      {
+        title: 'Portões Pedestres',
+        rows: [
+          row('Pivotante Manual', cfg.pedPivManual),
+          row('Pivotante Automático', cfg.pedPivAuto),
+          row('Deslizante Piso', cfg.pedDeslPiso),
+          row('Deslizante Teto', cfg.pedDeslTeto),
+          row('Pivotante Vidro', cfg.pedPivVidro),
+          row('Outros', cfg.pedOutro),
+        ],
+      },
+      {
+        title: 'Controle de Acesso Pedestre',
+        rows: [
+          row('Eclusa Pedestre', cfg.eclusaPedestre),
+          row('Leitor de Tag', cfg.leitorTagPedestre),
+          row('Biometria Digital', cfg.biometriaDigital),
+          row('Biometria Facial', cfg.biometriaFacial),
+          row('Saída Pedestres', saidaPedLabel(cfg.opcaoSaidaPedestres)),
+        ],
+      },
+      {
+        title: 'Câmeras e Interfones',
+        rows: [
+          row('Interfones Autônomos', cfg.interfoneAut),
+          row('Câmeras Portaria Aut.', cfg.camerasPortariaAut),
+          row('Interfones Remotos', cfg.interfoneRem),
+          row('Câmeras Portaria Rem.', cfg.camerasPortariaRem),
+          row('Integração Interfone', cfg.integracaoInterfone ? 'Sim' : null),
+        ],
+      },
+      {
+        title: 'Acesso Veicular — Portões',
+        rows: [
+          row('Deslizante P', cfg.deslP),
+          row('Deslizante M', cfg.deslM),
+          row('Deslizante G', cfg.deslG),
+          row('Basculante Simples', cfg.bascSimples),
+          row('Pivotante Simples', cfg.pivSimples),
+          row('Pivotante Duplo', cfg.pivDuplo),
+          row('Outros', cfg.veiOutro),
+        ],
+      },
+      {
+        title: 'Acesso Veicular — Motores',
+        rows: [
+          row('Motor Deslizante P', cfg.motorDeslP),
+          row('Motor Deslizante M', cfg.motorDeslM),
+          row('Motor Deslizante G', cfg.motorDeslG),
+          row('Motor Basculante', cfg.motorBasc),
+          row('Motor Pivotante Simples', cfg.motorPivSimples),
+          row('Motor Pivotante Duplo', cfg.motorPivDuplo),
+          row('Motor Outros', cfg.motorOutro),
+        ],
+      },
+      {
+        title: 'Acesso Veicular — Controle',
+        rows: [
+          row('Controle Remoto', cfg.controleRemoto ? 'Sim' : null),
+          row('Antenas Tag Veicular', cfg.antenasTagVeicular),
+          row('Biometria Facial Veículo', cfg.biometriaFacialVeiculo),
+          row('Eclusa Veículo', cfg.eclusaVeiculo),
+          row('Intertravamento Pedestre', cfg.intertravamentoPedestre),
+          row('Refletores', cfg.refletores),
+        ],
+      },
+      {
+        title: 'Hall de Pedestres',
+        rows: [
+          row('Abertura Temporizador', cfg.hallAberturaTemporizador ? 'Sim' : null),
+          row('Pivotante Manual', cfg.hallPivManual),
+          row('Pivotante Automático', cfg.hallPivAuto),
+          row('Deslizante Piso', cfg.hallDeslPiso),
+          row('Deslizante Teto', cfg.hallDeslTeto),
+          row('Pivotante Vidro', cfg.hallPivVidro),
+        ],
+      },
+      {
+        title: 'Proteção de Perímetro',
+        rows: [
+          row('Metros de Cerca', cfg.metrosCerca),
+          row('Sensores Barreira', cfg.sensoresBarreira),
+          row('Cerca Elétrica', cercaLabel(cfg.cercaEletrica)),
+        ],
+      },
+      {
+        title: 'Dispositivos',
+        rows: [
+          row('Tag Pedestre', cfg.tagPedestre),
+          row('Pulseira Pedestre', cfg.pulseiraPedestre),
+          row('Controle Veículos', cfg.controleVeiculos),
+          row('Tag Veicular Comum', cfg.tagVeicularComum),
+          row('Tag Veicular Blindada', cfg.tagVeicularBlindada),
+        ],
+      },
+      {
+        title: 'Lixeira',
+        rows: [
+          row('Modalidade', lixeiraLabel(cfg.lixeiraModalidade)),
+          row('Portão Pivotante Manual', cfg.lixeiraPivManual),
+          row('Portão Deslizante Piso', cfg.lixeiraDeslPiso),
+        ],
+      },
+      {
+        title: 'Elevadores e Outros',
+        rows: [
+          row('Elevadores Monitorados', cfg.elevadoresMonitorados),
+          row('Celular Zelador', cfg.celularZelador ? 'Sim' : null),
+        ],
+      },
+    ];
+
+    const rendered = groups
+      .map((g) => {
+        const items = g.rows.filter(Boolean).join('');
+        if (!items) return '';
+        return `<div class="cfg-group">
+          <div class="cfg-group-title">${g.title}</div>
+          <div class="info-grid">${items}</div>
+        </div>`;
+      })
+      .filter(Boolean)
+      .join('');
+
+    if (!rendered) return '';
+
+    return `<div class="section">
+  <h3>3. CONFIGURAÇÃO TÉCNICA</h3>
+  <div class="cfg-container">${rendered}</div>
+</div>`;
+  }
+
   private buildHtml(v: any): string {
     const tipoLabel: Record<string, string> = {
       ASSISTIDA: 'Portaria Assistida',
       AUTONOMA: 'Portaria Autônoma',
       CONTROLE_ACESSO: 'Controle de Acesso',
     };
+
+    const fmtBrl = (v: number) =>
+      v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
     const produtosRows = v.itens
       .map(
@@ -60,10 +211,34 @@ export class PdfService {
           <td>${item.produto.codigo}</td>
           <td>${item.produto.descricao}</td>
           <td class="center">${item.quantidade}</td>
-          <td class="right">R$ ${Number(item.custoUnit).toFixed(2)}</td>
+          <td class="right">R$ ${fmtBrl(Number(item.custoUnit))}</td>
+          <td class="right">R$ ${fmtBrl(Number(item.custoUnit) * item.quantidade)}</td>
         </tr>`,
       )
       .join('');
+
+    const totalCapex = v.itens.reduce(
+      (acc: number, item: any) => acc + Number(item.custoUnit) * item.quantidade,
+      0,
+    );
+
+    const totalRow = `<tr style="font-weight:bold;background:#edf2f7">
+        <td colspan="4" class="right">Total Equipamentos:</td>
+        <td class="right">R$ ${fmtBrl(totalCapex)}</td>
+      </tr>`;
+
+    const precHtml =
+      v.capexTotal
+        ? `<div class="section">
+  <h3>6. PRECIFICAÇÃO</h3>
+  <div class="info-grid">
+    <div class="info-item"><label>CAPEX Total:</label><span>R$ ${fmtBrl(Number(v.capexTotal))}</span></div>
+    <div class="info-item"><label>OPEX Mensal:</label><span>R$ ${fmtBrl(Number(v.opexMensal ?? 0))}</span></div>
+    ${v.mensalidade ? `<div class="info-item"><label>Mensalidade Comodato ${v.tipoContrato === 'COMODATO_48' ? '48' : '36'}m:</label><span>R$ ${fmtBrl(Number(v.mensalidade))}</span></div>` : ''}
+    ${v.valorVenda ? `<div class="info-item"><label>Valor Venda:</label><span>R$ ${fmtBrl(Number(v.valorVenda))}</span></div>` : ''}
+  </div>
+</div>`
+        : '';
 
     const checklistRows = v.checklist
       .map(
@@ -129,6 +304,9 @@ export class PdfService {
   .badge-sim { color: #38a169; font-weight: bold; }
   .badge-nao { color: #e53e3e; font-weight: bold; }
   .page-break { page-break-before: always; }
+  .cfg-container { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .cfg-group { border: 1px solid #e2e8f0; border-radius: 4px; padding: 8px; }
+  .cfg-group-title { font-weight: bold; color: #2d3748; font-size: 10px; margin-bottom: 6px; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; }
 </style>
 </head>
 <body>
@@ -168,8 +346,10 @@ export class PdfService {
   ${v.observacoesGerais ? `<p><strong>Observações:</strong> ${v.observacoesGerais}</p>` : ''}
 </div>
 
+${this.buildConfiguracaoHtml(v.dadosConfiguracao)}
+
 <div class="section page-break">
-  <h3>3. CHECKLIST OPERACIONAL</h3>
+  <h3>4. CHECKLIST OPERACIONAL</h3>
   <table>
     <thead><tr><th>Item</th><th style="width:60px">Resposta</th><th>Observação</th></tr></thead>
     <tbody>${checklistRows}</tbody>
@@ -177,22 +357,24 @@ export class PdfService {
 </div>
 
 <div class="section">
-  <h3>4. EQUIPAMENTOS PREVISTOS</h3>
+  <h3>5. EQUIPAMENTOS PREVISTOS</h3>
   <table>
-    <thead><tr><th>Código</th><th>Descrição</th><th style="width:60px" class="center">Qtd</th><th style="width:90px" class="right">Custo Unit.</th></tr></thead>
-    <tbody>${produtosRows}</tbody>
+    <thead><tr><th>Código</th><th>Descrição</th><th style="width:50px" class="center">Qtd</th><th style="width:80px" class="right">Custo Unit.</th><th style="width:80px" class="right">Total</th></tr></thead>
+    <tbody>${produtosRows}${totalRow}</tbody>
   </table>
 </div>
 
+${precHtml}
+
 ${v.fotos.length > 0 ? `
 <div class="section page-break">
-  <h3>5. REGISTRO FOTOGRÁFICO</h3>
+  <h3>${v.capexTotal ? '7' : '6'}. REGISTRO FOTOGRÁFICO</h3>
   <div class="fotos-grid">${fotosHtml}</div>
 </div>` : ''}
 
 ${v.assinaturas.length > 0 ? `
 <div class="section page-break">
-  <h3>6. ASSINATURAS</h3>
+  <h3>${v.capexTotal ? '8' : '7'}. ASSINATURAS</h3>
   <div class="assinaturas">${assinaturas}</div>
 </div>` : ''}
 

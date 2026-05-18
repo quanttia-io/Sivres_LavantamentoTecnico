@@ -1,7 +1,17 @@
 import {
-  IsString, IsEnum, IsOptional, IsInt, IsBoolean, Min, IsUUID,
+  IsString, IsEnum, IsOptional, IsInt, IsBoolean, Min, IsUUID, IsArray, ValidateNested,
 } from 'class-validator';
-import { TipoPortaria, TipoRecolhimento } from '@prisma/client';
+import { Type } from 'class-transformer';
+import { TipoPortaria, TipoRecolhimento, TipoCondominio, PeriodoAtendimento } from '@prisma/client';
+
+export class VistoriaItemInputDto {
+  @IsUUID()
+  produtoId: string;
+
+  @IsInt()
+  @Min(0)
+  quantidade: number;
+}
 
 export class CreateVistoriaDto {
   @IsUUID()
@@ -45,8 +55,22 @@ export class CreateVistoriaDto {
   tipoRecolhimento?: TipoRecolhimento;
 
   @IsOptional()
+  @IsEnum(TipoCondominio)
+  tipoCondominio?: TipoCondominio;
+
+  @IsOptional()
+  @IsEnum(PeriodoAtendimento)
+  periodoAtendimento?: PeriodoAtendimento;
+
+  @IsOptional()
   @IsString()
   observacoesGerais?: string;
+
+  @IsOptional()
+  @IsArray()
+  @ValidateNested({ each: true })
+  @Type(() => VistoriaItemInputDto)
+  itens?: VistoriaItemInputDto[];
 }
 
 export class UpdateVistoriaDto {

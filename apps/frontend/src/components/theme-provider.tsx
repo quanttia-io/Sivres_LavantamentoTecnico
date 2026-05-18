@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { Toaster } from 'react-hot-toast';
 import { useThemeStore } from '@/store/theme.store';
 
 export default function ThemeProvider({ children }: { children: React.ReactNode }) {
@@ -15,5 +16,16 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
     }
   }, [dark]);
 
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          duration: 4000,
+          style: { borderRadius: '12px', fontFamily: 'Inter, sans-serif', fontSize: '14px' },
+        }}
+      />
+    </>
+  );
 }

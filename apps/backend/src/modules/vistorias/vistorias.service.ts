@@ -91,17 +91,41 @@ export class VistoriasService {
   async create(dto: CreateVistoriaDto, user: UserCtx) {
     const { numero, ano, sequencia } = await this.numeroService.gerarNumero();
 
-    // Carrega template de produtos automaticamente
-    const template = await this.prisma.template.findUnique({
-      where: { tipoPortaria: dto.tipoPortaria },
-      include: { itens: { include: { produto: true } } },
-    });
-
     // Carrega checklist template
     const checklistItems = await this.prisma.checklistTemplate.findMany({
       where: { tipoPortaria: dto.tipoPortaria },
       orderBy: { ordem: 'asc' },
     });
+
+    // Resolve itens: usa os fornecidos pelo usuário ou carrega do template
+    let itensData: { produtoId: string; quantidade: number; custoUnit: any }[] | undefined;
+
+    if (dto.itens && dto.itens.length > 0) {
+      const produtoIds = dto.itens.map((i) => i.produtoId);
+      const produtos = await this.prisma.produto.findMany({
+        where: { id: { in: produtoIds } },
+      });
+      const produtoMap = new Map(produtos.map((p) => [p.id, p]));
+      itensData = dto.itens
+        .filter((item) => produtoMap.has(item.produtoId))
+        .map((item) => ({
+          produtoId: item.produtoId,
+          quantidade: item.quantidade,
+          custoUnit: produtoMap.get(item.produtoId)!.custo,
+        }));
+    } else {
+      const template = await this.prisma.template.findUnique({
+        where: { tipoPortaria: dto.tipoPortaria },
+        include: { itens: { include: { produto: true } } },
+      });
+      if (template) {
+        itensData = template.itens.map((ti) => ({
+          produtoId: ti.produtoId,
+          quantidade: ti.quantidade,
+          custoUnit: ti.produto.custo,
+        }));
+      }
+    }
 
     const vistoria = await this.prisma.vistoria.create({
       data: {
@@ -118,17 +142,11 @@ export class VistoriasService {
         qtdElevadores: dto.qtdElevadores,
         possuiLixeira: dto.possuiLixeira ?? false,
         tipoRecolhimento: dto.tipoRecolhimento,
+        tipoCondominio: dto.tipoCondominio,
+        periodoAtendimento: dto.periodoAtendimento,
         observacoesGerais: dto.observacoesGerais,
-        itens: template
-          ? {
-              createMany: {
-                data: template.itens.map((ti) => ({
-                  produtoId: ti.produtoId,
-                  quantidade: ti.quantidade,
-                  custoUnit: ti.produto.custo,
-                })),
-              },
-            }
+        itens: itensData
+          ? { createMany: { data: itensData } }
           : undefined,
         checklist: {
           createMany: {

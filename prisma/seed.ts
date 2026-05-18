@@ -1,5 +1,7 @@
 import { PrismaClient, Role, TipoPortaria } from '@prisma/client';
 import * as bcrypt from 'bcryptjs';
+import { seedOpexCentral } from './seed-opex-central';
+import { seedProdutosExcel } from './seed-produtos-excel';
 
 const prisma = new PrismaClient();
 
@@ -183,6 +185,10 @@ async function main() {
       await prisma.checklistTemplate.create({ data: item });
     }
   }
+
+  // Produtos reais do Excel e OPEX Central
+  await seedProdutosExcel();
+  await seedOpexCentral();
 
   console.log('Seed completed.');
   console.log('Admin: admin@prss.com.br / Admin@2026');

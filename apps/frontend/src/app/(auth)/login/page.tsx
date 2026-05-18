@@ -153,7 +153,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <div className="mt-auto flex items-center justify-between text-xs" style={{ color: '#334155' }}>
-          <span>© {new Date().getFullYear()} Servis Soluções</span>
+          <span suppressHydrationWarning>© {new Date().getFullYear()} Servis Soluções</span>
           <div className="flex gap-4">
             <span className="cursor-pointer hover:text-slate-400 transition-colors">Termos de Uso</span>
             <span className="cursor-pointer hover:text-slate-400 transition-colors">Privacidade</span>
@@ -176,6 +176,12 @@ export default function LoginPage() {
         <div
           className="absolute inset-0"
           style={{ background: 'linear-gradient(135deg, #0f172acc 0%, #1e3a8a99 50%, #0b0f1ecc 100%)' }}
+        />
+
+        {/* Left-edge fade — blends into the form panel */}
+        <div
+          className="absolute inset-y-0 left-0 w-1/3 pointer-events-none"
+          style={{ background: 'linear-gradient(to right, #111827 0%, transparent 100%)' }}
         />
 
         {/* Content over image */}

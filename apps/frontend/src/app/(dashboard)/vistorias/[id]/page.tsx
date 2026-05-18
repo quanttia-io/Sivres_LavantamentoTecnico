@@ -6,11 +6,15 @@ import { vistoriasApi } from '@/lib/api/vistorias';
 import FotoUpload from '@/components/vistoria/foto-upload';
 import SignaturePad from '@/components/vistoria/signature-pad';
 import toast from 'react-hot-toast';
-import { ChevronLeft, Download, Send, CheckCircle, XCircle } from 'lucide-react';
+import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAuthStore } from '@/store/auth.store';
+import { precificacaoApi } from '@/lib/api/configurador';
 
-const TABS = ['Dados', 'Produtos', 'Checklist', 'Fotos', 'Anexos', 'Assinaturas', 'Aprovação'];
+const formatCurrency = (value: number) =>
+  value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+const TABS = ['Dados', 'Produtos', 'Checklist', 'Fotos', 'Anexos', 'Assinaturas', 'Aprovação', 'Precificação'];
 
 export default function VistoriaDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -19,6 +23,15 @@ export default function VistoriaDetailPage() {
   const [vistoria, setVistoria] = useState<any>(null);
   const [activeTab, setActiveTab] = useState(0);
   const [loading, setLoading] = useState(true);
+
+  // Precificação tab state
+  const [precificacao, setPrecificacao] = useState<any>(null);
+  const [loadingPrec, setLoadingPrec] = useState(false);
+  const [precOpcoes, setPrecOpcoes] = useState({
+    tipoContrato: 'COMODATO_36',
+    internetPagoPor: 'EMPRESA',
+    margemTipo: 'ESSENCIAL',
+  });
 
   const reload = () => {
     vistoriasApi.buscar(id).then((v: any) => setVistoria(v)).finally(() => setLoading(false));
@@ -75,6 +88,22 @@ export default function VistoriaDetailPage() {
     }
   };
 
+  const handleCalcularPreco = async () => {
+    setLoadingPrec(true);
+    try {
+      const resultado = await precificacaoApi.calcular(id, {
+        tipoContrato: precOpcoes.tipoContrato as any,
+        internetPagoPor: precOpcoes.internetPagoPor as any,
+        margemTipo: precOpcoes.margemTipo as any,
+      });
+      setPrecificacao(resultado);
+    } catch (err: any) {
+      toast.error(err?.response?.data?.message ?? 'Erro ao calcular precificação');
+    } finally {
+      setLoadingPrec(false);
+    }
+  };
+
   const handleGerarPdf = async () => {
     try {
       const blob = await vistoriasApi.gerarPdf(id) as unknown as Blob;
@@ -98,7 +127,8 @@ export default function VistoriaDetailPage() {
 
   const isApproved = vistoria.status === 'APROVADO';
   const canEdit = !isApproved || user?.role === 'GESTOR' || user?.role === 'ADMINISTRADOR';
-  const canApprove = (user?.role === 'GESTOR' || user?.role === 'ADMINISTRADOR') && vistoria.status === 'AGUARDANDO_APROVACAO';
+  const canManage = user?.role === 'GESTOR' || user?.role === 'ADMINISTRADOR';
+  const canApprove = canManage && vistoria.status === 'AGUARDANDO_APROVACAO';
 
   return (
     <div className="flex flex-col min-h-full">
@@ -269,6 +299,179 @@ export default function VistoriaDetailPage() {
                 </div>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* Tab 7 — Precificação */}
+        {activeTab === 7 && (
+          <div className="space-y-4">
+            <div className="card">
+              <h3 className="font-semibold text-gray-800 mb-4">Parâmetros de Precificação</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="label">Duração do Contrato</label>
+                  <select
+                    value={precOpcoes.tipoContrato}
+                    onChange={(e) =>
+                      setPrecOpcoes((p) => ({ ...p, tipoContrato: e.target.value }))
+                    }
+                    className="input"
+                  >
+                    <option value="COMODATO_36">Comodato 36 meses</option>
+                    <option value="COMODATO_48">Comodato 48 meses</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="label">Internet Pago Por</label>
+                  <select
+                    value={precOpcoes.internetPagoPor}
+                    onChange={(e) =>
+                      setPrecOpcoes((p) => ({ ...p, internetPagoPor: e.target.value }))
+                    }
+                    className="input"
+                  >
+                    <option value="EMPRESA">Empresa (Locktec)</option>
+                    <option value="CLIENTE">Cliente</option>
+                  </select>
+                </div>
+                <div className="col-span-2">
+                  <label className="label">Margem</label>
+                  <select
+                    value={precOpcoes.margemTipo}
+                    onChange={(e) =>
+                      setPrecOpcoes((p) => ({ ...p, margemTipo: e.target.value }))
+                    }
+                    className="input"
+                  >
+                    <option value="ESSENCIAL">Essencial</option>
+                    <option value="COMPLETA">Completa</option>
+                  </select>
+                </div>
+              </div>
+              <button
+                onClick={handleCalcularPreco}
+                disabled={loadingPrec}
+                className="btn-primary w-full mt-4"
+              >
+                {loadingPrec ? (
+                  <>
+                    <Loader2 size={18} className="animate-spin" />
+                    Calculando...
+                  </>
+                ) : (
+                  'Calcular Preço'
+                )}
+              </button>
+              {!canManage && (
+                <p className="text-xs text-gray-400 text-center mt-2">
+                  Apenas gestores e administradores podem calcular.
+                </p>
+              )}
+            </div>
+
+            {precificacao && (
+              <>
+                <div className="card">
+                  <h3 className="font-semibold text-gray-800 mb-3 text-sm">Resumo de Custos</h3>
+                  <div className="space-y-2">
+                    <InfoRow label="CAPEX Total" value={formatCurrency(precificacao.capexTotal)} />
+                    <InfoRow
+                      label="CAPEX Recuperável"
+                      value={formatCurrency(precificacao.capexRecuperavel)}
+                    />
+                    <InfoRow
+                      label="CAPEX Não-Recuperável"
+                      value={formatCurrency(precificacao.capexNaoRecuperavel)}
+                    />
+                    <div className="border-t border-gray-100 pt-2 mt-2 space-y-2">
+                      <InfoRow label="OPEX Local" value={formatCurrency(precificacao.opexLocal)} />
+                      <InfoRow
+                        label="OPEX Central"
+                        value={formatCurrency(precificacao.opexCentral)}
+                      />
+                      <InfoRow
+                        label="OPEX Mensal Total"
+                        value={formatCurrency(precificacao.opexMensal)}
+                      />
+                    </div>
+                    <div className="border-t border-gray-100 pt-2 mt-2">
+                      <InfoRow label="Margem" value={formatCurrency(precificacao.margem)} />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <h3 className="font-semibold text-gray-800 mb-3 text-sm">Opções Comodato</h3>
+                  <div className="grid grid-cols-2 gap-3">
+                    {precificacao.opcoes
+                      .filter((o: any) => o.tipo.startsWith('COMODATO'))
+                      .map((o: any) => {
+                        const selected = o.tipo === precOpcoes.tipoContrato;
+                        return (
+                          <div
+                            key={o.tipo}
+                            className={clsx(
+                              'text-center p-4 rounded-xl border-2 cursor-pointer transition-all',
+                              selected
+                                ? 'border-brand-700 bg-brand-50'
+                                : 'border-gray-200 hover:border-gray-300',
+                            )}
+                            onClick={() =>
+                              setPrecOpcoes((p) => ({ ...p, tipoContrato: o.tipo }))
+                            }
+                          >
+                            <p className="text-xs text-gray-500 mb-1 font-medium">
+                              {o.meses} meses
+                            </p>
+                            <p
+                              className={clsx(
+                                'font-bold text-base',
+                                selected ? 'text-brand-700' : 'text-gray-800',
+                              )}
+                            >
+                              {formatCurrency(o.mensalidade)}
+                            </p>
+                            <p className="text-xs text-gray-400">/ mês</p>
+                            {selected && (
+                              <p className="text-[10px] text-brand-600 font-semibold mt-1">
+                                Selecionado
+                              </p>
+                            )}
+                          </div>
+                        );
+                      })}
+                  </div>
+                </div>
+
+                {(() => {
+                  const venda = precificacao.opcoes.find((o: any) => o.tipo === 'VENDA');
+                  if (!venda) return null;
+                  return (
+                    <div className="card">
+                      <div className="flex items-center justify-between mb-3">
+                        <h3 className="font-semibold text-gray-800 text-sm">Venda à Vista</h3>
+                        <span className="font-bold text-gray-900">
+                          {formatCurrency(venda.valorTotal)}
+                        </span>
+                      </div>
+                      <div className="grid grid-cols-3 gap-2">
+                        {venda.parcelas?.map((p: any) => (
+                          <div
+                            key={p.nParcelas}
+                            className="text-center p-2 rounded-xl border border-gray-200"
+                          >
+                            <p className="text-xs text-gray-500">{p.nParcelas}x</p>
+                            <p className="text-sm font-semibold text-gray-900">
+                              {formatCurrency(p.valorParcela)}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
+              </>
+            )}
           </div>
         )}
       </div>

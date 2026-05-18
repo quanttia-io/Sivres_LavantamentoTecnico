@@ -37,6 +37,48 @@ enum VistoriaStatus {
   REPROVADO
 }
 
+enum TipoCondominio {
+  VERTICAL
+  HORIZONTAL
+}
+
+enum PeriodoAtendimento {
+  INTEGRAL
+  DIURNO
+  NOTURNO
+  DIURNO_FDS
+  NOTURNO_FDS
+}
+
+enum InternetPagoPor {
+  EMPRESA
+  CLIENTE
+}
+
+enum MargemTipo {
+  ESSENCIAL
+  COMPLETA
+}
+
+enum TipoContrato {
+  COMODATO_36
+  COMODATO_48
+  VENDA
+}
+
+enum ClasseEquipamento {
+  REDE
+  CONTROLE
+  VOIP
+  CFTV
+  AUTOMACAO
+  ENERGIA
+  INFRA
+  ALARME
+  PERIMETRO
+  DISPOSITIVO
+}
+
 enum FotoCategoria {
   FRENTE_CONDOMINIO
   PORTAO_VEICULAR_FRENTE
@@ -152,10 +194,25 @@ model Vistoria {
   qtdPortoesVeiculares Int?
   qtdPortoesPedestres  Int?
   qtdElevadores        Int?
-  possuiLixeira        Boolean          @default(false)
+  possuiLixeira        Boolean           @default(false)
   tipoRecolhimento     TipoRecolhimento?
+  tipoCondominio       TipoCondominio?
+  periodoAtendimento   PeriodoAtendimento?
 
   observacoesGerais String?
+
+  // Dados de configuração técnica detalhada (inputs do configurador)
+  dadosConfiguracao Json?
+
+  // Precificação
+  internetPagoPor InternetPagoPor?
+  celularZelador  Boolean          @default(false)
+  margemTipo      MargemTipo?
+  tipoContrato    TipoContrato?
+  capexTotal      Decimal?         @db.Decimal(10, 2)
+  opexMensal      Decimal?         @db.Decimal(10, 2)
+  mensalidade     Decimal?         @db.Decimal(10, 2)
+  valorVenda      Decimal?         @db.Decimal(10, 2)
 
   status    VistoriaStatus @default(EM_ANDAMENTO)
   deletedAt DateTime?
@@ -183,14 +240,19 @@ model Vistoria {
 // ─────────────────────────────────────────────
 
 model Produto {
-  id        String    @id @default(uuid())
-  codigo    String    @unique
-  descricao String
-  custo     Decimal   @db.Decimal(10, 2)
-  ativo     Boolean   @default(true)
-  deletedAt DateTime?
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  id                   String             @id @default(uuid())
+  codigo               String             @unique
+  descricao            String
+  custo                Decimal            @db.Decimal(10, 2)
+  classeEquipamento    ClasseEquipamento?
+  regraQtdRem          String?
+  regraQtdAut          String?
+  percentualRecuperavel Decimal?          @db.Decimal(5, 2)
+  valorRecuperavel     Decimal?           @db.Decimal(10, 2)
+  ativo                Boolean            @default(true)
+  deletedAt            DateTime?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
 
   templateItens TemplateItem[]
   vistoriaItens VistoriaItem[]
@@ -206,6 +268,9 @@ model VistoriaItem {
   produto    Produto  @relation(fields: [produtoId], references: [id])
   quantidade Int
   custoUnit  Decimal  @db.Decimal(10, 2)
+  precoUnit  Decimal? @db.Decimal(10, 2)
+  precoTotal Decimal? @db.Decimal(10, 2)
+  autoGerado Boolean  @default(false)
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
 
@@ -380,6 +445,21 @@ model AuditLog {
   createdAt   DateTime  @default(now())
 
   @@map("audit_logs")
+}
+
+// ─────────────────────────────────────────────
+// OPEX CENTRAL (tabela de lookup de custos operacionais)
+// ─────────────────────────────────────────────
+
+model OpexCentral {
+  id                 String             @id @default(uuid())
+  periodoAtendimento PeriodoAtendimento
+  tipoCondominio     TipoCondominio
+  faixaUnidadesMin   Int
+  faixaUnidadesMax   Int
+  custoMensal        Decimal            @db.Decimal(10, 2)
+
+  @@map("opex_central")
 }
 
 // ─────────────────────────────────────────────
