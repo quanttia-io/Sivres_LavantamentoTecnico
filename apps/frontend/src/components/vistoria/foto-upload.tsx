@@ -49,16 +49,24 @@ export default function FotoUpload({ fotos, onUpload, onRemove, maxFotos = 10 }:
 
     setUploading(true);
     try {
-      const compressed = await imageCompression(file, {
-        maxSizeMB: 1.5,
-        maxWidthOrHeight: 1920,
-        useWebWorker: true,
-      });
-      await onUpload(compressed as File, selectedCategoria, descricao || undefined);
+      let toUpload: File = file;
+      try {
+        toUpload = await imageCompression(file, {
+          maxSizeMB: 1.5,
+          maxWidthOrHeight: 1920,
+          useWebWorker: false,
+        }) as File;
+      } catch (comprErr: any) {
+        console.warn('Compressão falhou, usando arquivo original:', comprErr);
+      }
+
+      await onUpload(toUpload, selectedCategoria, descricao || undefined);
       setDescricao('');
       toast.success('Foto adicionada');
-    } catch (err) {
-      toast.error('Erro ao enviar foto');
+    } catch (err: any) {
+      console.error('Foto upload error:', err);
+      const msg = err?.response?.data?.message ?? err?.message ?? 'Erro ao enviar foto';
+      toast.error(msg);
     } finally {
       setUploading(false);
     }

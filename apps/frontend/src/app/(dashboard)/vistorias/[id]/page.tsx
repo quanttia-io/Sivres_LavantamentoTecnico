@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { vistoriasApi } from '@/lib/api/vistorias';
 import FotoUpload from '@/components/vistoria/foto-upload';
+import AnexoUpload from '@/components/vistoria/anexo-upload';
 import SignaturePad from '@/components/vistoria/signature-pad';
 import toast from 'react-hot-toast';
 import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2 } from 'lucide-react';
@@ -14,12 +15,17 @@ import { precificacaoApi } from '@/lib/api/configurador';
 const formatCurrency = (value: number) =>
   value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 
-const TABS = ['Dados', 'Produtos', 'Checklist', 'Fotos', 'Anexos', 'Assinaturas', 'Aprovação', 'Precificação'];
+const ALL_TABS = ['Dados', 'Produtos', 'Checklist', 'Fotos', 'Anexos', 'Assinaturas', 'Aprovação', 'Precificação'];
 
 export default function VistoriaDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
   const user = useAuthStore((s) => s.user);
+
+  const tabs = user?.role === 'CONSULTOR'
+    ? ALL_TABS.filter((t) => t !== 'Precificação')
+    : ALL_TABS;
+
   const [vistoria, setVistoria] = useState<any>(null);
   const [activeTab, setActiveTab] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -55,6 +61,20 @@ export default function VistoriaDetailPage() {
 
   const handleFotoRemove = async (fotoId: string) => {
     await vistoriasApi.removerFoto(id, fotoId);
+    reload();
+  };
+
+  const handleAnexoUpload = async (file: File, tipo: string, nome?: string) => {
+    const fd = new FormData();
+    fd.append('file', file);
+    fd.append('tipo', tipo);
+    if (nome) fd.append('nome', nome);
+    await vistoriasApi.uploadAnexo(id, fd);
+    reload();
+  };
+
+  const handleAnexoRemove = async (anexoId: string) => {
+    await vistoriasApi.removerAnexo(id, anexoId);
     reload();
   };
 
@@ -154,7 +174,7 @@ export default function VistoriaDetailPage() {
 
         {/* Tabs */}
         <div className="flex overflow-x-auto gap-0.5 -mx-4 px-4 scrollbar-hide">
-          {TABS.map((tab, i) => (
+          {tabs.map((tab, i) => (
             <button
               key={tab}
               onClick={() => setActiveTab(i)}
@@ -170,8 +190,8 @@ export default function VistoriaDetailPage() {
       </div>
 
       <div className="flex-1 p-4 md:p-6 max-w-2xl w-full mx-auto space-y-4">
-        {/* Tab 0 — Dados */}
-        {activeTab === 0 && (
+        {/* Tab — Dados */}
+        {tabs[activeTab] === 'Dados' && (
           <div className="space-y-3">
             <InfoCard title="Condomínio">
               <InfoRow label="Nome" value={vistoria.condominio?.nome} />
@@ -200,8 +220,8 @@ export default function VistoriaDetailPage() {
           </div>
         )}
 
-        {/* Tab 1 — Produtos */}
-        {activeTab === 1 && (
+        {/* Tab — Produtos */}
+        {tabs[activeTab] === 'Produtos' && (
           <div className="card overflow-x-auto">
             <h3 className="font-semibold text-gray-800 mb-3">Equipamentos Previstos</h3>
             <table className="w-full text-sm">
@@ -228,8 +248,8 @@ export default function VistoriaDetailPage() {
           </div>
         )}
 
-        {/* Tab 2 — Checklist */}
-        {activeTab === 2 && (
+        {/* Tab — Checklist */}
+        {tabs[activeTab] === 'Checklist' && (
           <div className="space-y-2">
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-semibold text-gray-800">Checklist Operacional</h3>
@@ -257,8 +277,8 @@ export default function VistoriaDetailPage() {
           </div>
         )}
 
-        {/* Tab 3 — Fotos */}
-        {activeTab === 3 && (
+        {/* Tab — Fotos */}
+        {tabs[activeTab] === 'Fotos' && (
           <FotoUpload
             fotos={vistoria.fotos ?? []}
             onUpload={handleFotoUpload}
@@ -266,8 +286,18 @@ export default function VistoriaDetailPage() {
           />
         )}
 
-        {/* Tab 5 — Assinaturas */}
-        {activeTab === 5 && (
+        {/* Tab — Anexos */}
+        {tabs[activeTab] === 'Anexos' && (
+          <AnexoUpload
+            anexos={vistoria.anexos ?? []}
+            onUpload={handleAnexoUpload}
+            onRemove={handleAnexoRemove}
+            disabled={!canEdit}
+          />
+        )}
+
+        {/* Tab — Assinaturas */}
+        {tabs[activeTab] === 'Assinaturas' && (
           <div className="space-y-4">
             <SignaturePad
               label="Assinatura do Supervisor"
@@ -282,8 +312,8 @@ export default function VistoriaDetailPage() {
           </div>
         )}
 
-        {/* Tab 6 — Aprovação */}
-        {activeTab === 6 && (
+        {/* Tab — Aprovação */}
+        {tabs[activeTab] === 'Aprovação' && (
           <div className="space-y-4">
             {canApprove && <AprovacaoForm onAprovar={handleAprovar} />}
             <div className="space-y-2">
@@ -302,8 +332,8 @@ export default function VistoriaDetailPage() {
           </div>
         )}
 
-        {/* Tab 7 — Precificação */}
-        {activeTab === 7 && (
+        {/* Tab — Precificação */}
+        {tabs[activeTab] === 'Precificação' && (
           <div className="space-y-4">
             <div className="card">
               <h3 className="font-semibold text-gray-800 mb-4">Parâmetros de Precificação</h3>

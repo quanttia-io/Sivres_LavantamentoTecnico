@@ -47,6 +47,19 @@ async function main() {
     },
   });
 
+  // Consultor user
+  const consultorPassword = await bcrypt.hash('Consultor@2026', 10);
+  await prisma.user.upsert({
+    where: { email: 'consultor@prss.com.br' },
+    update: {},
+    create: {
+      email: 'consultor@prss.com.br',
+      password: consultorPassword,
+      name: 'Consultor Técnico',
+      role: Role.CONSULTOR,
+    },
+  });
+
   // Seed products
   const produtos = [
     { codigo: 'CAM-001', descricao: 'Câmera IP Dome 2MP Infravermelho', custo: 350.0 },
@@ -194,6 +207,7 @@ async function main() {
   console.log('Admin: admin@prss.com.br / Admin@2026');
   console.log('Gestor: gestor@prss.com.br / Gestor@2026');
   console.log('Supervisor: supervisor@prss.com.br / Super@2026');
+  console.log('Consultor: consultor@prss.com.br / Consultor@2026');
 }
 
 main()

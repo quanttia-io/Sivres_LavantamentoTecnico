@@ -42,6 +42,8 @@ export const vistoriasApi = {
     api.post(`/vistorias/${id}/anexos`, formData, {
       headers: { 'Content-Type': 'multipart/form-data' },
     }),
+  removerAnexo: (vistoriaId: string, anexoId: string) =>
+    api.delete(`/vistorias/${vistoriaId}/anexos/${anexoId}`),
 
   // Assinaturas
   listarAssinaturas: (id: string) => api.get(`/vistorias/${id}/assinaturas`),

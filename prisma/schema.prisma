@@ -232,6 +232,10 @@ model Vistoria {
   aprovacoes   Aprovacao[]
   notificacoes Notificacao[]
 
+  @@index([deletedAt, createdAt])
+  @@index([consultorId, deletedAt])
+  @@index([supervisorId, deletedAt])
+  @@index([status, deletedAt])
   @@map("vistorias")
 }
 
@@ -444,6 +448,8 @@ model AuditLog {
   dadosDepois Json?
   createdAt   DateTime  @default(now())
 
+  @@index([vistoriaId])
+  @@index([createdAt])
   @@map("audit_logs")
 }
 
@@ -459,6 +465,7 @@ model OpexCentral {
   faixaUnidadesMax   Int
   custoMensal        Decimal            @db.Decimal(10, 2)
 
+  @@index([periodoAtendimento, tipoCondominio])
   @@map("opex_central")
 }
 
@@ -478,5 +485,7 @@ model Notificacao {
   lida       Boolean         @default(false)
   createdAt  DateTime        @default(now())
 
+  @@index([userId, lida])
+  @@index([userId, createdAt])
   @@map("notificacoes")
 }

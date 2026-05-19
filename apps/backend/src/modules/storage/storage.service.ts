@@ -1,9 +1,10 @@
-import { Injectable, ServiceUnavailableException } from '@nestjs/common';
+import { Injectable, ServiceUnavailableException, Logger, OnModuleInit } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 @Injectable()
-export class StorageService {
+export class StorageService implements OnModuleInit {
+  private readonly logger = new Logger(StorageService.name);
   private _supabase: SupabaseClient | null = null;
 
   constructor(private config: ConfigService) {}
@@ -24,12 +25,32 @@ export class StorageService {
     return this._supabase;
   }
 
+  async onModuleInit() {
+    try {
+      await this.ensureBuckets();
+    } catch (err: any) {
+      this.logger.warn(`Não foi possível verificar/criar buckets de storage: ${err?.message}`);
+    }
+  }
+
+  private async ensureBuckets() {
+    const buckets = [this.getBucketFotos(), this.getBucketAnexos(), this.getBucketAssinaturas()];
+    for (const name of buckets) {
+      const { error } = await this.supabase.storage.createBucket(name, { public: true });
+      if (error && !error.message.toLowerCase().includes('already exists')) {
+        this.logger.warn(`Bucket "${name}": ${error.message}`);
+      } else if (!error) {
+        this.logger.log(`Bucket "${name}" criado com sucesso`);
+      }
+    }
+  }
+
   async upload(bucket: string, key: string, buffer: Buffer, mimeType: string): Promise<string> {
     const { error } = await this.supabase.storage.from(bucket).upload(key, buffer, {
       contentType: mimeType,
       upsert: true,
     });
-    if (error) throw new Error(`Storage upload error: ${error.message}`);
+    if (error) throw new Error(`Storage upload error (bucket "${bucket}"): ${error.message}`);
 
     const { data } = this.supabase.storage.from(bucket).getPublicUrl(key);
     return data.publicUrl;

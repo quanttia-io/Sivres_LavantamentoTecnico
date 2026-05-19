@@ -12,7 +12,7 @@ export class UsersController {
   constructor(private usersService: UsersService) {}
 
   @Get()
-  @Roles(Role.ADMINISTRADOR, Role.GESTOR)
+  @Roles(Role.ADMINISTRADOR, Role.GESTOR, Role.SUPERVISOR, Role.CONSULTOR)
   @ApiOperation({ summary: 'Listar todos os usuários' })
   findAll() {
     return this.usersService.findAll();

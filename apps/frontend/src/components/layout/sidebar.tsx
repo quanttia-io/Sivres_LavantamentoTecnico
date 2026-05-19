@@ -21,16 +21,16 @@ const NAV_GROUPS = [
   {
     label: 'Configurações',
     items: [
-      { href: '/produtos',        label: 'Produtos',   icon: Package,        roles: ['ADMINISTRADOR'] },
-      { href: '/templates',       label: 'Templates',  icon: LayoutTemplate, roles: ['ADMINISTRADOR'] },
+      { href: '/produtos',  label: 'Produtos',  icon: Package,        roles: ['GESTOR', 'ADMINISTRADOR'] },
+      { href: '/templates', label: 'Templates', icon: LayoutTemplate, roles: ['ADMINISTRADOR'] },
     ],
   },
   {
     label: 'Administração',
     items: [
-      { href: '/admin/usuarios',  label: 'Usuários',   icon: Users,    roles: ['ADMINISTRADOR'] },
-      { href: '/admin/lixeira',   label: 'Lixeira',    icon: Trash2,   roles: ['ADMINISTRADOR'] },
-      { href: '/admin/auditoria', label: 'Auditoria',  icon: FileText, roles: ['ADMINISTRADOR'] },
+      { href: '/admin/usuarios',  label: 'Usuários',  icon: Users,    roles: ['GESTOR', 'ADMINISTRADOR'] },
+      { href: '/admin/lixeira',   label: 'Lixeira',   icon: Trash2,   roles: ['GESTOR', 'ADMINISTRADOR'] },
+      { href: '/admin/auditoria', label: 'Auditoria', icon: FileText, roles: ['GESTOR', 'ADMINISTRADOR'] },
     ],
   },
 ];

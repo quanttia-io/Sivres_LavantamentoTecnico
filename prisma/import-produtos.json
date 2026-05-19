@@ -1,0 +1,8987 @@
+[
+  {
+    "codigo": "1121",
+    "descricao": "ABRACADEIRA PLASTICO 20CM X 2,5MM",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1122",
+    "descricao": "ABRACADEIRA PLASTICO 40CM X 5MM",
+    "custo": 0.06
+  },
+  {
+    "codigo": "1123",
+    "descricao": "MASTRO SENSOR ATIVO  ALUMINIO 40CM",
+    "custo": 5.45
+  },
+  {
+    "codigo": "1127",
+    "descricao": "ARAME GALVANIZADO TRIPLA - 1,83MM",
+    "custo": 0.1
+  },
+  {
+    "codigo": "1129",
+    "descricao": "CENTRAL DE GPRS",
+    "custo": 96.73
+  },
+  {
+    "codigo": "1130",
+    "descricao": "BASTÃO DE SILICONE GROSSO",
+    "custo": 0.19
+  },
+  {
+    "codigo": "1132",
+    "descricao": "RECEPTOR 02 CANAIS MOREY",
+    "custo": 10.81
+  },
+  {
+    "codigo": "1133",
+    "descricao": "BATERIA ALCALINA A23 12V",
+    "custo": 0.58
+  },
+  {
+    "codigo": "1135",
+    "descricao": "BATERIA SELADA 12V 7A/H",
+    "custo": 12.27
+  },
+  {
+    "codigo": "1136",
+    "descricao": "REBITE DE REPUXO ALUMINIO 4,8MM X 30MM 0,3 CT X 62",
+    "custo": 0.05
+  },
+  {
+    "codigo": "1137",
+    "descricao": "BOTAO DE PANICO FIXO COM FIO",
+    "custo": 4.53
+  },
+  {
+    "codigo": "1139",
+    "descricao": "CABO CCI 3 PARES 6 X 50",
+    "custo": 0.28
+  },
+  {
+    "codigo": "1141",
+    "descricao": "PARAFUSO Nº 08 C/ BUCHA",
+    "custo": 0.07
+  },
+  {
+    "codigo": "1142",
+    "descricao": "CABO COAXIAL FLEXIVEL P/ ELEVADOR",
+    "custo": 0.38
+  },
+  {
+    "codigo": "1143",
+    "descricao": "CABO COAXIAL RGC 59 67% MALHA",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1151",
+    "descricao": "SENSOR ATIVO (BARREIRA) DUPLO 60 MTS -  IVA 3070",
+    "custo": 26.34
+  },
+  {
+    "codigo": "1152",
+    "descricao": "SENSOR ATIVO IVA 3110 (BARREIRA DE 100)",
+    "custo": 27.67
+  },
+  {
+    "codigo": "1155",
+    "descricao": "DETECTOR DE FUMACA COM SENSOR DE CALOR DFC 421",
+    "custo": 8.94
+  },
+  {
+    "codigo": "1158",
+    "descricao": "SENSOR DE TETO LUNAR RK 150 DT",
+    "custo": 163.64
+  },
+  {
+    "codigo": "1159",
+    "descricao": "SENSOR DE TETO LUNAR RK 200 DT",
+    "custo": 220.56
+  },
+  {
+    "codigo": "1161",
+    "descricao": "SENSOR MAGNETICO INDUSTRIAL",
+    "custo": 6.28
+  },
+  {
+    "codigo": "1162",
+    "descricao": "SENSOR MAGNETICO INDUSTRIAL BLINDADO",
+    "custo": 16.47
+  },
+  {
+    "codigo": "1163",
+    "descricao": "SENSOR MICROONDAS INTERNO DG 75",
+    "custo": 31.82
+  },
+  {
+    "codigo": "1164",
+    "descricao": "CABO DE ALTA TENSÃO 5MM",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1165",
+    "descricao": "CABO CAT5-E",
+    "custo": 0.33
+  },
+  {
+    "codigo": "1166",
+    "descricao": "SENSOR MICROONDAS EXTERNO DG 85",
+    "custo": 94.55
+  },
+  {
+    "codigo": "1167",
+    "descricao": "CABO DROPPER",
+    "custo": 0.1
+  },
+  {
+    "codigo": "1171",
+    "descricao": "SENSOR QUEBRA DE VIDRO",
+    "custo": 19.45
+  },
+  {
+    "codigo": "1172",
+    "descricao": "CABO PARALELO 2X0,75MM",
+    "custo": 0.29
+  },
+  {
+    "codigo": "1173",
+    "descricao": "CABO PP - 4X0,75MM",
+    "custo": 0.9
+  },
+  {
+    "codigo": "1176",
+    "descricao": "CAIXA DE PROTEÇÃO P/CAMERA DE ALUM.PEQUENA",
+    "custo": 1.0
+  },
+  {
+    "codigo": "1177",
+    "descricao": "CAIXA DE PROTEÇÃO P/ CAMERA DE ALUM. GRANDE",
+    "custo": 5.44
+  },
+  {
+    "codigo": "1178",
+    "descricao": "CAIXA PARA  CENTRAL",
+    "custo": 3.44
+  },
+  {
+    "codigo": "1180",
+    "descricao": "SIRENE  CORNETA",
+    "custo": 8.54
+  },
+  {
+    "codigo": "1182",
+    "descricao": "CAMERA MINI COLOR DAY NIGTH",
+    "custo": 24.91
+  },
+  {
+    "codigo": "1183",
+    "descricao": "SIRENE  PIEZO ELETRONICA  120 DB",
+    "custo": 3.32
+  },
+  {
+    "codigo": "1188",
+    "descricao": "TECLADO  DSC LCD 5511",
+    "custo": 43.25
+  },
+  {
+    "codigo": "1190",
+    "descricao": "TRANSFORMADOR ENT. 220V SAIDA 16V",
+    "custo": 9.81
+  },
+  {
+    "codigo": "1193",
+    "descricao": "CANALETA LARGA 50 X 20",
+    "custo": 9.41
+  },
+  {
+    "codigo": "1194",
+    "descricao": "TRANSMISSOR 4 BOTOES MOREY TX 514",
+    "custo": 4.36
+  },
+  {
+    "codigo": "1195",
+    "descricao": "CAMERA PROFISSIONAL DAY NIGHT",
+    "custo": 47.82
+  },
+  {
+    "codigo": "1196",
+    "descricao": "TECLADO DIGIPLEX LCD K-641",
+    "custo": 45.01
+  },
+  {
+    "codigo": "1198",
+    "descricao": "CENTRAL DE CHOQUE ECR - 18 PLUS",
+    "custo": 33.28
+  },
+  {
+    "codigo": "1206",
+    "descricao": "TECLADO SPRIT 636",
+    "custo": 29.45
+  },
+  {
+    "codigo": "1208",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (VIVO)",
+    "custo": 0.41
+  },
+  {
+    "codigo": "1209",
+    "descricao": "CONECTOR BNC DE CLIMPAR",
+    "custo": 0.27
+  },
+  {
+    "codigo": "1211",
+    "descricao": "CONECTOR F C/ EMENDA",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1213",
+    "descricao": "CONECTOR F DE CRIMPAR",
+    "custo": 0.05
+  },
+  {
+    "codigo": "1217",
+    "descricao": "CONECTOR RCA P/ F",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1220",
+    "descricao": "PLACA 5 ZONAS",
+    "custo": 15.45
+  },
+  {
+    "codigo": "1221",
+    "descricao": "DISTRIBUIDOR DE VIDEO 1 X 3",
+    "custo": 7.64
+  },
+  {
+    "codigo": "1222",
+    "descricao": "PLACA 1832 8 Z",
+    "custo": 50.25
+  },
+  {
+    "codigo": "1225",
+    "descricao": "DOME TRANSPARENTE 3'",
+    "custo": 1.11
+  },
+  {
+    "codigo": "1226",
+    "descricao": "TECLADO   PC 1555RKZ",
+    "custo": 26.47
+  },
+  {
+    "codigo": "1235",
+    "descricao": "ESTICADOR COM PORCA SUPER CERCA CONFISEG",
+    "custo": 0.14
+  },
+  {
+    "codigo": "1237",
+    "descricao": "ISOLADOR CASTANHA",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1238",
+    "descricao": "EXPANSOR P/ DIGIPLEX/SPECTRA 8Z",
+    "custo": 70.7
+  },
+  {
+    "codigo": "1240",
+    "descricao": "EXPANSOR 5108 - 1832/1864 8Z DSC",
+    "custo": 24.9
+  },
+  {
+    "codigo": "1241",
+    "descricao": "LENTE AUTO IRIS VARIFOCAL  DE 3 A 8 MM",
+    "custo": 18.26
+  },
+  {
+    "codigo": "1242",
+    "descricao": "FILTRO DE LINHA P/ ADSL",
+    "custo": 0.69
+  },
+  {
+    "codigo": "1243",
+    "descricao": "LENTE  VARIFOCAL AUTO IRIS 2,8 A 12 MM",
+    "custo": 27.48
+  },
+  {
+    "codigo": "1244",
+    "descricao": "LENTE IRIS FIXA 4 MM",
+    "custo": 10.0
+  },
+  {
+    "codigo": "1245",
+    "descricao": "FITA ISOLANTE PRETA  20 MT",
+    "custo": 0.91
+  },
+  {
+    "codigo": "1246",
+    "descricao": "LENTE P/ MINI CAMERA 12 MM",
+    "custo": 5.27
+  },
+  {
+    "codigo": "1247",
+    "descricao": "FIXA FIO CABO PP 8MM",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1252",
+    "descricao": "FONTE   12V AC/DC X 1A",
+    "custo": 2.27
+  },
+  {
+    "codigo": "1253",
+    "descricao": "HASTE ATERRAMENTO AÇO ACOBREADO 2 MT C/ CONECTOR",
+    "custo": 7.4
+  },
+  {
+    "codigo": "1254",
+    "descricao": "FONTE 12 V DC X 500 MA",
+    "custo": 2.73
+  },
+  {
+    "codigo": "1256",
+    "descricao": "FONTE   12V AC/DC X 3A",
+    "custo": 3.44
+  },
+  {
+    "codigo": "1257",
+    "descricao": "FONTE   12V AC/DC X 5A",
+    "custo": 6.53
+  },
+  {
+    "codigo": "1258",
+    "descricao": "HASTE DE ALUMINIO TIPO U COM ISOLADORES",
+    "custo": 0.55
+  },
+  {
+    "codigo": "1259",
+    "descricao": "BOBINA DE FIO AÇO 0,70MM",
+    "custo": 14.29
+  },
+  {
+    "codigo": "1263",
+    "descricao": "ISOLADOR P/ HASTE TIPO U",
+    "custo": 0.24
+  },
+  {
+    "codigo": "1268",
+    "descricao": "PORCA P/ ESTICADOR SUPER CERCA",
+    "custo": 0.12
+  },
+  {
+    "codigo": "1270",
+    "descricao": "BASTAO DE RONDA",
+    "custo": 132.54
+  },
+  {
+    "codigo": "1273",
+    "descricao": "CONECTOR RCA P/ BNC",
+    "custo": 0.18
+  },
+  {
+    "codigo": "1274",
+    "descricao": "KIT INSTALAÇÃO DE ALARME",
+    "custo": 2.55
+  },
+  {
+    "codigo": "1278",
+    "descricao": "SENSOR MAGNETICO SOBREPOR",
+    "custo": 2.09
+  },
+  {
+    "codigo": "1282",
+    "descricao": "CONECTOR F",
+    "custo": 0.08
+  },
+  {
+    "codigo": "1288",
+    "descricao": "TOMADA FEMEA  10A EXTENSÃO 2P+T",
+    "custo": 0.51
+  },
+  {
+    "codigo": "1289",
+    "descricao": "CENTRAL DE ALARME S/ FIO PC 9045 (NAO USAR)",
+    "custo": 83.56
+  },
+  {
+    "codigo": "1290",
+    "descricao": "TRANSMISSOR 4 BOTOES DSC WS 4939",
+    "custo": 25.67
+  },
+  {
+    "codigo": "1291",
+    "descricao": "SENSOR INFRAVERMELHO  SEM FIO WS4904 P",
+    "custo": 27.79
+  },
+  {
+    "codigo": "1292",
+    "descricao": "SENSOR MAGNETICO SEM FIO EVDW4975",
+    "custo": 25.41
+  },
+  {
+    "codigo": "1296",
+    "descricao": "RASTREADOR MTC 500",
+    "custo": 96.6
+  },
+  {
+    "codigo": "1300",
+    "descricao": "COMPUTADOR TIPO ESTACAO",
+    "custo": 551.31
+  },
+  {
+    "codigo": "1301",
+    "descricao": "MONITOR 21'",
+    "custo": 187.09
+  },
+  {
+    "codigo": "1311",
+    "descricao": "FONTE   12V AC/DC X 2A",
+    "custo": 2.68
+  },
+  {
+    "codigo": "1315",
+    "descricao": "PLACA DSC PC 1864",
+    "custo": 100.74
+  },
+  {
+    "codigo": "1322",
+    "descricao": "CENTRAL PARADOX SPIRIT 728 5Z (NAO USAR)",
+    "custo": 45.45
+  },
+  {
+    "codigo": "1325",
+    "descricao": "CENTRAL PARADOX SPECTRA 1728 5Z (NAO USAR)",
+    "custo": 45.45
+  },
+  {
+    "codigo": "1327",
+    "descricao": "SENSOR VOLUMÉTRICO  LC 100",
+    "custo": 13.68
+  },
+  {
+    "codigo": "1329",
+    "descricao": "STAND ALONE 30 FPS 16 CANAIS CIF S/HD - DESATIVADO",
+    "custo": 66.36
+  },
+  {
+    "codigo": "1353",
+    "descricao": "CONTROLADOR DE SEGURANÇA RCP 2000",
+    "custo": 69.08
+  },
+  {
+    "codigo": "1354",
+    "descricao": "RECEPTOR 01 CANAL",
+    "custo": 6.43
+  },
+  {
+    "codigo": "1361",
+    "descricao": "SENSOR DUAL 525 D (DESATIVADO)",
+    "custo": 24.73
+  },
+  {
+    "codigo": "1367",
+    "descricao": "SENSOR PRO 476  (DESATIVADO)",
+    "custo": 7.45
+  },
+  {
+    "codigo": "1390",
+    "descricao": "CABO COAXIAL RGC 59 96% DE MALHA CRISTAL ELEVADOR",
+    "custo": 0.36
+  },
+  {
+    "codigo": "1407",
+    "descricao": "CANALETA LARGA 40 X 16",
+    "custo": 2.81
+  },
+  {
+    "codigo": "1414",
+    "descricao": "DOME TRANSPARENTE 4'",
+    "custo": 2.64
+  },
+  {
+    "codigo": "1458",
+    "descricao": "CAMERA C/ INFRA 100MTS",
+    "custo": 143.64
+  },
+  {
+    "codigo": "1462",
+    "descricao": "NOBREAK 2200 VA",
+    "custo": 572.72
+  },
+  {
+    "codigo": "1465",
+    "descricao": "RACK   8U X 470 X 19P",
+    "custo": 81.64
+  },
+  {
+    "codigo": "1476",
+    "descricao": "CAIXA VEDADA METALICA  50 X 40 X 20",
+    "custo": 72.0
+  },
+  {
+    "codigo": "1477",
+    "descricao": "MONITOR 39'",
+    "custo": 263.62
+  },
+  {
+    "codigo": "1803",
+    "descricao": "PARAFUSO C/ BUCHA N 6",
+    "custo": 0.03
+  },
+  {
+    "codigo": "1804",
+    "descricao": "BUCHA Nº 6",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1819",
+    "descricao": "SENSOR ATIVO MY 40",
+    "custo": 14.18
+  },
+  {
+    "codigo": "1823",
+    "descricao": "CENTRAL DE ALARME DSC 1832 8 Z - KIT",
+    "custo": 47.74
+  },
+  {
+    "codigo": "1825",
+    "descricao": "CENTRAL  DE ALARME DSC 585 5 Z",
+    "custo": 46.95
+  },
+  {
+    "codigo": "1828",
+    "descricao": "PLACA DSC PC 585 5 Z",
+    "custo": 27.42
+  },
+  {
+    "codigo": "1833",
+    "descricao": "SENSOR INFRAVERMELHO SEM FIO DSC  WS4904 P",
+    "custo": 21.45
+  },
+  {
+    "codigo": "1836",
+    "descricao": "SENSOR MAGNETICO S/ FIO DSC  EVDW4975",
+    "custo": 19.11
+  },
+  {
+    "codigo": "1838",
+    "descricao": "TECLADO DSC LED 8 Z",
+    "custo": 23.77
+  },
+  {
+    "codigo": "1840",
+    "descricao": "TRANSMISSOR 4 BOTOES WS 4939",
+    "custo": 18.95
+  },
+  {
+    "codigo": "1846",
+    "descricao": "SENSOR LUNAR RK 150 DT",
+    "custo": 163.64
+  },
+  {
+    "codigo": "1847",
+    "descricao": "SENSOR LUNAR RK 200 DT",
+    "custo": 240.0
+  },
+  {
+    "codigo": "1856",
+    "descricao": "CAMERA PROF. C/ INFRA 15MTS 3,6MM VDMS 3020",
+    "custo": 25.27
+  },
+  {
+    "codigo": "1857",
+    "descricao": "CAMERA PROF. C/ INFRA 60MTS CCD SONY",
+    "custo": 73.82
+  },
+  {
+    "codigo": "1870",
+    "descricao": "BOBINA DE FIO DE AÇO 0,60MM",
+    "custo": 6.0
+  },
+  {
+    "codigo": "1881",
+    "descricao": "BUCHA FIXA Nº 6",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1882",
+    "descricao": "BUCHA FIXA Nº 8",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1889",
+    "descricao": "CABO P/ ATERRAMENTO 2MM",
+    "custo": 0.1
+  },
+  {
+    "codigo": "1895",
+    "descricao": "CANALETA FINA 20 X 10",
+    "custo": 0.72
+  },
+  {
+    "codigo": "1912",
+    "descricao": "FONTE AC/DC 12V 500MA",
+    "custo": 2.36
+  },
+  {
+    "codigo": "1926",
+    "descricao": "MASTRO P/ ATIVO (BARRERA)",
+    "custo": 2.45
+  },
+  {
+    "codigo": "1927",
+    "descricao": "PARAFUSO  ROSCA COMPLETA Nº 06",
+    "custo": 0.01
+  },
+  {
+    "codigo": "1928",
+    "descricao": "PARAFUSO Nº 08",
+    "custo": 0.05
+  },
+  {
+    "codigo": "1935",
+    "descricao": "CENTRAL DE CHOQUE INDUSTRIAL GCP10000LIGTH (N USA)",
+    "custo": 14.0
+  },
+  {
+    "codigo": "1938",
+    "descricao": "CONVERSOR BALUM 300 METROS",
+    "custo": 1.42
+  },
+  {
+    "codigo": "1944",
+    "descricao": "RECEPTOR DE 1 CANAL",
+    "custo": 9.07
+  },
+  {
+    "codigo": "1948",
+    "descricao": "TRANSMISSOR TX 10",
+    "custo": 3.35
+  },
+  {
+    "codigo": "2028",
+    "descricao": "HASTE COMPLETA METALON 40X40 1,20 M PRETA C/ 2 CHU",
+    "custo": 3.27
+  },
+  {
+    "codigo": "2029",
+    "descricao": "HASTE PARA CONCERTINA 45 CM",
+    "custo": 0.91
+  },
+  {
+    "codigo": "2031",
+    "descricao": "BOTOEIRA SIMPLES (ACIONADOR ELETRICO)",
+    "custo": 7.97
+  },
+  {
+    "codigo": "2035",
+    "descricao": "CONECTOR BNC P/ F",
+    "custo": 0.29
+  },
+  {
+    "codigo": "2040",
+    "descricao": "SENSOR TETO DUAL BV 500",
+    "custo": 35.65
+  },
+  {
+    "codigo": "2191",
+    "descricao": "GRAMPO TIPO C P/CONCERTINA",
+    "custo": 5.09
+  },
+  {
+    "codigo": "2199",
+    "descricao": "MICROFONE",
+    "custo": 3.45
+  },
+  {
+    "codigo": "2201",
+    "descricao": "FECHADURA ELÉTRICA  C-90",
+    "custo": 58.74
+  },
+  {
+    "codigo": "2245",
+    "descricao": "CONTROLE DE ACESSO BIOMETRICO / STAND ALONE + SOFT",
+    "custo": 327.27
+  },
+  {
+    "codigo": "2288",
+    "descricao": "PONTEIRA INTERNA QUADRADA 40 X 40",
+    "custo": 0.07
+  },
+  {
+    "codigo": "2306",
+    "descricao": "HASTE METALON 40X40 1,20MT",
+    "custo": 5.42
+  },
+  {
+    "codigo": "2309",
+    "descricao": "SENSOR ATIVO 10 MTS",
+    "custo": 12.55
+  },
+  {
+    "codigo": "2334",
+    "descricao": "HASTE ALUM. PRATA CERCA IND S/ ISOLADOR 2 M",
+    "custo": 3.0
+  },
+  {
+    "codigo": "2753",
+    "descricao": "HASTE ALUM. 40X40, PRATA CERCA IND S/ ISOLADOR 1,2",
+    "custo": 3.91
+  },
+  {
+    "codigo": "2765",
+    "descricao": "SENSOR ATIVO MY 40 - DESATIVADO",
+    "custo": 33.45
+  },
+  {
+    "codigo": "2774",
+    "descricao": "PLACA DSC PC 585 4 Z DUPLA",
+    "custo": 19.64
+  },
+  {
+    "codigo": "2788",
+    "descricao": "SENSOR DUAL 525",
+    "custo": 24.73
+  },
+  {
+    "codigo": "2789",
+    "descricao": "SENSOR PRO 476 - (DESATIVADO)",
+    "custo": 7.45
+  },
+  {
+    "codigo": "2795",
+    "descricao": "SENSOR LUNAR RK 150 DT",
+    "custo": 64.0
+  },
+  {
+    "codigo": "2796",
+    "descricao": "SENSOR LUNAR RK 200 DT",
+    "custo": 70.0
+  },
+  {
+    "codigo": "2803",
+    "descricao": "ARRUELA LISA DE FERRO GALVANIZADA",
+    "custo": 0.02
+  },
+  {
+    "codigo": "2815",
+    "descricao": "BROCA DE VIDEA 6MM",
+    "custo": 0.89
+  },
+  {
+    "codigo": "2823",
+    "descricao": "CABO COAXIAL RGC 59 95% MALHA",
+    "custo": 0.2
+  },
+  {
+    "codigo": "2826",
+    "descricao": "FONTE 12V X 20A",
+    "custo": 12.7
+  },
+  {
+    "codigo": "2833",
+    "descricao": "LENTE AUTO IRIS VARIFOCAL DE 3 A 8 MM",
+    "custo": 16.36
+  },
+  {
+    "codigo": "2842",
+    "descricao": "FONTE AC/DC 12V 1000MA",
+    "custo": 2.07
+  },
+  {
+    "codigo": "2848",
+    "descricao": "CANALETA LARGA 40 X 16",
+    "custo": 0.85
+  },
+  {
+    "codigo": "2860",
+    "descricao": "RECEPTOR 01 CANAL",
+    "custo": 9.47
+  },
+  {
+    "codigo": "2861",
+    "descricao": "RECEPTOR 02 CANAIS",
+    "custo": 6.99
+  },
+  {
+    "codigo": "2862",
+    "descricao": "SIRENE CORNETA",
+    "custo": 3.96
+  },
+  {
+    "codigo": "2865",
+    "descricao": "SENSOR RX 40 PI - (DESATIVADO)",
+    "custo": 8.18
+  },
+  {
+    "codigo": "2867",
+    "descricao": "CENTRAL GPRS (NAO USAR)",
+    "custo": 49.04
+  },
+  {
+    "codigo": "2870",
+    "descricao": "PLACA DVR 16 CANAIS",
+    "custo": 161.82
+  },
+  {
+    "codigo": "2871",
+    "descricao": "PLACA DVR 04 CANAIS",
+    "custo": 21.99
+  },
+  {
+    "codigo": "2882",
+    "descricao": "SENSOR ATIVO (BARREIRA) SIMPLES 30MTS -  IRA 50",
+    "custo": 17.63
+  },
+  {
+    "codigo": "2884",
+    "descricao": "MASTRO P/ SENSOR ATIVO (BARREIRA) - ALUMINIO",
+    "custo": 4.48
+  },
+  {
+    "codigo": "2891",
+    "descricao": "REBITE TAM 1/2 CM",
+    "custo": 0.01
+  },
+  {
+    "codigo": "2899",
+    "descricao": "CAMERA DOME 12V 25 METROS",
+    "custo": 21.82
+  },
+  {
+    "codigo": "2900",
+    "descricao": "CAMERA C/ SUPORTE 12V 25METROS",
+    "custo": 48.18
+  },
+  {
+    "codigo": "2903",
+    "descricao": "PLACA PARADOX 728 4 Z",
+    "custo": 21.42
+  },
+  {
+    "codigo": "2915",
+    "descricao": "CAMERA EVERFOCUS P/B 420L",
+    "custo": 72.73
+  },
+  {
+    "codigo": "2920",
+    "descricao": "CAMERA PROF. COLOR KCA",
+    "custo": 100.0
+  },
+  {
+    "codigo": "2921",
+    "descricao": "CAMERA PROF. COLOR KODO",
+    "custo": 100.0
+  },
+  {
+    "codigo": "2922",
+    "descricao": "CAMERA PROF. COLOR MINTRON",
+    "custo": 100.0
+  },
+  {
+    "codigo": "2925",
+    "descricao": "QUADRO DE CONTROLE",
+    "custo": 52.53
+  },
+  {
+    "codigo": "2926",
+    "descricao": "CANALETA 30 X 30 TIPO ELETROCALHA",
+    "custo": 4.6
+  },
+  {
+    "codigo": "2930",
+    "descricao": "PLACA PARADOX 1728 5Z",
+    "custo": 29.09
+  },
+  {
+    "codigo": "2934",
+    "descricao": "PLACA PARADOX 738 7Z",
+    "custo": 21.82
+  },
+  {
+    "codigo": "2939",
+    "descricao": "LENTE IRIS FIXA 4 MM",
+    "custo": 14.55
+  },
+  {
+    "codigo": "2941",
+    "descricao": "SENSOR INFRA INTERNO - SEM FIO PARADOX - (DESATIVA",
+    "custo": 45.45
+  },
+  {
+    "codigo": "2945",
+    "descricao": "SEQUENCIAL 4 X 2 - (DESATIVADO)",
+    "custo": 18.18
+  },
+  {
+    "codigo": "2951",
+    "descricao": "PROTETOR DE SURTO P/REDE RS485/422",
+    "custo": 5.8
+  },
+  {
+    "codigo": "2952",
+    "descricao": "PROTETOR DE REDE ELETRICA 220V",
+    "custo": 8.0
+  },
+  {
+    "codigo": "2953",
+    "descricao": "PROTETOR DE LINHA TELEFONICA",
+    "custo": 3.64
+  },
+  {
+    "codigo": "2954",
+    "descricao": "RECEPTOR JFL 1 CANAL",
+    "custo": 7.27
+  },
+  {
+    "codigo": "2962",
+    "descricao": "CONVERSOR DE FIBRA OPTICA HIBRIDO - 4 VÍDEOS 1 FIB",
+    "custo": 125.09
+  },
+  {
+    "codigo": "2963",
+    "descricao": "CONVERSOR DE  FIBRA OPTICA HIBRIDO - 4 VÍDEOS 1 FI",
+    "custo": 125.09
+  },
+  {
+    "codigo": "2965",
+    "descricao": "STAND ALONE 30 FPS 32 CANAIS CIF S/ HD - DESATIVAD",
+    "custo": 490.91
+  },
+  {
+    "codigo": "2966",
+    "descricao": "CAMERA MINI COLOR DAY NIGHT COM DOME TRANSPARENTE",
+    "custo": 10.73
+  },
+  {
+    "codigo": "2967",
+    "descricao": "MONITOR 15'",
+    "custo": 58.18
+  },
+  {
+    "codigo": "2970",
+    "descricao": "STAND ALONE 8 CANAIS REAL TIME C/ ENTRAD P 1 HD -(",
+    "custo": 304.88
+  },
+  {
+    "codigo": "2976",
+    "descricao": "STAND ALONE 16 CANAIS  ANALÓGICO SÉRIE 300 MODELO",
+    "custo": 255.16
+  },
+  {
+    "codigo": "2978",
+    "descricao": "STAND ALONE 4 CANAIS REAL TIME C/ ENTRAD P 1 HD -(",
+    "custo": 69.85
+  },
+  {
+    "codigo": "2979",
+    "descricao": "MESA CONTROLADORA P/ SPEED DOME ANALÓGICO",
+    "custo": 130.73
+  },
+  {
+    "codigo": "2982",
+    "descricao": "MICROFONE AMPLIFICADO",
+    "custo": 4.55
+  },
+  {
+    "codigo": "2984",
+    "descricao": "FIBRA OPTICA MULTI MODO  2 VIAS",
+    "custo": 0.99
+  },
+  {
+    "codigo": "2985",
+    "descricao": "FIBRA OPTICA MULTI MODO  6 VIAS",
+    "custo": 1.39
+  },
+  {
+    "codigo": "2999",
+    "descricao": "SENSOR 150 MTS AX - 500",
+    "custo": 264.42
+  },
+  {
+    "codigo": "3002",
+    "descricao": "ANALISADOR SENSOR DE IMPACTO GS614 1 CANAL",
+    "custo": 30.45
+  },
+  {
+    "codigo": "3005",
+    "descricao": "CONVERSOR DE VIDEO BALUN PAR TRANÇADO 300 MTS - AN",
+    "custo": 3.51
+  },
+  {
+    "codigo": "3010",
+    "descricao": "CONTROLE DE ACESSO BIOMETRICO / STAND ALONE + SOFT",
+    "custo": 327.27
+  },
+  {
+    "codigo": "3018",
+    "descricao": "FECHADURA ELETROIMA HDL P/ PORTA DE VIDRO 2 FLS",
+    "custo": 52.44
+  },
+  {
+    "codigo": "3022",
+    "descricao": "FECHO ELÉTRICO  MOD. FEC-91LA",
+    "custo": 20.5
+  },
+  {
+    "codigo": "3039",
+    "descricao": "SENSOR ATIVO MY 40",
+    "custo": 33.82
+  },
+  {
+    "codigo": "3060",
+    "descricao": "CONECTOR RCA",
+    "custo": 5.01
+  },
+  {
+    "codigo": "3063",
+    "descricao": "CANALETA 30X30 PERFURADA",
+    "custo": 4.6
+  },
+  {
+    "codigo": "3079",
+    "descricao": "CABO COAXIAL 4MM TRIPOLAR",
+    "custo": 0.16
+  },
+  {
+    "codigo": "3080",
+    "descricao": "BUCHA Nº 5",
+    "custo": 0.01
+  },
+  {
+    "codigo": "3081",
+    "descricao": "BUCHA Nº 8",
+    "custo": 0.01
+  },
+  {
+    "codigo": "3087",
+    "descricao": "TRASMISSOR 4 BOTOES WS 4939",
+    "custo": 19.09
+  },
+  {
+    "codigo": "3092",
+    "descricao": "CENTRAL ETHERNET DUONET EXPANSAO",
+    "custo": 75.45
+  },
+  {
+    "codigo": "3093",
+    "descricao": "SENSOR TETO LUNAR RK 150 DT",
+    "custo": 32.0
+  },
+  {
+    "codigo": "3094",
+    "descricao": "SENSOR TETO  LUNAR RK 200 DT INDL",
+    "custo": 70.0
+  },
+  {
+    "codigo": "3097",
+    "descricao": "PLACA DVR SEYCON 04 CANAIS",
+    "custo": 14.53
+  },
+  {
+    "codigo": "3099",
+    "descricao": "CENTRAL DE CHOQUE 8I (NAO USAR)",
+    "custo": 32.73
+  },
+  {
+    "codigo": "3101",
+    "descricao": "MINI CAMERA CCD SONY-420-3.6MM-1/3",
+    "custo": 10.55
+  },
+  {
+    "codigo": "3108",
+    "descricao": "STAND ALONE 16 CANAIS 480 FPS S/ HD (DESATIVADO)",
+    "custo": 98.18
+  },
+  {
+    "codigo": "3109",
+    "descricao": "RECEPTOR 01 CANAL",
+    "custo": 6.73
+  },
+  {
+    "codigo": "3111",
+    "descricao": "SIRENE CORNETA",
+    "custo": 4.91
+  },
+  {
+    "codigo": "3113",
+    "descricao": "TRANSMISSOR TX 10   (DESATIVADO)",
+    "custo": 2.71
+  },
+  {
+    "codigo": "3114",
+    "descricao": "SENSOR RX 40 PI - (DESATIVADO)",
+    "custo": 8.18
+  },
+  {
+    "codigo": "3117",
+    "descricao": "SENSOR DUAL 525 D ( DESATIVADO)",
+    "custo": 24.73
+  },
+  {
+    "codigo": "3118",
+    "descricao": "SENSOR PRO 476 (DESATIVADO)",
+    "custo": 7.45
+  },
+  {
+    "codigo": "3120",
+    "descricao": "CENTRAL DE CHOQUE PIKETT ECP 17 (NAO USAR)",
+    "custo": 26.36
+  },
+  {
+    "codigo": "3123",
+    "descricao": "FONTE AC/DC 12V 1A",
+    "custo": 1.18
+  },
+  {
+    "codigo": "3124",
+    "descricao": "FONTE AC/DC 12V 500MA",
+    "custo": 2.0
+  },
+  {
+    "codigo": "3125",
+    "descricao": "FONTE ESTABILIZADA 12V X 2A",
+    "custo": 1.72
+  },
+  {
+    "codigo": "3127",
+    "descricao": "FONTE ESTABILIZADA 12V X 3A",
+    "custo": 5.37
+  },
+  {
+    "codigo": "3128",
+    "descricao": "FONTE ESTABILIZADA 12V X 5A",
+    "custo": 4.36
+  },
+  {
+    "codigo": "3129",
+    "descricao": "HASTE DE ATERRAMENTO 2MM",
+    "custo": 7.4
+  },
+  {
+    "codigo": "3133",
+    "descricao": "MASTRO P/ SENSOR ATIVO ( ALUMINIO )",
+    "custo": 1.91
+  },
+  {
+    "codigo": "3134",
+    "descricao": "PARAFUSO Nº 5",
+    "custo": 0.01
+  },
+  {
+    "codigo": "3135",
+    "descricao": "PARAFUSO Nº 8",
+    "custo": 0.02
+  },
+  {
+    "codigo": "3142",
+    "descricao": "HASTE COMPLETA SUPER CERCA S/ ISOLADOR",
+    "custo": 1.73
+  },
+  {
+    "codigo": "3147",
+    "descricao": "SENSOR ATIVO IR 2002",
+    "custo": 11.75
+  },
+  {
+    "codigo": "3151",
+    "descricao": "BOBINA DE FIO DE AÇO 0,60MM",
+    "custo": 6.73
+  },
+  {
+    "codigo": "3159",
+    "descricao": "KIT INSTALAÇÃO DE CERCA ELETRICA",
+    "custo": 5.64
+  },
+  {
+    "codigo": "3161",
+    "descricao": "LENTE P/ MINI CAMERA 8 MM",
+    "custo": 21.82
+  },
+  {
+    "codigo": "3167",
+    "descricao": "FECHADURA ELETROIMA F150 PRATA",
+    "custo": 33.08
+  },
+  {
+    "codigo": "3169",
+    "descricao": "CONTROLE DE ACESSO PEGASUS",
+    "custo": 146.73
+  },
+  {
+    "codigo": "3172",
+    "descricao": "FONTE AC/DC 12 3,5 A",
+    "custo": 7.82
+  },
+  {
+    "codigo": "3174",
+    "descricao": "PLACA SPECTRA 1728 5 Z",
+    "custo": 47.27
+  },
+  {
+    "codigo": "3176",
+    "descricao": "TECLADO SPECTRA 1686 10 Z  (DESATIVADO)",
+    "custo": 36.36
+  },
+  {
+    "codigo": "3182",
+    "descricao": "STAND ALONE 4 CANAIS 120 FPS S/ HD",
+    "custo": 49.14
+  },
+  {
+    "codigo": "3184",
+    "descricao": "MÓDULO MULTI I/O-400 COM 04 ENTRADAS E 04 SAÍDAS ",
+    "custo": 217.64
+  },
+  {
+    "codigo": "3185",
+    "descricao": "CONVERSOR DE VIDEO BALUN PAR TRANÇADO 1200 MTS - A",
+    "custo": 27.79
+  },
+  {
+    "codigo": "3188",
+    "descricao": "SENSOR PASSIVO S/ FIO WS4904",
+    "custo": 27.79
+  },
+  {
+    "codigo": "3197",
+    "descricao": "EXPANSOR 8 ZONAS EVO",
+    "custo": 41.82
+  },
+  {
+    "codigo": "3201",
+    "descricao": "LENTE AUTO IRIS VARIFOCAL DE 5 A 50 MM",
+    "custo": 60.17
+  },
+  {
+    "codigo": "3202",
+    "descricao": "CONVERSOR DE PAR TRANÇADO 1500 MTS",
+    "custo": 4.99
+  },
+  {
+    "codigo": "3206",
+    "descricao": "STAND ALONE 16 CANAIS 480 FRAMES - (DESATIVADO)",
+    "custo": 173.1
+  },
+  {
+    "codigo": "3221",
+    "descricao": "CÂMERA BULLET C/ INFRA 20 MTS, VM 1120 G4 HD 2X1 B",
+    "custo": 22.88
+  },
+  {
+    "codigo": "3223",
+    "descricao": "STAND ALONE 30 FPS 04 CANAIS CIF S/ HD - DESATIVAD",
+    "custo": 69.09
+  },
+  {
+    "codigo": "3224",
+    "descricao": "MICROFONE AMPLIFICADO  3050",
+    "custo": 7.44
+  },
+  {
+    "codigo": "3226",
+    "descricao": "SENSOR WATCHOUT RK 315 DT",
+    "custo": 23.55
+  },
+  {
+    "codigo": "3234",
+    "descricao": "SENSOR MAGNETICO SEM FIO WS4945",
+    "custo": 23.55
+  },
+  {
+    "codigo": "3247",
+    "descricao": "SENSOR IR 2002 - (DESATIVADO)",
+    "custo": 11.64
+  },
+  {
+    "codigo": "3260",
+    "descricao": "STAND ALONE 16 CANAIS SERIE 300 D1",
+    "custo": 251.97
+  },
+  {
+    "codigo": "3264",
+    "descricao": "BUCHA Nº 6",
+    "custo": 0.01
+  },
+  {
+    "codigo": "3268",
+    "descricao": "\"SUPORTE P/F600 EM \"\"Z\"\" PARAFUSÁVEL - PRATA -(DES",
+    "custo": 11.23
+  },
+  {
+    "codigo": "3269",
+    "descricao": "STAND ALONE 4 CANAIS 120 FPS S/ HD",
+    "custo": 38.14
+  },
+  {
+    "codigo": "3270",
+    "descricao": "MONITOR DE VIDEO LED 15",
+    "custo": 47.5
+  },
+  {
+    "codigo": "3280",
+    "descricao": "MINI CAMERA CCD SONY 4203 3,6MM",
+    "custo": 7.98
+  },
+  {
+    "codigo": "3308",
+    "descricao": "FONTE FLUTUADORA  C/CARREGADOR 12V X 3A",
+    "custo": 20.14
+  },
+  {
+    "codigo": "3310",
+    "descricao": "RECEPTOR EXPANSOR S/FIO RS5132",
+    "custo": 45.0
+  },
+  {
+    "codigo": "3319",
+    "descricao": "LENTE P/ MINI CAMERA 12 MM",
+    "custo": 18.67
+  },
+  {
+    "codigo": "3320",
+    "descricao": "CAMERA C/ INFRA 15MTS",
+    "custo": 22.5
+  },
+  {
+    "codigo": "3323",
+    "descricao": "SENSOR ATIVO IRA 2000 -(DESATIVADO)",
+    "custo": 13.33
+  },
+  {
+    "codigo": "3325",
+    "descricao": "CONECTOR BNC DE PRESSÃO",
+    "custo": 0.33
+  },
+  {
+    "codigo": "3330",
+    "descricao": "HD INTERNO 500GB",
+    "custo": 68.09
+  },
+  {
+    "codigo": "3332",
+    "descricao": "PLACA DSC PC 5010 8Z",
+    "custo": 70.91
+  },
+  {
+    "codigo": "3338",
+    "descricao": "CONVERSOR DE MIDIA P/  FIBRA  MULTIMODO KFM 112 10",
+    "custo": 43.95
+  },
+  {
+    "codigo": "3342",
+    "descricao": "INJETOR POE PARA VIDEO1 PORT",
+    "custo": 21.67
+  },
+  {
+    "codigo": "3344",
+    "descricao": "MANILHA DE CONCRETO 40 CM COM TAMPA",
+    "custo": 6.91
+  },
+  {
+    "codigo": "3347",
+    "descricao": "FILTRO DE LINHA  5 TOMADAS",
+    "custo": 5.48
+  },
+  {
+    "codigo": "3351",
+    "descricao": "FECHADURA ELETROIMA 200 KGF",
+    "custo": 68.43
+  },
+  {
+    "codigo": "3367",
+    "descricao": "CAMERA MINI CCD BOTÃO",
+    "custo": 49.83
+  },
+  {
+    "codigo": "3378",
+    "descricao": "SENSOR INFRAVERMELHO TIPO CORTINA 460",
+    "custo": 28.09
+  },
+  {
+    "codigo": "3382",
+    "descricao": "STAND ALONE 30 FPS 08 CANAIS CIF S/HD - DESATIVADO",
+    "custo": 96.65
+  },
+  {
+    "codigo": "3388",
+    "descricao": "SENSOR VOLUMETRICO DG 65",
+    "custo": 8.0
+  },
+  {
+    "codigo": "3389",
+    "descricao": "CONECTOR BNC DE SOLDAR",
+    "custo": 0.56
+  },
+  {
+    "codigo": "3398",
+    "descricao": "REGUA ELETRICA 4 TOMADAS",
+    "custo": 14.29
+  },
+  {
+    "codigo": "3402",
+    "descricao": "INTERFONE - PORTEIRO ELETRONICO",
+    "custo": 17.31
+  },
+  {
+    "codigo": "3405",
+    "descricao": "CONECTOR P4",
+    "custo": 0.18
+  },
+  {
+    "codigo": "3406",
+    "descricao": "SENSOR MAGNETICO DE EMBUTIR",
+    "custo": 3.0
+  },
+  {
+    "codigo": "3408",
+    "descricao": "FECHADURA ELETRÔNICA  FE 20150 PRATA 12V C/ KIT UN",
+    "custo": 41.82
+  },
+  {
+    "codigo": "3413",
+    "descricao": "LENTE P/ MICRO CAMERA 1,9MM",
+    "custo": 4.74
+  },
+  {
+    "codigo": "3418",
+    "descricao": "STAND ALONE 8 CANAIS 240 FPS S/ HD",
+    "custo": 68.33
+  },
+  {
+    "codigo": "3419",
+    "descricao": "PLACA PARADOX EVO 192",
+    "custo": 94.84
+  },
+  {
+    "codigo": "3425",
+    "descricao": "CONECTOR BNC DE SOLDAR",
+    "custo": 0.5
+  },
+  {
+    "codigo": "3427",
+    "descricao": "CAPA DE PROTEÇÃO PARA RASTREADOR",
+    "custo": 1.57
+  },
+  {
+    "codigo": "3432",
+    "descricao": "HD 500GB",
+    "custo": 48.18
+  },
+  {
+    "codigo": "3445",
+    "descricao": "CONECTOR F - DIVISOR DE SINAL",
+    "custo": 0.26
+  },
+  {
+    "codigo": "3447",
+    "descricao": "FONTE 24V AC 1A",
+    "custo": 1.45
+  },
+  {
+    "codigo": "3457",
+    "descricao": "BOTÃO DE PANICO P/ RASTREADOR",
+    "custo": 0.42
+  },
+  {
+    "codigo": "3458",
+    "descricao": "CABO CONFIGURAÇÃO GPRS",
+    "custo": 13.31
+  },
+  {
+    "codigo": "3466",
+    "descricao": "CONTROLE REMOTO SENSOR LUNAR RK 200DT",
+    "custo": 52.73
+  },
+  {
+    "codigo": "3467",
+    "descricao": "FONTE AUXILIAR PS 17",
+    "custo": 21.84
+  },
+  {
+    "codigo": "3468",
+    "descricao": "MAGNETICO S/ FIO DCT 10 PARADOX",
+    "custo": 56.18
+  },
+  {
+    "codigo": "3470",
+    "descricao": "DISCO RIGIDO INTERNO  1TB",
+    "custo": 67.96
+  },
+  {
+    "codigo": "3477",
+    "descricao": "TECLADO PARA MAXSYS LCD 4501",
+    "custo": 105.86
+  },
+  {
+    "codigo": "3480",
+    "descricao": "FILTRO DE LINHA  C/ 6 TOMADAS",
+    "custo": 6.14
+  },
+  {
+    "codigo": "3488",
+    "descricao": "ISOLADOR W",
+    "custo": 0.13
+  },
+  {
+    "codigo": "3501",
+    "descricao": "PLUG  MACHO 10A 2P + T P/ EXTENSAO",
+    "custo": 0.5
+  },
+  {
+    "codigo": "3520",
+    "descricao": "FONTE 24V DC 3A",
+    "custo": 20.0
+  },
+  {
+    "codigo": "3523",
+    "descricao": "STAND ALONE 30 FPS 08 CANAIS  D1 S/ HD -(DESATIVAD",
+    "custo": 79.44
+  },
+  {
+    "codigo": "3528",
+    "descricao": "SOLDA BRANCA BOBINA COM 1/2 KG",
+    "custo": 2.13
+  },
+  {
+    "codigo": "3530",
+    "descricao": "ELETRODUTO PVC RIGIDO 3/4.",
+    "custo": 2.12
+  },
+  {
+    "codigo": "3531",
+    "descricao": "ELETRODUTO 1/2 RIGIDO PVC COM ROSCA",
+    "custo": 0.54
+  },
+  {
+    "codigo": "3532",
+    "descricao": "ABRAÇADEIRA DE 1/2 TIPO U",
+    "custo": 0.07
+  },
+  {
+    "codigo": "3533",
+    "descricao": "ABRACADEIRA 3/4 TIPO U",
+    "custo": 0.43
+  },
+  {
+    "codigo": "3534",
+    "descricao": "CAIXA DE PASSAGEM PVC  4X4",
+    "custo": 0.4
+  },
+  {
+    "codigo": "3535",
+    "descricao": "CAIXA DE PASSAGEM PVC  4X2",
+    "custo": 0.18
+  },
+  {
+    "codigo": "3538",
+    "descricao": "CURVA GALVANIZADA 50 MM",
+    "custo": 0.09
+  },
+  {
+    "codigo": "3539",
+    "descricao": "CURVA GALVANIZADA 3/4",
+    "custo": 0.69
+  },
+  {
+    "codigo": "3542",
+    "descricao": "RASTREADOR MXT 150 / 151",
+    "custo": 70.35
+  },
+  {
+    "codigo": "3545",
+    "descricao": "RASTREADOR MXT 150E",
+    "custo": 73.51
+  },
+  {
+    "codigo": "3552",
+    "descricao": "STAND ALONE 8 CANAIS 240 FPS S/ HD",
+    "custo": 114.34
+  },
+  {
+    "codigo": "3553",
+    "descricao": "STAND ALONE 16 CANAIS 480 FPS S/HD (DESATIVADO)",
+    "custo": 110.55
+  },
+  {
+    "codigo": "3563",
+    "descricao": "CABO FLEXIVEL BIPOLAR 4,0MM",
+    "custo": 0.28
+  },
+  {
+    "codigo": "3565",
+    "descricao": "CONECTOR BNC COM MOLA E PARAFUSO",
+    "custo": 0.27
+  },
+  {
+    "codigo": "3568",
+    "descricao": "DETECTOR QUEBRA DE VIDRO S/ FIO WLS912L - 433MHZ",
+    "custo": 78.38
+  },
+  {
+    "codigo": "3569",
+    "descricao": "RECEPTOR EXPANSOR S/FIO RS5132",
+    "custo": 36.22
+  },
+  {
+    "codigo": "3576",
+    "descricao": "CABO PARA  MICROFONE RCA - 2 X 0,20",
+    "custo": 3.78
+  },
+  {
+    "codigo": "3582",
+    "descricao": "ELETRODUTO 1/5 GALVANIZADO",
+    "custo": 3.78
+  },
+  {
+    "codigo": "3583",
+    "descricao": "ELETRODUTO GALVANIZADO  3/4.",
+    "custo": 4.6
+  },
+  {
+    "codigo": "3588",
+    "descricao": "MASTRO PARA BARREIRA DE 1,20",
+    "custo": 5.27
+  },
+  {
+    "codigo": "3671",
+    "descricao": "MESA CONTROLADORA AXIS T8311",
+    "custo": 326.35
+  },
+  {
+    "codigo": "3687",
+    "descricao": "CAMERA SPEED DOME ZOOM 30X OPTICO 10X DIGITAL",
+    "custo": 581.64
+  },
+  {
+    "codigo": "3713",
+    "descricao": "CAIXA DE PROTEÇÃO PROF. COM SUP. 140 X115 X 373",
+    "custo": 19.46
+  },
+  {
+    "codigo": "3723",
+    "descricao": "FONTE DE 10AMP COM CULER",
+    "custo": 25.09
+  },
+  {
+    "codigo": "3733",
+    "descricao": "TRANSMISSOR TX 514 P/ CONTROLE DE ACESSO",
+    "custo": 4.18
+  },
+  {
+    "codigo": "3739",
+    "descricao": "LENTE P/ MICRO CAMERA 1,9MM",
+    "custo": 3.98
+  },
+  {
+    "codigo": "3740",
+    "descricao": "CHAVEIRO SEM FIO WT 110",
+    "custo": 12.35
+  },
+  {
+    "codigo": "3741",
+    "descricao": "CHICOTE PARA RASTREADOR COM CONECTOR 16 VIAS COM 5",
+    "custo": 1.0
+  },
+  {
+    "codigo": "3745",
+    "descricao": "SENSOR PASSIVO SEM FIO VX402-R",
+    "custo": 209.09
+  },
+  {
+    "codigo": "3753",
+    "descricao": "BATERIA LITIO 9V CR123A",
+    "custo": 2.51
+  },
+  {
+    "codigo": "3759",
+    "descricao": "RASTREADOR MXT 150C+ (DESATIVADO)",
+    "custo": 84.18
+  },
+  {
+    "codigo": "3761",
+    "descricao": "RASTREADOR MXT 151A",
+    "custo": 89.65
+  },
+  {
+    "codigo": "4198",
+    "descricao": "PLACA ADVERTENCIA CERCA ELETRICA",
+    "custo": 0.45
+  },
+  {
+    "codigo": "4200",
+    "descricao": "RELE 12V PARA RASTREAMENTO",
+    "custo": 1.26
+  },
+  {
+    "codigo": "4207",
+    "descricao": "RELE 12 PARA RASTREAMENTO",
+    "custo": 2.07
+  },
+  {
+    "codigo": "4221",
+    "descricao": "SWITCH 8 PORTAS",
+    "custo": 9.33
+  },
+  {
+    "codigo": "4227",
+    "descricao": "DIGIFORT PROFISSIONAL PACK 4 CAM",
+    "custo": 164.73
+  },
+  {
+    "codigo": "4229",
+    "descricao": "EXPANSOR PC 4108 8Z DSC",
+    "custo": 92.73
+  },
+  {
+    "codigo": "4250",
+    "descricao": "CAMERA C/ INFRA 15MTS",
+    "custo": 18.18
+  },
+  {
+    "codigo": "4252",
+    "descricao": "MODULO DSC IT-100",
+    "custo": 100.56
+  },
+  {
+    "codigo": "4255",
+    "descricao": "TECLADO LCD HONEYWELL SEM FIO RFK 5501",
+    "custo": 100.56
+  },
+  {
+    "codigo": "4276",
+    "descricao": "HD 1TB",
+    "custo": 56.18
+  },
+  {
+    "codigo": "4287",
+    "descricao": "CAMERA INFRA DOME 20 MTS PRETA SONY 1/3 420L 3,6MM",
+    "custo": 54.36
+  },
+  {
+    "codigo": "4290",
+    "descricao": "CAMERA INFRA  30 MTS METALICA SONY 1/3 420L 3,6MM",
+    "custo": 33.62
+  },
+  {
+    "codigo": "4292",
+    "descricao": "RACK   4U X 470 X 19P",
+    "custo": 71.95
+  },
+  {
+    "codigo": "4296",
+    "descricao": "CABO COAXIAL CRISTAL 67% COBRE BLINDADO P/ELEVADOR",
+    "custo": 0.37
+  },
+  {
+    "codigo": "4302",
+    "descricao": "BOBINA DE AÇO 150 MTS 0,90MM",
+    "custo": 13.73
+  },
+  {
+    "codigo": "4309",
+    "descricao": "CENTRAL DE GPRS PEGASUS POCKET",
+    "custo": 60.0
+  },
+  {
+    "codigo": "4320",
+    "descricao": "SENSOR MICROONDAS EXTERNO BX - 80 NR",
+    "custo": 204.83
+  },
+  {
+    "codigo": "4321",
+    "descricao": "REPETIDOR DSC FIO WS 4920",
+    "custo": 78.83
+  },
+  {
+    "codigo": "4326",
+    "descricao": "CAIXA DE PROTEÇÃO P/ CAMERA DE ALUM. MÉDIA",
+    "custo": 4.82
+  },
+  {
+    "codigo": "4327",
+    "descricao": "CORDÃO OPTICO DUPLEX MULTIMODO, NUCLEO 50 CONECTOR",
+    "custo": 25.29
+  },
+  {
+    "codigo": "4343",
+    "descricao": "CAIXA DE BLOQUEIO OPTICO 2 FIBRAS",
+    "custo": 4.53
+  },
+  {
+    "codigo": "4366",
+    "descricao": "MODULO RASTREADOR MTC 500 STANDARD",
+    "custo": 86.8
+  },
+  {
+    "codigo": "4372",
+    "descricao": "BATOQUE PLASTICO P/ HASTE",
+    "custo": 0.1
+  },
+  {
+    "codigo": "4410",
+    "descricao": "MODULO RASTREADOR MXT 140",
+    "custo": 86.8
+  },
+  {
+    "codigo": "4422",
+    "descricao": "SENSOR TEMPERATURA  TS 300",
+    "custo": 86.8
+  },
+  {
+    "codigo": "4452",
+    "descricao": "KIT INSTALAÇÃO DE CFTV",
+    "custo": 16.68
+  },
+  {
+    "codigo": "4475",
+    "descricao": "FONTE   24V AC X 3A",
+    "custo": 11.8
+  },
+  {
+    "codigo": "4477",
+    "descricao": "RELE 24V PARA RASTREAMENTO 40/30A",
+    "custo": 0.73
+  },
+  {
+    "codigo": "4503",
+    "descricao": "ANTENA GPRS EXTERNA PARA RASTREADOR (NAO USAR)",
+    "custo": 2.57
+  },
+  {
+    "codigo": "4508",
+    "descricao": "RASTREADOR MAXTRACK MXT 140",
+    "custo": 56.67
+  },
+  {
+    "codigo": "4535",
+    "descricao": "MONITOR 18'",
+    "custo": 128.55
+  },
+  {
+    "codigo": "4800",
+    "descricao": "CAIXA PROT PVC 102X102X55 C/TAMPA HERMET TIPO A",
+    "custo": 3.07
+  },
+  {
+    "codigo": "4816",
+    "descricao": "BOTOEIRA EM AÇO INOX C/ CAIXA",
+    "custo": 12.73
+  },
+  {
+    "codigo": "4817",
+    "descricao": "UPGRADE DE EDIÇÃO STANDARD PARA PROFISSIONAL BASE",
+    "custo": 614.63
+  },
+  {
+    "codigo": "4820",
+    "descricao": "UPGRADE DE EDIÇÃO STANDARD PARA PROFISSIONAL PACK",
+    "custo": 644.51
+  },
+  {
+    "codigo": "4822",
+    "descricao": "CENTRAL CP 24 LIGHT- SEM RAMAIS",
+    "custo": 78.18
+  },
+  {
+    "codigo": "4825",
+    "descricao": "CAMERA, BULLET - INFRA 30MTS INTELBRAS",
+    "custo": 34.63
+  },
+  {
+    "codigo": "4826",
+    "descricao": "CÂMERA COM  INFRA 50 MTS",
+    "custo": 50.73
+  },
+  {
+    "codigo": "4827",
+    "descricao": "STAND ALONE 30 FPS 32 CANAIS CIF S/ HD",
+    "custo": 426.27
+  },
+  {
+    "codigo": "4838",
+    "descricao": "\"MONITOR 21\"\" \"",
+    "custo": 62.73
+  },
+  {
+    "codigo": "4839",
+    "descricao": "\"MONITOR 18\"\" \"",
+    "custo": 83.45
+  },
+  {
+    "codigo": "4840",
+    "descricao": "SENSOR DE TETO INFRAV. MOD. 997 PIR (360°)",
+    "custo": 24.62
+  },
+  {
+    "codigo": "4842",
+    "descricao": "CAMERA SPEED AXIS P5522-E",
+    "custo": 1318.01
+  },
+  {
+    "codigo": "4844",
+    "descricao": "QUADRO COMANDO  30X30X20",
+    "custo": 42.02
+  },
+  {
+    "codigo": "4845",
+    "descricao": "QUADRO COMANDO  50X40X20",
+    "custo": 71.81
+  },
+  {
+    "codigo": "4846",
+    "descricao": "CANALETA CINZA  PARA PAINEL DE CONTROLE  22X22 MM",
+    "custo": 4.05
+  },
+  {
+    "codigo": "4847",
+    "descricao": "ELETRODUTO 3/4 PVC",
+    "custo": 2.01
+  },
+  {
+    "codigo": "4848",
+    "descricao": "LUVA PVC  3/4. ROSCAVEL",
+    "custo": 0.23
+  },
+  {
+    "codigo": "4849",
+    "descricao": "\"CONDULETE UNIVERSAL 32\"\"\"",
+    "custo": 1.72
+  },
+  {
+    "codigo": "4852",
+    "descricao": "CABO FLEXIVEL  BRANCO 750V 2,5MM",
+    "custo": 0.31
+  },
+  {
+    "codigo": "4854",
+    "descricao": "ABRAÇADEIRA TIPO D",
+    "custo": 0.1
+  },
+  {
+    "codigo": "4871",
+    "descricao": "MOLA HIDRAULICA DORMA MA200/2 85KG",
+    "custo": 24.91
+  },
+  {
+    "codigo": "4878",
+    "descricao": "SOFTWARE WINSPECTOR SMART PARA CONT DE ACESSO",
+    "custo": 181.64
+  },
+  {
+    "codigo": "4880",
+    "descricao": "CONECTOR RJ45 PARA CAT5",
+    "custo": 0.03
+  },
+  {
+    "codigo": "4881",
+    "descricao": "CATRACA P/ CONTROLE DE ACESSO C/ CONTR. FLEX/ CONT",
+    "custo": 891.42
+  },
+  {
+    "codigo": "4884",
+    "descricao": "LEITORA DE CARTÃOP/CONTROLEDE ACE RFIDL-XL(N USAR)",
+    "custo": 60.83
+  },
+  {
+    "codigo": "4885",
+    "descricao": "CARTÃO DE PROXIMIDADE",
+    "custo": 0.95
+  },
+  {
+    "codigo": "4888",
+    "descricao": "TOMADA FEMEA RJ45",
+    "custo": 1.27
+  },
+  {
+    "codigo": "4889",
+    "descricao": "SUPORTE P/CAIXA DE PROTEÇÃO",
+    "custo": 1.82
+  },
+  {
+    "codigo": "4894",
+    "descricao": "CAMERA IP SAMSUNG SNB 5001 1.3MP",
+    "custo": 153.82
+  },
+  {
+    "codigo": "4911",
+    "descricao": "STAND ALONE 8 CH CIF  - SUPORT 1X 4T HD SATA - VD",
+    "custo": 116.91
+  },
+  {
+    "codigo": "4912",
+    "descricao": "STAND ALONE 16 CH D1  - SUPORT 1X 4T HD SATA - VD",
+    "custo": 128.93
+  },
+  {
+    "codigo": "4935",
+    "descricao": "CAIXA PVC 25X25",
+    "custo": 11.64
+  },
+  {
+    "codigo": "5036",
+    "descricao": "MICROFONE AMPLIFICADO",
+    "custo": 5.45
+  },
+  {
+    "codigo": "5066",
+    "descricao": "ENCOLDER DE VIDEO 1 CANAL 30FPS AXIS M7001",
+    "custo": 83.64
+  },
+  {
+    "codigo": "5073",
+    "descricao": "SWITCH 04 PORTAS",
+    "custo": 10.84
+  },
+  {
+    "codigo": "5075",
+    "descricao": "RECEPTOR MULTIFUNÇÃO LINEAR HCS 4A",
+    "custo": 127.09
+  },
+  {
+    "codigo": "5076",
+    "descricao": "TRANSMISSOR 2 BOTOES HONEYWELL 5834-4",
+    "custo": 5.38
+  },
+  {
+    "codigo": "5119",
+    "descricao": "STAND ALONE 30 FPS 32 CANAIS CIF S/ HD  (DESATIVAD",
+    "custo": 398.18
+  },
+  {
+    "codigo": "5185",
+    "descricao": "FITA PERFURADA GALVANIZADA",
+    "custo": 4.0
+  },
+  {
+    "codigo": "5186",
+    "descricao": "LUVA GALVANIZADA 3/4",
+    "custo": 0.96
+  },
+  {
+    "codigo": "5187",
+    "descricao": "LUVA PVC  1/2.",
+    "custo": 0.24
+  },
+  {
+    "codigo": "5188",
+    "descricao": "TAMPA CEGA PVC 4 X 4",
+    "custo": 0.98
+  },
+  {
+    "codigo": "5189",
+    "descricao": "ELETRODUTO GALVANIZADO 50 MM",
+    "custo": 15.21
+  },
+  {
+    "codigo": "5190",
+    "descricao": "LUVA GALVANIZADA 50 MM",
+    "custo": 0.38
+  },
+  {
+    "codigo": "5191",
+    "descricao": "CONECTOR GALVANIZADO 1/2",
+    "custo": 0.44
+  },
+  {
+    "codigo": "5192",
+    "descricao": "CONECTOR GALVANIZADO 3/4",
+    "custo": 0.47
+  },
+  {
+    "codigo": "5218",
+    "descricao": "CURVA 3/4 RIGIDO TIPO ROSCA",
+    "custo": 0.44
+  },
+  {
+    "codigo": "5232",
+    "descricao": "FITA DUPLA FACE P/ KT755 FS150",
+    "custo": 7.25
+  },
+  {
+    "codigo": "5255",
+    "descricao": "LUVA PVC CINZA 3/4",
+    "custo": 0.38
+  },
+  {
+    "codigo": "5301",
+    "descricao": "SIRENE 4901 INTERNA ALEXOR",
+    "custo": 41.82
+  },
+  {
+    "codigo": "5327",
+    "descricao": "RELE 12 PARA RASTREAMENTO",
+    "custo": 0.79
+  },
+  {
+    "codigo": "5328",
+    "descricao": "RELE 24 PARA RASTREAMENTO RELE 24 PARA RASTREAMENT",
+    "custo": 0.8
+  },
+  {
+    "codigo": "5331",
+    "descricao": "REPETIDOR DE SINAL HONEYWELL MODELO 5800RP",
+    "custo": 66.79
+  },
+  {
+    "codigo": "5332",
+    "descricao": "ANALISADOR SENSOR DE IMPACTO GS617 4 CANAL",
+    "custo": 30.45
+  },
+  {
+    "codigo": "5338",
+    "descricao": "HASTE ALUMINIO COMPLETA LISA W PASS 40X40 1 M",
+    "custo": 3.17
+  },
+  {
+    "codigo": "5339",
+    "descricao": "CONTROLE REMOTO 02 TECLAS",
+    "custo": 3.91
+  },
+  {
+    "codigo": "5347",
+    "descricao": "MODULO ISOLADOR C/ ESTABILIZADOR 500VA",
+    "custo": 32.55
+  },
+  {
+    "codigo": "5360",
+    "descricao": "BOTON PARA CONTROLE DE RONDA BOTON PARA CONTROLE D",
+    "custo": 1.64
+  },
+  {
+    "codigo": "5382",
+    "descricao": "CABO DE REDE UTP CAT 6",
+    "custo": 0.54
+  },
+  {
+    "codigo": "5383",
+    "descricao": "FONTE   12V AC/DC X 10A",
+    "custo": 9.13
+  },
+  {
+    "codigo": "5384",
+    "descricao": "FONTE   12V AC/DC X 29A",
+    "custo": 17.25
+  },
+  {
+    "codigo": "5421",
+    "descricao": "ELETRODUTO PVC RIGIDO 1''",
+    "custo": 2.99
+  },
+  {
+    "codigo": "5422",
+    "descricao": "LUVA PVC  1''",
+    "custo": 0.33
+  },
+  {
+    "codigo": "5423",
+    "descricao": "ADAPTADOR PVC 1 POLEGADA",
+    "custo": 0.18
+  },
+  {
+    "codigo": "5424",
+    "descricao": "ABRACADEIRA CUNHA 3/4\"",
+    "custo": 0.16
+  },
+  {
+    "codigo": "5425",
+    "descricao": "ELETRODUTO GALVANIZADO 1'",
+    "custo": 4.45
+  },
+  {
+    "codigo": "5426",
+    "descricao": "CONDULETE UNIVERSAL  1 POLEGADA",
+    "custo": 1.62
+  },
+  {
+    "codigo": "5427",
+    "descricao": "CENTRAL DE CHOQUE 10000 WATS",
+    "custo": 18.0
+  },
+  {
+    "codigo": "5449",
+    "descricao": "LENTE AUTO IRIS 2,8MM A 8,2MM 1.3MP",
+    "custo": 58.18
+  },
+  {
+    "codigo": "5454",
+    "descricao": "STAND ALONE TECVOZ 16 CANAIS -  MODELO THK-SH08 HI",
+    "custo": 118.0
+  },
+  {
+    "codigo": "5459",
+    "descricao": "GIROFLEX DNI 4011",
+    "custo": 38.35
+  },
+  {
+    "codigo": "5461",
+    "descricao": "KIT COOLER PARA TETO DE RACK   4U",
+    "custo": 38.35
+  },
+  {
+    "codigo": "5471",
+    "descricao": "TECLADO  DSC PK5516",
+    "custo": 37.09
+  },
+  {
+    "codigo": "5473",
+    "descricao": "CAMERA IP MINI DOME  GXV 3611 HD",
+    "custo": 80.0
+  },
+  {
+    "codigo": "5474",
+    "descricao": "SISTEMA DIGIFORT PROFISSIONAL PARA WINDOWS - PACK",
+    "custo": 442.53
+  },
+  {
+    "codigo": "5479",
+    "descricao": "ELETRODUTO RIGIDO 50 MM",
+    "custo": 2.84
+  },
+  {
+    "codigo": "5480",
+    "descricao": "CURVA RIGIDA 50 MM",
+    "custo": 0.46
+  },
+  {
+    "codigo": "5481",
+    "descricao": "CAIXA DE PASSAGEM PVC SOBREPOR 30X30",
+    "custo": 29.48
+  },
+  {
+    "codigo": "5490",
+    "descricao": "NVR NUUO P/ 4 CAMERAS - S/HD",
+    "custo": 309.32
+  },
+  {
+    "codigo": "5491",
+    "descricao": "TAMPA CEGA PVC 4 X 2",
+    "custo": 0.47
+  },
+  {
+    "codigo": "5492",
+    "descricao": "ELETRODUTO GALV. 3.00 X MTS 2'.",
+    "custo": 25.31
+  },
+  {
+    "codigo": "5498",
+    "descricao": "CAIXA DAILET TIPO X 3/4 - 1 SAIDA",
+    "custo": 1.29
+  },
+  {
+    "codigo": "5503",
+    "descricao": "SWITCH  1910 - 8 PORTAS POE (65W) 10/100 +  2 PORT",
+    "custo": 217.82
+  },
+  {
+    "codigo": "5506",
+    "descricao": "HD 2 TB",
+    "custo": 103.62
+  },
+  {
+    "codigo": "5515",
+    "descricao": "CAMERA IP SAMSUNG SNB 7001",
+    "custo": 247.27
+  },
+  {
+    "codigo": "5530",
+    "descricao": "CAMERA HORUS INFRA - CMOSH 700 TVL - IR 20 MTS",
+    "custo": 12.0
+  },
+  {
+    "codigo": "5534",
+    "descricao": "CAMERA HORUS IP INFRA 2.8 A 12 MM 2M - IR 30 MTS",
+    "custo": 101.82
+  },
+  {
+    "codigo": "5537",
+    "descricao": "TRANSMISSOR TX 292 MHZ",
+    "custo": 2.3
+  },
+  {
+    "codigo": "5538",
+    "descricao": "CABO PARALELO BICOLOR 2X1,50MM",
+    "custo": 0.48
+  },
+  {
+    "codigo": "5539",
+    "descricao": "CONTROLADORA FLEX TRIP",
+    "custo": 259.64
+  },
+  {
+    "codigo": "5542",
+    "descricao": "STAND ALONE 8 CH D1 - 8 CH 720P  - HIBRIDO HORUS -",
+    "custo": 83.25
+  },
+  {
+    "codigo": "5544",
+    "descricao": "STAND ALONE 16 CH D1 - HIBRIDO HORUS - SUPORT 2X 4",
+    "custo": 83.85
+  },
+  {
+    "codigo": "5551",
+    "descricao": "ENCODER GENERICO DE VIDEO 1 CANAL 30 FPS",
+    "custo": 76.91
+  },
+  {
+    "codigo": "5552",
+    "descricao": "RACK P/STAND ALONE 08 CANAIS IRON HOUSE 1G 400 C/",
+    "custo": 79.82
+  },
+  {
+    "codigo": "5555",
+    "descricao": "ENCODER GENERICO DE VIDEO 4 CANAL 7,5 FPS",
+    "custo": 94.55
+  },
+  {
+    "codigo": "5556",
+    "descricao": "CONCERTINA   450MM X 10MTS",
+    "custo": 22.72
+  },
+  {
+    "codigo": "5558",
+    "descricao": "CABO COAXIAL TRIPOLAR 90% MALHA",
+    "custo": 0.14
+  },
+  {
+    "codigo": "5563",
+    "descricao": "SUPORTE PARA SPEED SAMSUNG",
+    "custo": 63.64
+  },
+  {
+    "codigo": "5569",
+    "descricao": "SWITCH 8 PORT POE (124 W) FAS ETHERNET SF 802 AF",
+    "custo": 106.21
+  },
+  {
+    "codigo": "5570",
+    "descricao": "MODULO DE COMUNICAÇÃO IP150",
+    "custo": 53.35
+  },
+  {
+    "codigo": "5573",
+    "descricao": "\"DERIVAÇÃO EM \"\"T\"\" P/ CANALETA LARGA 50X20\"",
+    "custo": 0.89
+  },
+  {
+    "codigo": "5575",
+    "descricao": "\"DERIVAÇÃO EM \"\"T\"\" P/ CANALETA FINA\"",
+    "custo": 0.11
+  },
+  {
+    "codigo": "5576",
+    "descricao": "LUVA GALVANIZADA  3/4.",
+    "custo": 0.26
+  },
+  {
+    "codigo": "5577",
+    "descricao": "EMENDA CANALETA LARGA 50X20",
+    "custo": 1.0
+  },
+  {
+    "codigo": "5578",
+    "descricao": "COTUVELO P/ CANALETA LARGA 50X20",
+    "custo": 1.0
+  },
+  {
+    "codigo": "5581",
+    "descricao": "SISTEMA DIGIFORT PROFESSIONAL PACK PARA GERENCIAME",
+    "custo": 490.52
+  },
+  {
+    "codigo": "5582",
+    "descricao": "SISTEMA DIGIFORT PROFESSIONAL PACK PARA GERENCIAME",
+    "custo": 658.28
+  },
+  {
+    "codigo": "5593",
+    "descricao": "TECLADO LCD NCODE INIM",
+    "custo": 31.09
+  },
+  {
+    "codigo": "5594",
+    "descricao": "TECLADO LCD TOUCH SCREEN 4,3",
+    "custo": 110.0
+  },
+  {
+    "codigo": "5595",
+    "descricao": "TECLADO LCD TOUCH SCREEN 7'",
+    "custo": 40.73
+  },
+  {
+    "codigo": "5598",
+    "descricao": "DETECTOR MAGNETICO SEM FIO 2 VIAS",
+    "custo": 20.91
+  },
+  {
+    "codigo": "5599",
+    "descricao": "PLACA ETHERNET TCP / IP",
+    "custo": 68.91
+  },
+  {
+    "codigo": "5601",
+    "descricao": "FONTE PARA STAND ALONE  12V 3A",
+    "custo": 11.82
+  },
+  {
+    "codigo": "5606",
+    "descricao": "TAMPA CEGA 3/4 P/ CONDULETE ALUMINIO",
+    "custo": 0.39
+  },
+  {
+    "codigo": "5607",
+    "descricao": "CAIXA DE PASSAGEM GALVANIZADA  4X2",
+    "custo": 0.98
+  },
+  {
+    "codigo": "5608",
+    "descricao": "CURVA GALVANIZADA 3/4 90°",
+    "custo": 0.59
+  },
+  {
+    "codigo": "5609",
+    "descricao": "ADAPTADOR PVC 3/4\"",
+    "custo": 0.15
+  },
+  {
+    "codigo": "5610",
+    "descricao": "CAIXA VEDADA 25X25",
+    "custo": 4.36
+  },
+  {
+    "codigo": "5611",
+    "descricao": "PORTEIRO ELETRONICO INTELBRAS XPE 1001 PLUS",
+    "custo": 70.66
+  },
+  {
+    "codigo": "5622",
+    "descricao": "FONTE PARA COMPUTADOR 500 WATTS",
+    "custo": 20.0
+  },
+  {
+    "codigo": "5623",
+    "descricao": "MODULADOR DE CANAL 4 PARA CFTV",
+    "custo": 12.73
+  },
+  {
+    "codigo": "5624",
+    "descricao": "MISTURADOR FREQUENCIA 2-4-6 FM - UHF 8-10-12",
+    "custo": 57.53
+  },
+  {
+    "codigo": "5626",
+    "descricao": "TERMINAL DEDICADO TDMI 200",
+    "custo": 7.13
+  },
+  {
+    "codigo": "5627",
+    "descricao": "PLACA 8 RAMAIS CP 24 LIGHT",
+    "custo": 31.48
+  },
+  {
+    "codigo": "5628",
+    "descricao": "CENTRAL DE CONDOMINIO CP 112 (NAO USAR)",
+    "custo": 137.27
+  },
+  {
+    "codigo": "5629",
+    "descricao": "PLACA RAMAIS 16 RAMAIS DESBALANC. CP 112",
+    "custo": 34.54
+  },
+  {
+    "codigo": "5630",
+    "descricao": "INTERFONE   TDMI 300",
+    "custo": 7.88
+  },
+  {
+    "codigo": "5635",
+    "descricao": "RACK ORGANIZADOR DE CABOS BALUN 16 CH MINI ORION",
+    "custo": 132.73
+  },
+  {
+    "codigo": "5636",
+    "descricao": "MODULO GUARITA LINEAR HCS MODELO: 2015 IP",
+    "custo": 125.27
+  },
+  {
+    "codigo": "5638",
+    "descricao": "CONTROLE REMOTO LINEAR HCS 4 BOTÕES AZUL",
+    "custo": 5.27
+  },
+  {
+    "codigo": "5639",
+    "descricao": "RACK BALUM 16 CANAIS CVP-116",
+    "custo": 192.73
+  },
+  {
+    "codigo": "5640",
+    "descricao": "RACK BALUM 04 CANAIS CVP-104",
+    "custo": 12.62
+  },
+  {
+    "codigo": "5641",
+    "descricao": "CABO HDMI 5 MTS",
+    "custo": 3.42
+  },
+  {
+    "codigo": "5644",
+    "descricao": "PATCH CORD CAT 5E",
+    "custo": 1.19
+  },
+  {
+    "codigo": "5651",
+    "descricao": "TRANSMISSOR  JFL",
+    "custo": 3.35
+  },
+  {
+    "codigo": "5652",
+    "descricao": "CAMERA HORUS IP BOX 2.8-12MM VARIFOCAL 1.4 M IR 20",
+    "custo": 56.45
+  },
+  {
+    "codigo": "5653",
+    "descricao": "CAMERA HORUS IP DOME 2.8-12MM VARIFOCAL 1.4 M IR 2",
+    "custo": 38.81
+  },
+  {
+    "codigo": "5654",
+    "descricao": "CAMERA HORUS CMOSH 700TVL - IR 25 MTS",
+    "custo": 10.12
+  },
+  {
+    "codigo": "5655",
+    "descricao": "CAMERA HORUS CMOSH 700 TVL - IR 30 MTS",
+    "custo": 20.0
+  },
+  {
+    "codigo": "5656",
+    "descricao": "CAMERA HORUS CMOSH 700 TVL 6MM LENTE FIXA",
+    "custo": 20.0
+  },
+  {
+    "codigo": "5657",
+    "descricao": "CAMERA HORUS INFRA - 50 MTS",
+    "custo": 20.05
+  },
+  {
+    "codigo": "5658",
+    "descricao": "CAMERA DOME INFRA PLASTIC MODELO NCHMIR23-CMOSH- 2",
+    "custo": 12.71
+  },
+  {
+    "codigo": "5660",
+    "descricao": "CAMERA IP HORUS INFRA 2.8-12MM 1.3M-30 MTS",
+    "custo": 42.73
+  },
+  {
+    "codigo": "5661",
+    "descricao": "SPEED HORUS DOME INFRA 7 -  HZP67-37X - 100 MTS",
+    "custo": 836.98
+  },
+  {
+    "codigo": "5668",
+    "descricao": "SENSOR MICROONDAS  LC 104",
+    "custo": 56.72
+  },
+  {
+    "codigo": "5670",
+    "descricao": "CONVERSOR DE MIDIA MULTIMODO 10/100/1000",
+    "custo": 76.54
+  },
+  {
+    "codigo": "5671",
+    "descricao": "KIT MOTOR AUTOMÁTICO P/ PORTÃO",
+    "custo": 246.91
+  },
+  {
+    "codigo": "5674",
+    "descricao": "RACK   5U X 470 X 19P",
+    "custo": 46.35
+  },
+  {
+    "codigo": "5675",
+    "descricao": "HD INTERNO 4 TB",
+    "custo": 148.36
+  },
+  {
+    "codigo": "5676",
+    "descricao": "SPEED DOME VIP E5220",
+    "custo": 382.92
+  },
+  {
+    "codigo": "5677",
+    "descricao": "STAND ALONE MHDX 4 CH CIF  - SUPORT 1X 4T HD SATA",
+    "custo": 77.73
+  },
+  {
+    "codigo": "5678",
+    "descricao": "BOTOEIRA LINEAR",
+    "custo": 32.42
+  },
+  {
+    "codigo": "5683",
+    "descricao": "GPRS MODULO DE COMUNICACAO PCS 250",
+    "custo": 132.18
+  },
+  {
+    "codigo": "5685",
+    "descricao": "CENTRAL  DE ALARME  2018 EG",
+    "custo": 96.61
+  },
+  {
+    "codigo": "5694",
+    "descricao": "RACK 44U X 970 X 19P",
+    "custo": 534.54
+  },
+  {
+    "codigo": "5695",
+    "descricao": "RACK 6U X470 X 19P",
+    "custo": 54.53
+  },
+  {
+    "codigo": "5698",
+    "descricao": "PATCH PANEL CAT 6  24 PORTAS",
+    "custo": 148.98
+  },
+  {
+    "codigo": "5699",
+    "descricao": "FIBRA OPTICA MULTI MODO  4 VIAS",
+    "custo": 1.28
+  },
+  {
+    "codigo": "5700",
+    "descricao": "PATCH CORD CAT 6",
+    "custo": 1.54
+  },
+  {
+    "codigo": "5710",
+    "descricao": "HASTE CANTONEIRA P/ CONCERTINA 60 CM",
+    "custo": 1.61
+  },
+  {
+    "codigo": "5712",
+    "descricao": "CAIXA VEDADA 30 X20 X 17",
+    "custo": 9.53
+  },
+  {
+    "codigo": "5718",
+    "descricao": "RADIO UBIQUITI NANOSTATION LOCO M5",
+    "custo": 66.75
+  },
+  {
+    "codigo": "5722",
+    "descricao": "RACK   6U X 470 X 19P",
+    "custo": 78.97
+  },
+  {
+    "codigo": "5723",
+    "descricao": "BATERIA PARA RASTREADOR MAXTRACK",
+    "custo": 6.58
+  },
+  {
+    "codigo": "5725",
+    "descricao": "ESPIRAFLEX   3/4.",
+    "custo": 0.64
+  },
+  {
+    "codigo": "5726",
+    "descricao": "CABO VGA 1 MT",
+    "custo": 4.55
+  },
+  {
+    "codigo": "5727",
+    "descricao": "LEITOR DE MESA INDALA",
+    "custo": 108.63
+  },
+  {
+    "codigo": "5729",
+    "descricao": "CONCENTRADOR DECW IP8",
+    "custo": 904.62
+  },
+  {
+    "codigo": "5733",
+    "descricao": "TAG UHF IRONSIDE C/SUPORTE VEICULAR PARA A PLACA",
+    "custo": 4.36
+  },
+  {
+    "codigo": "5741",
+    "descricao": "SENSOR VOLUMÉTRICO  3000 PET",
+    "custo": 18.73
+  },
+  {
+    "codigo": "5742",
+    "descricao": "RÉGUA PARA 8 TOMADAS DE 19\" P/RACK",
+    "custo": 14.53
+  },
+  {
+    "codigo": "5744",
+    "descricao": "EXPANSOR INIM FLEX 5/U",
+    "custo": 17.0
+  },
+  {
+    "codigo": "5750",
+    "descricao": "DIGIFORT STANDARD SISTEMA  BASE P/ 04 CAMERAS",
+    "custo": 199.45
+  },
+  {
+    "codigo": "5752",
+    "descricao": "DIGIFORT STANDARD PACK 4 CAM",
+    "custo": 121.07
+  },
+  {
+    "codigo": "5754",
+    "descricao": "CAMERA HORUS IP DOME ANTI VADAL 2.8-12MM VARIFOCAL",
+    "custo": 42.73
+  },
+  {
+    "codigo": "5755",
+    "descricao": "ELETROCALHA 100 X50 MM X 3MTS",
+    "custo": 10.41
+  },
+  {
+    "codigo": "5756",
+    "descricao": "ADAPTADOR ELETRODUTO/CONDULETE GALVANIZADO 3/4\"",
+    "custo": 0.32
+  },
+  {
+    "codigo": "5757",
+    "descricao": "SEAL-TUBO 3/4",
+    "custo": 1.33
+  },
+  {
+    "codigo": "5758",
+    "descricao": "BOX RETO 3/4",
+    "custo": 0.48
+  },
+  {
+    "codigo": "5759",
+    "descricao": "BUCHA E ARRUELA 3/4",
+    "custo": 0.22
+  },
+  {
+    "codigo": "5760",
+    "descricao": "PARAFUSO SEXTAVADO 1/4 X 1/2  C/ PORCA E ARRUELA 1",
+    "custo": 0.03
+  },
+  {
+    "codigo": "5763",
+    "descricao": "MINI GBIC MM LC 1GB LX 0,5 KM",
+    "custo": 38.17
+  },
+  {
+    "codigo": "5764",
+    "descricao": "CONCERTINA GALV. COMPL. 30CM X 25L 5MT ALGE",
+    "custo": 36.55
+  },
+  {
+    "codigo": "5766",
+    "descricao": "CURVA RÍGIDA DE 1 POL",
+    "custo": 0.71
+  },
+  {
+    "codigo": "5776",
+    "descricao": "PARAFUSO SEXTRAVADO 5/16X75",
+    "custo": 0.14
+  },
+  {
+    "codigo": "5778",
+    "descricao": "CREMALHEIRA",
+    "custo": 15.27
+  },
+  {
+    "codigo": "5780",
+    "descricao": "CAIXA HERMETICA METÁLICA 40X40",
+    "custo": 62.64
+  },
+  {
+    "codigo": "5781",
+    "descricao": "FONTE ESTABILIZADA 12V X 20A",
+    "custo": 63.45
+  },
+  {
+    "codigo": "5785",
+    "descricao": "ABRAÇADEIRA P/ ELETRODUTO DE 50MM",
+    "custo": 0.17
+  },
+  {
+    "codigo": "5792",
+    "descricao": "\"SPIRAL TUBE PRETO 1/2\"\" - ORGANIZADOR DE CABOS\"",
+    "custo": 0.56
+  },
+  {
+    "codigo": "5794",
+    "descricao": "CURVA 1/2 MM GALVANIZADO",
+    "custo": 0.6
+  },
+  {
+    "codigo": "5795",
+    "descricao": "CONDULETE  ALUMINIO UNIVERSAL  3/4 C/ 5 FUROS",
+    "custo": 1.14
+  },
+  {
+    "codigo": "5796",
+    "descricao": "MONITOR   19,5'",
+    "custo": 125.44
+  },
+  {
+    "codigo": "5797",
+    "descricao": "CENTRAL DE ALARME MONITORADA ACTIVE-20 (NÃO USAR)",
+    "custo": 101.82
+  },
+  {
+    "codigo": "5799",
+    "descricao": "BATERIA SELADA 12V 2.3A",
+    "custo": 14.83
+  },
+  {
+    "codigo": "5800",
+    "descricao": "GUIA DE CABOS RACK 19\"  1U",
+    "custo": 3.24
+  },
+  {
+    "codigo": "5801",
+    "descricao": "MODULO DE COMUNICAÇÃO GPRS   M300 + V2",
+    "custo": 51.94
+  },
+  {
+    "codigo": "5804",
+    "descricao": "ELETROCALHA VENTILADA  50X50 PVC C/ TAMPA",
+    "custo": 9.24
+  },
+  {
+    "codigo": "5805",
+    "descricao": "ELETROCALHA VENTILADA  80X50 PVC",
+    "custo": 11.36
+  },
+  {
+    "codigo": "5806",
+    "descricao": "HD DISCO RIGIDO SATA 4 TB",
+    "custo": 170.91
+  },
+  {
+    "codigo": "5807",
+    "descricao": "HD INTERNO SATA 2 TB",
+    "custo": 103.62
+  },
+  {
+    "codigo": "5810",
+    "descricao": "BANDEJA FIXA P/ RACK SERVIDOR",
+    "custo": 39.69
+  },
+  {
+    "codigo": "5811",
+    "descricao": "CONECTOR RJ 11",
+    "custo": 3.3
+  },
+  {
+    "codigo": "5831",
+    "descricao": "MODULO TOMADA P/ RJ 45 CAT5E REDE DADOS",
+    "custo": 2.08
+  },
+  {
+    "codigo": "5839",
+    "descricao": "EMENDA CANALETA FINA 20X10",
+    "custo": 0.33
+  },
+  {
+    "codigo": "5844",
+    "descricao": "INJETOR POE 163 - 30 W",
+    "custo": 6.49
+  },
+  {
+    "codigo": "5848",
+    "descricao": "PLACA ACELERADORA DE VIDEO GEFORCE 9800GT",
+    "custo": 68.36
+  },
+  {
+    "codigo": "5851",
+    "descricao": "PORCA GAIOLA 6MM",
+    "custo": 0.26
+  },
+  {
+    "codigo": "5876",
+    "descricao": "CABO COAXIAL FLEX TRIPOLAR 95% MALHA",
+    "custo": 0.41
+  },
+  {
+    "codigo": "5883",
+    "descricao": "QUADRO DE COMANDO 45X30X20",
+    "custo": 70.0
+  },
+  {
+    "codigo": "5884",
+    "descricao": "BATERIA INTERNA P/ GPRS 200MAH 3.7V",
+    "custo": 4.73
+  },
+  {
+    "codigo": "5891",
+    "descricao": "CAMERA HDCVI 30MTS",
+    "custo": 32.99
+  },
+  {
+    "codigo": "5893",
+    "descricao": "SENSOR CMOS HF-N1",
+    "custo": 7.14
+  },
+  {
+    "codigo": "5894",
+    "descricao": "TRANSISTOR SMD",
+    "custo": 7.14
+  },
+  {
+    "codigo": "5895",
+    "descricao": "PLACA CENTRAL DE ALARME 8 Z VISTA 48 (NAO USAR)",
+    "custo": 45.82
+  },
+  {
+    "codigo": "5896",
+    "descricao": "TECLADO LCD HONEYWELL 6148",
+    "custo": 35.66
+  },
+  {
+    "codigo": "5899",
+    "descricao": "RECEPTOR HIGH ILIMITADO HONEYWELL 5881ENH",
+    "custo": 38.11
+  },
+  {
+    "codigo": "5901",
+    "descricao": "TRANSMISSOR 4 BOTOES HONEYWELL 5834-4",
+    "custo": 28.12
+  },
+  {
+    "codigo": "5902",
+    "descricao": "REPETIDOR SERIE HONEYWELL 5800 RP",
+    "custo": 101.44
+  },
+  {
+    "codigo": "5903",
+    "descricao": "DETECTOR DUPLA TECNOLOGIA SEM FIO HONEYWELL 5898-3",
+    "custo": 92.84
+  },
+  {
+    "codigo": "5905",
+    "descricao": "EXPANSOR 08 ZONAS 4208U",
+    "custo": 38.11
+  },
+  {
+    "codigo": "5911",
+    "descricao": "CARTÃO DE MEMORIA P/ CÂMERA INTELBRAS",
+    "custo": 10.32
+  },
+  {
+    "codigo": "5915",
+    "descricao": "NVR 32 CANAIS NVD 7032",
+    "custo": 813.98
+  },
+  {
+    "codigo": "5925",
+    "descricao": "CURVA PVC 3/4",
+    "custo": 0.47
+  },
+  {
+    "codigo": "5926",
+    "descricao": "SPEED HORUS DOME INFRA - DM365-18 X - MODELO SF900",
+    "custo": 164.84
+  },
+  {
+    "codigo": "5928",
+    "descricao": "CAMERA INFRAVERMELHO VHD 3030 3.6MM",
+    "custo": 39.09
+  },
+  {
+    "codigo": "5931",
+    "descricao": "CURVA RIGIDA 32 MM LGA",
+    "custo": 1.01
+  },
+  {
+    "codigo": "5932",
+    "descricao": "ELETRODUTO RIGIDO 32 MM",
+    "custo": 1.22
+  },
+  {
+    "codigo": "5935",
+    "descricao": "TECLADO LCD  PARA CENTRAIS  HONEYWELL MOD.6162",
+    "custo": 48.78
+  },
+  {
+    "codigo": "5941",
+    "descricao": "ELETRODUTO 3/4 GALVANIZADO",
+    "custo": 2.16
+  },
+  {
+    "codigo": "5950",
+    "descricao": "MINI CAMERA PINHOLE",
+    "custo": 16.35
+  },
+  {
+    "codigo": "5954",
+    "descricao": "CONCENTRADOR E SELETOR SONORIZAÇÃO AMBIENTE 200W",
+    "custo": 127.79
+  },
+  {
+    "codigo": "5955",
+    "descricao": "CASADOR DE IMPEDANCIA TI003 005 WATTS",
+    "custo": 2.31
+  },
+  {
+    "codigo": "5956",
+    "descricao": "ARANDELA TETO 50W JBL",
+    "custo": 14.36
+  },
+  {
+    "codigo": "5958",
+    "descricao": "BATERIA DE LITION CR2032 3V",
+    "custo": 0.18
+  },
+  {
+    "codigo": "5960",
+    "descricao": "RACK   6U X 570 X 19P",
+    "custo": 59.23
+  },
+  {
+    "codigo": "5961",
+    "descricao": "CONVERSOR POWER BALUN 16 CANAIS VBP A016C HD 720P",
+    "custo": 194.19
+  },
+  {
+    "codigo": "5962",
+    "descricao": "CONVERSOR POWER BALUN 8 CANAIS VBP A08C",
+    "custo": 130.09
+  },
+  {
+    "codigo": "5963",
+    "descricao": "RACK   24U X 600 X 19P",
+    "custo": 277.08
+  },
+  {
+    "codigo": "5964",
+    "descricao": "BANDEJA RACK 19U FIXA 300MM",
+    "custo": 9.87
+  },
+  {
+    "codigo": "5965",
+    "descricao": "CANALETA 3MTS DUTOTEC 45MM",
+    "custo": 42.55
+  },
+  {
+    "codigo": "5966",
+    "descricao": "RACK 5U X 400 X 19P",
+    "custo": 59.23
+  },
+  {
+    "codigo": "5969",
+    "descricao": "PARAFUSO Nº 06",
+    "custo": 0.04
+  },
+  {
+    "codigo": "5977",
+    "descricao": "BUCHA CLAMP Nº 4",
+    "custo": 0.06
+  },
+  {
+    "codigo": "5978",
+    "descricao": "BUCHA CLAMP Nº 8",
+    "custo": 0.06
+  },
+  {
+    "codigo": "5979",
+    "descricao": "BATERIA MODELO NI-MH AA 1500MAH 7,2V PARA CENTRAL",
+    "custo": 17.27
+  },
+  {
+    "codigo": "5981",
+    "descricao": "NVR 8 CANAIS, HDMI, 8PORTAS POE 8322P",
+    "custo": 214.9
+  },
+  {
+    "codigo": "5985",
+    "descricao": "CURVA 1/2 RIDIGO PVC TIPO PONTA E BOLSA",
+    "custo": 1.03
+  },
+  {
+    "codigo": "5986",
+    "descricao": "CURVA 3/4 PVC RIGIDO PONTO E BOLSA",
+    "custo": 0.44
+  },
+  {
+    "codigo": "5987",
+    "descricao": "ELETRODUTO 1/2 RIGIDO PVC PONTO E BOLSA 3MT",
+    "custo": 1.74
+  },
+  {
+    "codigo": "5988",
+    "descricao": "ELETRODUTO 3/4 RIGIDO PVC PONTO E BOLSA",
+    "custo": 1.24
+  },
+  {
+    "codigo": "5989",
+    "descricao": "CONTROLE DE ACESSO  DIGIPROX SA202",
+    "custo": 36.35
+  },
+  {
+    "codigo": "5990",
+    "descricao": "PARAFUSO Nº 06 C/ BUCHA",
+    "custo": 0.05
+  },
+  {
+    "codigo": "5997",
+    "descricao": "RACK ORGANIZADOR DE CABOS BALUN 8 CANAIS PVT",
+    "custo": 70.91
+  },
+  {
+    "codigo": "5998",
+    "descricao": "RACK ORGANIZADOR DE CABOS BALUN 16 CANAIS PVT",
+    "custo": 145.27
+  },
+  {
+    "codigo": "6000",
+    "descricao": "CATRACA VIP PEDESTAL C/ PICTOGRAMA S/ URNA",
+    "custo": 521.82
+  },
+  {
+    "codigo": "6001",
+    "descricao": "CATRACA VIP PEDESTAL C/ PICTOGRAMA C/ URNA",
+    "custo": 413.27
+  },
+  {
+    "codigo": "6002",
+    "descricao": "CABO DE REDE UTP CAT5  E - FURUKAWA",
+    "custo": 0.61
+  },
+  {
+    "codigo": "6003",
+    "descricao": "RACK   3U X 470 X 19P",
+    "custo": 37.16
+  },
+  {
+    "codigo": "6004",
+    "descricao": "SENSOR DE MERCURIO ACELEROMETRO AVR ARM MCU 7455",
+    "custo": 13.45
+  },
+  {
+    "codigo": "6005",
+    "descricao": "MODULO REGULADOR DE TENSÃO AJUSTÁVEL LM2577 AUTO B",
+    "custo": 2.89
+  },
+  {
+    "codigo": "6006",
+    "descricao": "MODULO SENSOR INTERRUPTOR COM A LINHA DUPONT 3PIN",
+    "custo": 3.49
+  },
+  {
+    "codigo": "6010",
+    "descricao": "CAMERA INFRA VHD 3030 B 3,6MM",
+    "custo": 24.01
+  },
+  {
+    "codigo": "6012",
+    "descricao": "CAMERA INFRA VHD 3030 B 6MM",
+    "custo": 38.0
+  },
+  {
+    "codigo": "6013",
+    "descricao": "CAMERA INFRA VHD 1020 D 3.6M",
+    "custo": 14.91
+  },
+  {
+    "codigo": "6014",
+    "descricao": "CAMERA, INFRA VHD 1010 D G5 3.6MM HDCVI SERIE 1000",
+    "custo": 19.27
+  },
+  {
+    "codigo": "6015",
+    "descricao": "CAMERA, INFRA VHD 1010 B 3.6MM",
+    "custo": 19.43
+  },
+  {
+    "codigo": "6018",
+    "descricao": "CAMERA INFRA VHD 3030 VF",
+    "custo": 77.67
+  },
+  {
+    "codigo": "6019",
+    "descricao": "STAND ALONE 4 CANAIS HDCVI 1004 - S/HD",
+    "custo": 47.16
+  },
+  {
+    "codigo": "6020",
+    "descricao": "STAND ALONE 4 CANAIS HDCVI 3004 - S/HD",
+    "custo": 78.67
+  },
+  {
+    "codigo": "6021",
+    "descricao": "STAND ALONE 8 CANAIS MHDX 1108",
+    "custo": 99.82
+  },
+  {
+    "codigo": "6023",
+    "descricao": "TV 40'",
+    "custo": 301.05
+  },
+  {
+    "codigo": "6039",
+    "descricao": "NVR NVD 3016P",
+    "custo": 488.79
+  },
+  {
+    "codigo": "6042",
+    "descricao": "CÂMERA IP BULLET VIP S3020 1M",
+    "custo": 41.61
+  },
+  {
+    "codigo": "6045",
+    "descricao": "STAND ALONE 16 CANAIS  HDCVI 1016 - S/HD",
+    "custo": 188.98
+  },
+  {
+    "codigo": "6046",
+    "descricao": "IRA 20 METROS (SENSOR DE BARREIRA)",
+    "custo": 13.45
+  },
+  {
+    "codigo": "6053",
+    "descricao": "PATCH PANEL  POE 10 PORTAS",
+    "custo": 36.18
+  },
+  {
+    "codigo": "6054",
+    "descricao": "SWITCH 16 PORTAS  SF 1600 D",
+    "custo": 37.75
+  },
+  {
+    "codigo": "6055",
+    "descricao": "DETECTOR TERMOVELOCIMÉTRICO ORBIS ENDEREÇÁVEL",
+    "custo": 30.0
+  },
+  {
+    "codigo": "6056",
+    "descricao": "ACIONADOR MANUAL END QUEBRA VIDRO C/SIREN",
+    "custo": 19.05
+  },
+  {
+    "codigo": "6057",
+    "descricao": "CENTRAL DE ALARME DE INCÊNDIO ENDEREÇÁVEL IP20 - S",
+    "custo": 166.21
+  },
+  {
+    "codigo": "6058",
+    "descricao": "DETECTOR ÓPTICO DE FUMAÇA ENDEREÇÁVEL",
+    "custo": 19.73
+  },
+  {
+    "codigo": "6059",
+    "descricao": "AVISADOR SONORO ENDEREÇÁVEL BX - FOL",
+    "custo": 11.82
+  },
+  {
+    "codigo": "6060",
+    "descricao": "ACIONADOR MANUAL ENDEREÇÁVEL IP 66",
+    "custo": 13.64
+  },
+  {
+    "codigo": "6061",
+    "descricao": "CABO BLINDADO PARA DETECTOR DE INCENDIO 2 X 0,75 -",
+    "custo": 0.57
+  },
+  {
+    "codigo": "6062",
+    "descricao": "CABO BLINDADO PARA DETECTOR DE INCENDIO 2 X 1,50",
+    "custo": 1.46
+  },
+  {
+    "codigo": "6063",
+    "descricao": "SENSOR INFRAVERMELHO HONEYWELL SEM FIO 5800PIR",
+    "custo": 34.4
+  },
+  {
+    "codigo": "6066",
+    "descricao": "CABO LAN HIB CFTV 50 X 4P X 0.75+PORTANTE",
+    "custo": 0.67
+  },
+  {
+    "codigo": "6067",
+    "descricao": "TECLADO LCD HONEYWELL 6162",
+    "custo": 72.95
+  },
+  {
+    "codigo": "6069",
+    "descricao": "HASTE ALUMINIO COMPLETA LISA CAST ESTIC 40X40 1M",
+    "custo": 4.71
+  },
+  {
+    "codigo": "6070",
+    "descricao": "SENSOR IMPACTO  SS102",
+    "custo": 42.34
+  },
+  {
+    "codigo": "6073",
+    "descricao": "FONTE FLUTUANTE 12V 20A",
+    "custo": 29.09
+  },
+  {
+    "codigo": "6074",
+    "descricao": "HASTE ALUMINIO COMPLETA RAIADA CAST ESTIC 30X30 1M",
+    "custo": 7.34
+  },
+  {
+    "codigo": "6075",
+    "descricao": "HASTE ALUMINIO COMPLETA RAIADA W PASS 30X30 1M",
+    "custo": 4.16
+  },
+  {
+    "codigo": "6076",
+    "descricao": "CENTRAL DISC-4 SINAL",
+    "custo": 45.07
+  },
+  {
+    "codigo": "6078",
+    "descricao": "HASTE SUPER CERCA COMPLETA COM PASSADOR C/KIT",
+    "custo": 2.18
+  },
+  {
+    "codigo": "6080",
+    "descricao": "FONTE 12V VDC  X 2A C/ MODULO DE BATERIA E CARREGA",
+    "custo": 41.55
+  },
+  {
+    "codigo": "6081",
+    "descricao": "CANALETA FINA 20 X 10",
+    "custo": 1.31
+  },
+  {
+    "codigo": "6084",
+    "descricao": "DISCO RIGIDO INTERNO  2TB",
+    "custo": 91.51
+  },
+  {
+    "codigo": "6085",
+    "descricao": "BOTAO DE SAIDA INOX COM CAIXA SOBREPOR",
+    "custo": 15.55
+  },
+  {
+    "codigo": "6089",
+    "descricao": "CONECTOR CONDULETE P/CAIXA  DE PASSAGEM GALV. 3/4",
+    "custo": 0.29
+  },
+  {
+    "codigo": "6090",
+    "descricao": "CONECTOR CONDULETE P/ CAIXA DE PASSAGEM GALV.  1/2",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6091",
+    "descricao": "SENSOR DE BARREIRA ATIVO 30MTS -  IRA 115",
+    "custo": 19.44
+  },
+  {
+    "codigo": "6092",
+    "descricao": "CENTRAL DE CHOQUE 1000 POWER C/CONT",
+    "custo": 23.45
+  },
+  {
+    "codigo": "6093",
+    "descricao": "ELETRIFICADOR DE CERCA ECR 18.000",
+    "custo": 22.55
+  },
+  {
+    "codigo": "6096",
+    "descricao": "CONCERTINA 30 MM CBT 30 10 MT",
+    "custo": 15.27
+  },
+  {
+    "codigo": "6102",
+    "descricao": "TEMPORIZADOR RTST 20HR - P",
+    "custo": 20.91
+  },
+  {
+    "codigo": "6103",
+    "descricao": "CAMERA DOME IP 2MP HORUS SONY EXMOR 1080P 2.8-12MM",
+    "custo": 31.07
+  },
+  {
+    "codigo": "6104",
+    "descricao": "CAMERA IP DOME 1MP 30FPS CMOS 3.6MM IR20 C/POE EXT",
+    "custo": 34.56
+  },
+  {
+    "codigo": "6106",
+    "descricao": "SPEED HORUS ANALOG INFRA DOME 2MP SONY EXMOR CMOS",
+    "custo": 125.34
+  },
+  {
+    "codigo": "6107",
+    "descricao": "CAMERA HORUS DOME INFRA HDCVI 1.0MP-720P-3.6MM LEN",
+    "custo": 22.83
+  },
+  {
+    "codigo": "6108",
+    "descricao": "CAMERA HORUS INFRA HDCVI 1.0MP - 720P - 3.6MM LENT",
+    "custo": 12.82
+  },
+  {
+    "codigo": "6109",
+    "descricao": "CAMERA HORUS INFRA 7001 - 3.6MM LENTE FIXA - IR 30",
+    "custo": 22.77
+  },
+  {
+    "codigo": "6110",
+    "descricao": "NVR HORUS - 8CH 3.0 - VGA/HDMI 4TB SATA SUPORTA P2",
+    "custo": 41.63
+  },
+  {
+    "codigo": "6111",
+    "descricao": "NVR HORUS - 32CH 960P/ 24CH 1080P/ 16CH 3.0MP",
+    "custo": 68.86
+  },
+  {
+    "codigo": "6112",
+    "descricao": "STAND ALONE 4 CH AHD 720P 4CH AUDIO IN 1CH AUDIO V",
+    "custo": 24.14
+  },
+  {
+    "codigo": "6113",
+    "descricao": "STAND ALONE 8 CH AHD 720P - VGA/HDMI SUPORTA 1HD 4",
+    "custo": 80.0
+  },
+  {
+    "codigo": "6114",
+    "descricao": "STAND ALONE 16 CH AHD 720P - VGA/HDMI - SUPORTA 1H",
+    "custo": 45.24
+  },
+  {
+    "codigo": "6115",
+    "descricao": "PLACA DE VÍDEO VGA ZOTAC GEFORCE 2GB DDR5 128-BIT",
+    "custo": 204.36
+  },
+  {
+    "codigo": "6119",
+    "descricao": "ELETRODUTO GALVANIZADO 1/2 MM",
+    "custo": 1.82
+  },
+  {
+    "codigo": "6120",
+    "descricao": "CABO HDMI/HDMI 10 M",
+    "custo": 11.17
+  },
+  {
+    "codigo": "6121",
+    "descricao": "CABO HDMI 2 MTS",
+    "custo": 2.18
+  },
+  {
+    "codigo": "6122",
+    "descricao": "HASTE DE ALUMINIO 1M C/ 6 ISOLADORES TIPO W",
+    "custo": 3.07
+  },
+  {
+    "codigo": "6125",
+    "descricao": "ARAME ALUMINIO - 1,60MM",
+    "custo": 0.11
+  },
+  {
+    "codigo": "6130",
+    "descricao": "CÂMERA BOX IP 1.0 M SUPER LOW CMOS SENSOR P 7200P",
+    "custo": 29.1
+  },
+  {
+    "codigo": "6132",
+    "descricao": "CAMERA INFRA VHD B G4 HDCVI 1120 B 2.6MM",
+    "custo": 22.88
+  },
+  {
+    "codigo": "6133",
+    "descricao": "CAMERA, DOME VHL 1120 D HDCVI 3.6MM",
+    "custo": 17.59
+  },
+  {
+    "codigo": "6135",
+    "descricao": "ARAME INOX A304L-MLR1,60MM (NÃO USAR)",
+    "custo": 6.01
+  },
+  {
+    "codigo": "6136",
+    "descricao": "SERVIDOR POWEREDGE T110 V2 XEON QUAD CORE WIND SER",
+    "custo": 870.21
+  },
+  {
+    "codigo": "6138",
+    "descricao": "HASTE ALUM 30X30 COMPLETA TIPO RAIADA CAST ESTIC (",
+    "custo": 7.34
+  },
+  {
+    "codigo": "6139",
+    "descricao": "PATCH PANEL CAT 5E - 24PORTAS",
+    "custo": 20.66
+  },
+  {
+    "codigo": "6140",
+    "descricao": "BATERIA ESTACIONARIA 12V 45AH",
+    "custo": 79.07
+  },
+  {
+    "codigo": "6141",
+    "descricao": "FONTE DE ALIMENTAÇÃO 12V 1A/H C/ CAIXA GRANDE",
+    "custo": 132.43
+  },
+  {
+    "codigo": "6146",
+    "descricao": "BOTTON PARA CONTROLE DE RONDA",
+    "custo": 1.41
+  },
+  {
+    "codigo": "6149",
+    "descricao": "SOFTWARE D GUARD PROJECTS - DVR",
+    "custo": 138.73
+  },
+  {
+    "codigo": "6150",
+    "descricao": "SOFTWARE D GUARD PROJECTS - ENTERPRISE",
+    "custo": 482.0
+  },
+  {
+    "codigo": "6152",
+    "descricao": "CATRACA LUNA MECANICA AÇO CARBONO SEM SOFTWARE",
+    "custo": 494.03
+  },
+  {
+    "codigo": "6155",
+    "descricao": "BOBINA DE FIO AÇO 0,90MM",
+    "custo": 13.73
+  },
+  {
+    "codigo": "6156",
+    "descricao": "CAIXA HERMETICA DE PLÁSTICO 45 X 30 20P",
+    "custo": 77.04
+  },
+  {
+    "codigo": "6157",
+    "descricao": "STAND ALONE 32 CANAIS  IMHDX 3032",
+    "custo": 579.76
+  },
+  {
+    "codigo": "6158",
+    "descricao": "LEITOR ICLASS R10 READER",
+    "custo": 65.27
+  },
+  {
+    "codigo": "6161",
+    "descricao": "SERVIDOR THINKSERVER TS140 WINDOWS 7 PRO",
+    "custo": 710.36
+  },
+  {
+    "codigo": "6162",
+    "descricao": "HD INTERNO SATA 5 TB 6G/S /3,5'",
+    "custo": 306.36
+  },
+  {
+    "codigo": "6163",
+    "descricao": "RACK P/DVR 8C/ORGANIZADOR DE CABOS",
+    "custo": 36.18
+  },
+  {
+    "codigo": "6165",
+    "descricao": "NOBREAK VEICULAR  SG 1000 VA 12V",
+    "custo": 133.81
+  },
+  {
+    "codigo": "6166",
+    "descricao": "CONJUNTO DESLIZANTE JETFLEX DZ 1500 INDL",
+    "custo": 358.18
+  },
+  {
+    "codigo": "6167",
+    "descricao": "NOBREAK   6600 VA",
+    "custo": 70.12
+  },
+  {
+    "codigo": "6172",
+    "descricao": "RECEPTOR  LINEAR TX 4",
+    "custo": 63.8
+  },
+  {
+    "codigo": "6173",
+    "descricao": "CONTROLADOR VEÍCULAR KIPER SEM TX",
+    "custo": 5.39
+  },
+  {
+    "codigo": "6175",
+    "descricao": "CHAVEIRO RFID KIPER (CINZA)",
+    "custo": 3.64
+  },
+  {
+    "codigo": "6177",
+    "descricao": "HASTE ALUM 40X40 LISA 3 MT",
+    "custo": 7.27
+  },
+  {
+    "codigo": "6179",
+    "descricao": "BATERIA LITHIUM CR123A 3V X 1400MA",
+    "custo": 2.13
+  },
+  {
+    "codigo": "6180",
+    "descricao": "PILHA LITHIUM CR123A 3V",
+    "custo": 0.54
+  },
+  {
+    "codigo": "6181",
+    "descricao": "TRANSMISSOR 4 BOTOES LINEAR",
+    "custo": 5.99
+  },
+  {
+    "codigo": "6183",
+    "descricao": "MOTOR PORTA SOCIAL GIRO PPA ALUM 220V 60HZ S/RADAR",
+    "custo": 361.82
+  },
+  {
+    "codigo": "6184",
+    "descricao": "PORTA SOCIAL GIRO ALUM 220V 60HZ COM RADAR",
+    "custo": 232.73
+  },
+  {
+    "codigo": "6186",
+    "descricao": "TRANSMISSOR 3 TECLAS LINEAR",
+    "custo": 4.0
+  },
+  {
+    "codigo": "6187",
+    "descricao": "BANDEJA RACK 19U FIXA 700MM",
+    "custo": 18.42
+  },
+  {
+    "codigo": "6188",
+    "descricao": "CONJUNTO DESLIZANTE JETFLEX DZ 2500",
+    "custo": 563.64
+  },
+  {
+    "codigo": "6189",
+    "descricao": "BATERIA ESTACIONARIA 12V 36A",
+    "custo": 39.79
+  },
+  {
+    "codigo": "6190",
+    "descricao": "BATERIA 12V 45A",
+    "custo": 52.56
+  },
+  {
+    "codigo": "6193",
+    "descricao": "PC COM WINDOWS PRO",
+    "custo": 535.77
+  },
+  {
+    "codigo": "6194",
+    "descricao": "SIRENE ESTROBOSCOPICA",
+    "custo": 5.09
+  },
+  {
+    "codigo": "6196",
+    "descricao": "MODULO DE RELE DA FACILITY - PPA",
+    "custo": 3.05
+  },
+  {
+    "codigo": "6197",
+    "descricao": "RADIO ROTEADOR WIRELESS CPE 5GHZ 12DBI",
+    "custo": 59.3
+  },
+  {
+    "codigo": "6199",
+    "descricao": "PLACA DE VÍDEO VGA GALAX GEFORCE 2GB DDR5 128-BIT",
+    "custo": 146.36
+  },
+  {
+    "codigo": "6201",
+    "descricao": "ADAPTADOR DISPLAY PORT MACHO X HDMI FEMEA",
+    "custo": 18.0
+  },
+  {
+    "codigo": "6202",
+    "descricao": "RACK P/DVR 16C/ORGANIZADOR DE CABOS",
+    "custo": 45.45
+  },
+  {
+    "codigo": "6203",
+    "descricao": "HASTE DE METALON 30X30 COMPLETA 1,20 MTS",
+    "custo": 4.27
+  },
+  {
+    "codigo": "6207",
+    "descricao": "CONCERTINA SIMPLES 450/ LLGL - I/ 45CM",
+    "custo": 16.75
+  },
+  {
+    "codigo": "6209",
+    "descricao": "TECLADO 128 PLUS LCD",
+    "custo": 26.03
+  },
+  {
+    "codigo": "6210",
+    "descricao": "EXPANSOR 8Z COM FONTE STAR",
+    "custo": 39.38
+  },
+  {
+    "codigo": "6211",
+    "descricao": "CENTRAL VW16Z IP KIT STAR C/ COM. IP",
+    "custo": 61.18
+  },
+  {
+    "codigo": "6212",
+    "descricao": "TECLADO P/ CENTRAL DE ALARME MOD 558 16 Z",
+    "custo": 43.25
+  },
+  {
+    "codigo": "6213",
+    "descricao": "MODULO GPRS UNIVERSAL VIA WEB",
+    "custo": 51.29
+  },
+  {
+    "codigo": "6214",
+    "descricao": "EXPANSOR VW 16Z STAR",
+    "custo": 31.3
+  },
+  {
+    "codigo": "6215",
+    "descricao": "UNIDUT ALUMÍNIO 1' PRESSÃO RETO",
+    "custo": 0.27
+  },
+  {
+    "codigo": "6216",
+    "descricao": "PORTEIRO PORTEIRO RESIDENCIAL",
+    "custo": 23.76
+  },
+  {
+    "codigo": "6217",
+    "descricao": "INTERFONE KIT PORTEIRO RESIDENCIAL C/CAMERA",
+    "custo": 81.44
+  },
+  {
+    "codigo": "6218",
+    "descricao": "CONECTOR VIDEO BALUN P/ CFTV",
+    "custo": 3.51
+  },
+  {
+    "codigo": "6228",
+    "descricao": "CABO LAN CAT 5E 4p",
+    "custo": 0.32
+  },
+  {
+    "codigo": "6230",
+    "descricao": "TAMPA CEGA GALVANIZADA 1''",
+    "custo": 0.61
+  },
+  {
+    "codigo": "6231",
+    "descricao": "CORDAO OPTICO DUPLEXX MM 50/125 AM 2,50MTS",
+    "custo": 8.01
+  },
+  {
+    "codigo": "6232",
+    "descricao": "CORDAO OPTICO DUPLEX MM 62,50  LC LC 1,50MTS",
+    "custo": 8.22
+  },
+  {
+    "codigo": "6233",
+    "descricao": "CABO CAT 6 BLINDADO F/UTP",
+    "custo": 0.62
+  },
+  {
+    "codigo": "6236",
+    "descricao": "SWITCH 24 PORTAS 10/ 100 - JD986B",
+    "custo": 54.29
+  },
+  {
+    "codigo": "6238",
+    "descricao": "RACK 44 U",
+    "custo": 420.0
+  },
+  {
+    "codigo": "6240",
+    "descricao": "REGUA DE 6 TOMADAS",
+    "custo": 5.53
+  },
+  {
+    "codigo": "6247",
+    "descricao": "CAIXA HERMETICA PVC  85 X 85 X 45MM",
+    "custo": 1.17
+  },
+  {
+    "codigo": "6249",
+    "descricao": "LEITOR KIPER H400",
+    "custo": 0.91
+  },
+  {
+    "codigo": "6251",
+    "descricao": "TECLADO LCD INTELBRAS XAT 40000",
+    "custo": 35.23
+  },
+  {
+    "codigo": "6256",
+    "descricao": "RACK HORIZONTAL 8 CANAIS HD8000",
+    "custo": 118.55
+  },
+  {
+    "codigo": "6257",
+    "descricao": "CURVA PVC  1''",
+    "custo": 0.45
+  },
+  {
+    "codigo": "6258",
+    "descricao": "ADAPTADOR ELETRODUTO/CONDULETE GALVANIZADO 1\"",
+    "custo": 0.36
+  },
+  {
+    "codigo": "6259",
+    "descricao": "ABRACADEIRA CUNHA 1\"",
+    "custo": 0.17
+  },
+  {
+    "codigo": "6274",
+    "descricao": "ARAME GALVANIZADO P/CONCERTINA",
+    "custo": 4.58
+  },
+  {
+    "codigo": "6275",
+    "descricao": "CAMERA HORUS DOME INFRA AHD APTINA CMOS 1MP-1280X7",
+    "custo": 14.55
+  },
+  {
+    "codigo": "6276",
+    "descricao": "CÂMERA INF. BOX AHD 1MP 1280X720P 1/4 CMOS 3.6MM 2",
+    "custo": 15.76
+  },
+  {
+    "codigo": "6277",
+    "descricao": "CÂMERA  IP BOX 3MP SONY EXMOR 2.8 12MM IR40 MTS C/",
+    "custo": 41.63
+  },
+  {
+    "codigo": "6278",
+    "descricao": "CURVA GALVANIZADA 1'",
+    "custo": 1.07
+  },
+  {
+    "codigo": "6279",
+    "descricao": "RASTREADOR IMOBILIZ.P/ VEIC. AUTO C/ GPS E COMUNIC",
+    "custo": 10.97
+  },
+  {
+    "codigo": "6280",
+    "descricao": "ELETRODUTO RIGIDO PVC 2\" 3MT",
+    "custo": 7.01
+  },
+  {
+    "codigo": "6281",
+    "descricao": "CURVA PVC 2\"",
+    "custo": 3.52
+  },
+  {
+    "codigo": "6282",
+    "descricao": "LUVA PVC  2''",
+    "custo": 1.16
+  },
+  {
+    "codigo": "6283",
+    "descricao": "ABRACADEIRA CUNHA 2\"",
+    "custo": 0.4
+  },
+  {
+    "codigo": "6285",
+    "descricao": "NOBREAK 700VA INTELBRAS",
+    "custo": 90.89
+  },
+  {
+    "codigo": "6286",
+    "descricao": "MONITOR 24''",
+    "custo": 148.18
+  },
+  {
+    "codigo": "6287",
+    "descricao": "TAMPA PARA ELETROCALHA 100MM",
+    "custo": 6.61
+  },
+  {
+    "codigo": "6288",
+    "descricao": "CURVA INVERSA PARA ELETROCALHA 100MM",
+    "custo": 1.29
+  },
+  {
+    "codigo": "6289",
+    "descricao": "CURVA VERTICAL INTERNA PARA ELETROCALHA 100MM",
+    "custo": 1.11
+  },
+  {
+    "codigo": "6290",
+    "descricao": "EMENDA PARA ELETROCALHA 100MM X 50 MM",
+    "custo": 0.7
+  },
+  {
+    "codigo": "6292",
+    "descricao": "CRUZETA PARA ELETROCALHA 100MM",
+    "custo": 3.31
+  },
+  {
+    "codigo": "6294",
+    "descricao": "CURVA HORIZONTAL PARA ELETROCALHA 100MM",
+    "custo": 1.39
+  },
+  {
+    "codigo": "6295",
+    "descricao": "CURVA VERTICAL EXTERNA PARA ELETROCALHA 100MM",
+    "custo": 1.0
+  },
+  {
+    "codigo": "6304",
+    "descricao": "RACK HORIZONTAL 4 CANAIS HD8000",
+    "custo": 67.45
+  },
+  {
+    "codigo": "6305",
+    "descricao": "RACK ORG MET CONVERSOR HD8000 16CH  PVT HORIZONTAL",
+    "custo": 145.6
+  },
+  {
+    "codigo": "6306",
+    "descricao": "CATRACA PARA DEFICIENTE S/ ACESSORIOS",
+    "custo": 345.45
+  },
+  {
+    "codigo": "6309",
+    "descricao": "SWITCH 8 PORTAS  SF 800 Q+",
+    "custo": 8.53
+  },
+  {
+    "codigo": "6310",
+    "descricao": "CAMERA INFRA DOME COM LENTE 2.8MM VM 1120",
+    "custo": 21.69
+  },
+  {
+    "codigo": "6312",
+    "descricao": "STAND ALONE 16 CANAIS  MHDX 1116",
+    "custo": 166.48
+  },
+  {
+    "codigo": "6315",
+    "descricao": "TRANSMISSOR - CONTROLE REMOTO P/ CENTRAL DE CHOQUE",
+    "custo": 3.64
+  },
+  {
+    "codigo": "6316",
+    "descricao": "LUVA GALVANIZADA  1''",
+    "custo": 0.34
+  },
+  {
+    "codigo": "6317",
+    "descricao": "TOMADA CONDULETE 10A REDONDA 2P+T",
+    "custo": 0.49
+  },
+  {
+    "codigo": "6318",
+    "descricao": "TAMPAO CONDULETE PLÁSTICO 1''",
+    "custo": 0.04
+  },
+  {
+    "codigo": "6319",
+    "descricao": "ESPELHO PARA TOMADA  2P+T, P/ CONDULETE 1\"",
+    "custo": 0.65
+  },
+  {
+    "codigo": "6321",
+    "descricao": "ELETRODUTO EXPIRAFLEX  1''",
+    "custo": 0.89
+  },
+  {
+    "codigo": "6325",
+    "descricao": "FONTE DE ALIMENTACAO ININTERRUPTA FA1220S",
+    "custo": 28.0
+  },
+  {
+    "codigo": "6328",
+    "descricao": "SEALTUBO 1\"",
+    "custo": 1.61
+  },
+  {
+    "codigo": "6330",
+    "descricao": "ESPIRAFLEX   1''",
+    "custo": 0.91
+  },
+  {
+    "codigo": "6335",
+    "descricao": "CABO PP - 2X1,50MM",
+    "custo": 0.72
+  },
+  {
+    "codigo": "6336",
+    "descricao": "REGUA ELETRICA 3 TOMADAS 3 PINOS",
+    "custo": 2.89
+  },
+  {
+    "codigo": "6337",
+    "descricao": "FITA ALTA FUSÃO   19MM X 10M",
+    "custo": 4.96
+  },
+  {
+    "codigo": "6339",
+    "descricao": "RELÉ FOTOELETRICO   RM-74/NF 220V",
+    "custo": 3.71
+  },
+  {
+    "codigo": "6340",
+    "descricao": "CABO COAXIAL TRIPOLAR DUPLA BLINDAGEM 80%",
+    "custo": 0.16
+  },
+  {
+    "codigo": "6342",
+    "descricao": "ARRUELA DE ALUMINIO 3/4",
+    "custo": 0.08
+  },
+  {
+    "codigo": "6343",
+    "descricao": "\"ARRUELA DE ALUMINIO 1\"\"\"",
+    "custo": 0.14
+  },
+  {
+    "codigo": "6344",
+    "descricao": "BASE PARA FOTOCELULA",
+    "custo": 1.18
+  },
+  {
+    "codigo": "6345",
+    "descricao": "FONTE   12V AC/DC X 15A",
+    "custo": 12.71
+  },
+  {
+    "codigo": "6346",
+    "descricao": "CAMERA INFRA VHD 3130 B G4 3,6MM BULLET",
+    "custo": 66.0
+  },
+  {
+    "codigo": "6347",
+    "descricao": "STAND ALONE 8 CANAIS HDCVI 1008",
+    "custo": 114.34
+  },
+  {
+    "codigo": "6348",
+    "descricao": "MOTOR ANALOGICO PPA RIO DZ 1/4",
+    "custo": 62.18
+  },
+  {
+    "codigo": "6349",
+    "descricao": "CREMALHEIRA PARA O MOTOR PPA RIO 1.4 - FERRO",
+    "custo": 10.0
+  },
+  {
+    "codigo": "6350",
+    "descricao": "STAND ALONE 8 CH AHD 720P - AHD/CVBS/IP - S/HD CLE",
+    "custo": 45.33
+  },
+  {
+    "codigo": "6353",
+    "descricao": "CAIXA ORGANIZADORA DE CABOS",
+    "custo": 0.74
+  },
+  {
+    "codigo": "6358",
+    "descricao": "STAND ALONE 16 CANAIS  MHDX 3116",
+    "custo": 255.16
+  },
+  {
+    "codigo": "6360",
+    "descricao": "NOBREAK   1200 VA",
+    "custo": 142.88
+  },
+  {
+    "codigo": "6366",
+    "descricao": "STAND ALONE 16 CH AHD 720P - AHD/CVBS/IP - S/HD, M",
+    "custo": 99.09
+  },
+  {
+    "codigo": "6367",
+    "descricao": "ESPAGUETE TUBO TERMO RETRATIL   4.8MM",
+    "custo": 0.29
+  },
+  {
+    "codigo": "6373",
+    "descricao": "CÂMERA IP DOME VIP S4020",
+    "custo": 30.89
+  },
+  {
+    "codigo": "6374",
+    "descricao": "ESPIRAFLEX   2''",
+    "custo": 2.33
+  },
+  {
+    "codigo": "6377",
+    "descricao": "TAMPAO CONDULETE PLÁSTICO 3/4.",
+    "custo": 0.04
+  },
+  {
+    "codigo": "6378",
+    "descricao": "CONJ. AUTO. MOV. P. BV CONDOMINIUM JET FLEX HIBRID",
+    "custo": 194.54
+  },
+  {
+    "codigo": "6380",
+    "descricao": "MOTOR  PPA RIO DZ 1/4 JET FLEX",
+    "custo": 91.45
+  },
+  {
+    "codigo": "6390",
+    "descricao": "RECEPTOR   CTW-4A WIEGAND HCS",
+    "custo": 61.8
+  },
+  {
+    "codigo": "6391",
+    "descricao": "CANALETA FINA 20X10 ADESIVADA",
+    "custo": 0.59
+  },
+  {
+    "codigo": "6394",
+    "descricao": "CONVERSOR BALUN PASSIVO  XBP 502 HD",
+    "custo": 13.11
+  },
+  {
+    "codigo": "6398",
+    "descricao": "CAIXA DE PASSAGEM OCTOGONAL 4 X 4",
+    "custo": 0.64
+  },
+  {
+    "codigo": "6400",
+    "descricao": "CAIXA PROTEÇÃO GRADEADA PARA CAMERA  20 X 20",
+    "custo": 9.02
+  },
+  {
+    "codigo": "6401",
+    "descricao": "CANALETA ABERTA 80 X 80 X 2000 M HELADUCT",
+    "custo": 16.04
+  },
+  {
+    "codigo": "6403",
+    "descricao": "CABO COAXIAL HD 4019",
+    "custo": 0.29
+  },
+  {
+    "codigo": "6404",
+    "descricao": "CAMERA DOME HDCVI HORUS 1MP CMOS 1280X720P 3.6MM I",
+    "custo": 12.68
+  },
+  {
+    "codigo": "6405",
+    "descricao": "CÂMERA BOX HDCVI 1MP CMOS 1MP 1280X720P 3.6MM IR20",
+    "custo": 14.31
+  },
+  {
+    "codigo": "6406",
+    "descricao": "CÂMERA BOX 2MP CMOS EXMOR 3.6 IR20 IMX322",
+    "custo": 18.59
+  },
+  {
+    "codigo": "6407",
+    "descricao": "CENTRAL DE CHOQUE JFL ECR 18-I PLUS",
+    "custo": 42.28
+  },
+  {
+    "codigo": "6415",
+    "descricao": "BANDEJA FIXA P/ RACK 12U",
+    "custo": 17.65
+  },
+  {
+    "codigo": "6416",
+    "descricao": "RACK 32U",
+    "custo": 238.18
+  },
+  {
+    "codigo": "6417",
+    "descricao": "CAMERA INFRA 20MTS BULLET VM3120 C/ LENTE 2.8MM",
+    "custo": 30.2
+  },
+  {
+    "codigo": "6418",
+    "descricao": "POWER BALUN PASSIVO 04 CANAIS VBP A04C",
+    "custo": 84.41
+  },
+  {
+    "codigo": "6421",
+    "descricao": "RACK OUTDOOR 6U X 19 X 470MM",
+    "custo": 181.63
+  },
+  {
+    "codigo": "6423",
+    "descricao": "CABO DE FIBRA OPTICA -SM -4FO",
+    "custo": 1.33
+  },
+  {
+    "codigo": "6424",
+    "descricao": "INJETOR   POE 802.3AF/ AT GIGABIT ETHERNET POE 200",
+    "custo": 30.23
+  },
+  {
+    "codigo": "6425",
+    "descricao": "CAIXA HERMETICA PVC  17 X 14,5 X 9 cm",
+    "custo": 4.54
+  },
+  {
+    "codigo": "6426",
+    "descricao": "RASTREADOR MAXTRACK MXT 160",
+    "custo": 29.64
+  },
+  {
+    "codigo": "6427",
+    "descricao": "CABO DE REDE  CAT6 OUTDOOR AUTO SUSTENTAVEL",
+    "custo": 0.45
+  },
+  {
+    "codigo": "6432",
+    "descricao": "FIBRA OPTICA MULTIMODO 4 FIBRAS, NUCLEO 50 - AUTO",
+    "custo": 0.29
+  },
+  {
+    "codigo": "6433",
+    "descricao": "BANDEJA RACK 10U FIXA 450MM",
+    "custo": 12.98
+  },
+  {
+    "codigo": "6436",
+    "descricao": "RACK 10U X 450MM",
+    "custo": 55.17
+  },
+  {
+    "codigo": "6437",
+    "descricao": "CONVERSOR FIBRA OPTICA 2VIDEOS FULL HD 1080, CONEC",
+    "custo": 95.82
+  },
+  {
+    "codigo": "6438",
+    "descricao": "CONVERSOR FIBRA OPTICA 2VIDEOS FULL HD 1080, CONEC",
+    "custo": 95.82
+  },
+  {
+    "codigo": "6439",
+    "descricao": "CONVERSOR FIBRA OPTICA 4VIDEOS FULL HD 1080, CONEC",
+    "custo": 127.27
+  },
+  {
+    "codigo": "6440",
+    "descricao": "CONVERSOR FIBRA OPTICA 4VIDEOS FULL HD 1080, CONEC",
+    "custo": 127.27
+  },
+  {
+    "codigo": "6441",
+    "descricao": "CONVERSOR FIBRA OPTICA 8VIDEOS FULL HD 1080, CONEC",
+    "custo": 342.18
+  },
+  {
+    "codigo": "6442",
+    "descricao": "CONVERSOR FIBRA OPTICA 8VIDEOS FULL HD 1080, CONEC",
+    "custo": 342.18
+  },
+  {
+    "codigo": "6445",
+    "descricao": "CAIXA HERMETICA PVC  30 x 22 x 12",
+    "custo": 9.53
+  },
+  {
+    "codigo": "6446",
+    "descricao": "SWITCH 9 PORTAS FAST C/ 8 PORTAS POE+ SF 900 POE",
+    "custo": 143.51
+  },
+  {
+    "codigo": "6447",
+    "descricao": "CORDAO OPTICO DUPLEX SM -UPC/SC-UPC 2,5M",
+    "custo": 20.31
+  },
+  {
+    "codigo": "6448",
+    "descricao": "FIBRA OPTICA MONOMODO  6 VIAS SM",
+    "custo": 0.2
+  },
+  {
+    "codigo": "6449",
+    "descricao": "CABO P/ BATERIA",
+    "custo": 18.18
+  },
+  {
+    "codigo": "6450",
+    "descricao": "QUADRO DE COMANDO 40 X 40 X 20",
+    "custo": 59.67
+  },
+  {
+    "codigo": "6451",
+    "descricao": "FITA DUPLA FACE TRANSPARENTE 12MM  X 20MTS - 3M",
+    "custo": 7.65
+  },
+  {
+    "codigo": "6466",
+    "descricao": "SUPORTE DE PAREDE PARA SPEED DOME   XSD101",
+    "custo": 20.11
+  },
+  {
+    "codigo": "6467",
+    "descricao": "RASTREADOR SUNTECH - ST310U",
+    "custo": 34.36
+  },
+  {
+    "codigo": "6470",
+    "descricao": "SWITCH 08 PORTAS 10/100",
+    "custo": 8.67
+  },
+  {
+    "codigo": "6472",
+    "descricao": "TAMPA CEGA GALVANIZADA 3/4.",
+    "custo": 0.5
+  },
+  {
+    "codigo": "6476",
+    "descricao": "ALICATE DESCAPADOR  RJ45/ RJ11",
+    "custo": 5.27
+  },
+  {
+    "codigo": "6477",
+    "descricao": "PARAFUSO C/ PORCA GAIOLA",
+    "custo": 0.21
+  },
+  {
+    "codigo": "6478",
+    "descricao": "FERRAMENTA PUNCH DOWN HT 3140 - INTERNEED",
+    "custo": 3.45
+  },
+  {
+    "codigo": "6479",
+    "descricao": "AMPLIFICADOR FRAHM SLIM 1000 USB/ FM/ST",
+    "custo": 72.65
+  },
+  {
+    "codigo": "6480",
+    "descricao": "CAIXA ACUSTICA BRANCA CSR 75M",
+    "custo": 24.36
+  },
+  {
+    "codigo": "6481",
+    "descricao": "ARANDELA BSA R3",
+    "custo": 17.58
+  },
+  {
+    "codigo": "6483",
+    "descricao": "DETECTOR DE TEMPERATURA DUAL  TS300",
+    "custo": 86.8
+  },
+  {
+    "codigo": "6487",
+    "descricao": "DETECTOR TRITECH -  ISC-PDL1-WA18G, SERIE PRO",
+    "custo": 79.39
+  },
+  {
+    "codigo": "6488",
+    "descricao": "DETECTOR TRITECH  ISC-WP12G, BLUE LINE 12M PET",
+    "custo": 30.2
+  },
+  {
+    "codigo": "6490",
+    "descricao": "CONECTOR P2",
+    "custo": 0.36
+  },
+  {
+    "codigo": "6491",
+    "descricao": "ELETROCALHA VENTILADA 80 X 80 X 2MTS. PVC C/ TAMPA",
+    "custo": 15.27
+  },
+  {
+    "codigo": "6494",
+    "descricao": "NOBREAK VEICULAR SG 1500 24 V",
+    "custo": 117.89
+  },
+  {
+    "codigo": "6495",
+    "descricao": "SISTEMA DIGIFORT PROFISSIONAL PARA WINDOWS - PACK",
+    "custo": 249.71
+  },
+  {
+    "codigo": "6504",
+    "descricao": "SOFTWARE D GUARD PROJECTS - CAMERAS IP (PACK) 4",
+    "custo": 194.55
+  },
+  {
+    "codigo": "6506",
+    "descricao": "INTERFONE IP INTERCON 101 ETHERNET",
+    "custo": 235.98
+  },
+  {
+    "codigo": "6508",
+    "descricao": "PATCH PANEL CAT 5",
+    "custo": 50.36
+  },
+  {
+    "codigo": "6509",
+    "descricao": "RECEPTOR HCS MULTIFUNÇÃO-4A RMF 3004",
+    "custo": 133.68
+  },
+  {
+    "codigo": "6510",
+    "descricao": "LEITOR DE CARTÃO DE PROXIMIDADE E BIOMETRIA FR-120",
+    "custo": 125.27
+  },
+  {
+    "codigo": "6512",
+    "descricao": "CHAVEIRO TAG RFID 125 KHZ",
+    "custo": 0.54
+  },
+  {
+    "codigo": "6513",
+    "descricao": "CONTROLADORA CT 500 4PB",
+    "custo": 636.35
+  },
+  {
+    "codigo": "6515",
+    "descricao": "CAIXA DE PASSAGEM GALVANIZADA  1\"",
+    "custo": 1.62
+  },
+  {
+    "codigo": "6516",
+    "descricao": "CAMERA SPEED DOME - VIP 5225 SD",
+    "custo": 650.22
+  },
+  {
+    "codigo": "6520",
+    "descricao": "RACK 16U COM REGUA DE 06 TOMADAS",
+    "custo": 136.97
+  },
+  {
+    "codigo": "6521",
+    "descricao": "RACK19 16U C/REGUA 6T",
+    "custo": 150.36
+  },
+  {
+    "codigo": "6522",
+    "descricao": "HASTE LISA DE METALON 40 X 40 X 1,00MT",
+    "custo": 2.55
+  },
+  {
+    "codigo": "6523",
+    "descricao": "DETECTOR AUTOMATICO DE INCENDIO, FAP- 42-O-R2, BOS",
+    "custo": 32.18
+  },
+  {
+    "codigo": "6526",
+    "descricao": "NB LENOVO 80 UF0000BR V3 1 0",
+    "custo": 349.09
+  },
+  {
+    "codigo": "6527",
+    "descricao": "SENSOR MICROONDAS  IVP 3000 MW",
+    "custo": 29.22
+  },
+  {
+    "codigo": "6528",
+    "descricao": "STAND ALONE 4 CANAIS MHDX 504 INTELBRAS MULTI HD",
+    "custo": 58.82
+  },
+  {
+    "codigo": "6529",
+    "descricao": "CONVERSOR DE VIDEO BALUN PAR, MOD.  XBP 502A 300MT",
+    "custo": 13.11
+  },
+  {
+    "codigo": "6530",
+    "descricao": "CONTROLE DE ACESSO BIOMETRICO    BIO INOX PLUS SS3",
+    "custo": 256.16
+  },
+  {
+    "codigo": "6531",
+    "descricao": "VIDEO PORTEIRO RESIDENCIAL - IVR 1010 HS",
+    "custo": 83.77
+  },
+  {
+    "codigo": "6533",
+    "descricao": "ADAPTADOR IP PARA TELEFONE ANALOGICO ATA GKM2210 T",
+    "custo": 38.85
+  },
+  {
+    "codigo": "6534",
+    "descricao": "CARTÃO DE PROXIMIDADE 125KHZ FLEXPASS CLAMSHELL IN",
+    "custo": 0.74
+  },
+  {
+    "codigo": "6541",
+    "descricao": "SERVIDOR HP ML30 G9 (TECLADO + MOUSE)",
+    "custo": 487.66
+  },
+  {
+    "codigo": "6542",
+    "descricao": "STAND ALONE MULTI HD INTELBRAS MHDX 1008 - 08 CANA",
+    "custo": 114.34
+  },
+  {
+    "codigo": "6545",
+    "descricao": "CANALETA PISO HELAPISO 3 VIAS 52X14MM 2M HP2  HELL",
+    "custo": 10.0
+  },
+  {
+    "codigo": "6551",
+    "descricao": "CREMALHEIRA PARA O MOTOR  DZ 1500",
+    "custo": 13.45
+  },
+  {
+    "codigo": "6552",
+    "descricao": "EXPANSOR 08 ZONAS 4219",
+    "custo": 44.02
+  },
+  {
+    "codigo": "6554",
+    "descricao": "SITUATOR PROJECTS - PACK LICENÇA PARA ADICIONAR 32",
+    "custo": 540.0
+  },
+  {
+    "codigo": "6557",
+    "descricao": "TAMPA PARA LEITORA FP0500A, INDALA - ARCH SLIM PRE",
+    "custo": 11.06
+  },
+  {
+    "codigo": "6560",
+    "descricao": "CAMERA DE TV P/ SIST. SEG. VHD 1220 D FULL HD",
+    "custo": 28.02
+  },
+  {
+    "codigo": "6561",
+    "descricao": "CAMERA DE TV P/ SIST. SEG. VHD 1220 B FULL HD-G4",
+    "custo": 31.97
+  },
+  {
+    "codigo": "6562",
+    "descricao": "TAMPA CONDULETE ALUMINIO 1\" PARA TOMADA DUPLA",
+    "custo": 0.65
+  },
+  {
+    "codigo": "6563",
+    "descricao": "TAMPA CONDULETE ALUMINIO 1\" PARA 2 TOMADA RJ45",
+    "custo": 1.31
+  },
+  {
+    "codigo": "6564",
+    "descricao": "CONECTOR RJ45 FEMEA",
+    "custo": 3.36
+  },
+  {
+    "codigo": "6565",
+    "descricao": "SENSOR INFRAVERMELHO IR PET-500",
+    "custo": 6.55
+  },
+  {
+    "codigo": "6566",
+    "descricao": "SENSOR MICROONDAS DUALTEC 550.",
+    "custo": 16.36
+  },
+  {
+    "codigo": "6567",
+    "descricao": "CENTRAL DE ALARME C/ TECLADO PROT ACTIVE GPRS",
+    "custo": 70.93
+  },
+  {
+    "codigo": "6568",
+    "descricao": "PLACA INVERSORA PORTA SOCIAL DE GIRO",
+    "custo": 161.09
+  },
+  {
+    "codigo": "6570",
+    "descricao": "RECEPTOR  INTELBRAS XAR 4000 SMART",
+    "custo": 19.72
+  },
+  {
+    "codigo": "6571",
+    "descricao": "CONTROLE REMOTO INTELBRAS XAC 2000 TX PRETO",
+    "custo": 3.23
+  },
+  {
+    "codigo": "6572",
+    "descricao": "SENSOR VOLUMÉTRICO  3000 CF",
+    "custo": 6.02
+  },
+  {
+    "codigo": "6573",
+    "descricao": "SIRENE PIEZO ELETRICA LIGHT",
+    "custo": 1.86
+  },
+  {
+    "codigo": "6574",
+    "descricao": "MODULO DE COMUNICAÇÃO GPRS   M300+",
+    "custo": 202.73
+  },
+  {
+    "codigo": "6575",
+    "descricao": "TECLADO LCD INTELBRAS XAT 4000",
+    "custo": 35.23
+  },
+  {
+    "codigo": "6576",
+    "descricao": "TECLADO VIAWEB 32S",
+    "custo": 15.47
+  },
+  {
+    "codigo": "6577",
+    "descricao": "SENSOR MAGNETICO VIA WEB SMART (SEM FIO)",
+    "custo": 4.48
+  },
+  {
+    "codigo": "6578",
+    "descricao": "SENSOR IVPD SMART SEM FIO",
+    "custo": 15.39
+  },
+  {
+    "codigo": "6579",
+    "descricao": "RECEPTOR SMART 1212 VIA SMART",
+    "custo": 20.65
+  },
+  {
+    "codigo": "6580",
+    "descricao": "TECLADO VIA WEB 16 S",
+    "custo": 9.41
+  },
+  {
+    "codigo": "6582",
+    "descricao": "TECLADO TOUCH BRANCO",
+    "custo": 28.06
+  },
+  {
+    "codigo": "6583",
+    "descricao": "CENTRAL VW16ZGPRS IP KIT STAR COM CX",
+    "custo": 85.75
+  },
+  {
+    "codigo": "6586",
+    "descricao": "SELENOIDE DA CATRACA PEDESTAL VIP TUBULAR",
+    "custo": 25.2
+  },
+  {
+    "codigo": "6587",
+    "descricao": "CABO VGA 20M",
+    "custo": 15.45
+  },
+  {
+    "codigo": "6588",
+    "descricao": "CENTRAL DE ALARME  INTELBRAS  AMT 2018 E",
+    "custo": 83.71
+  },
+  {
+    "codigo": "6598",
+    "descricao": "STAND ALONE 8 CANAIS NVD 1108",
+    "custo": 56.16
+  },
+  {
+    "codigo": "6599",
+    "descricao": "CAMERA IP HD VARIFOCAL VIP 1130 DF BULLET - N6050",
+    "custo": 103.09
+  },
+  {
+    "codigo": "6600",
+    "descricao": "CAMERA IP BULLET VIP 1130 VF BULLET",
+    "custo": 64.95
+  },
+  {
+    "codigo": "6601",
+    "descricao": "STAND ALONE 8 CH  - NVD 3108 P",
+    "custo": 220.83
+  },
+  {
+    "codigo": "6603",
+    "descricao": "CAMERA IP MINI DOME S4020 G3",
+    "custo": 39.53
+  },
+  {
+    "codigo": "6604",
+    "descricao": "CAMERA IP FULL HD C/ POE 2MP - VIP 3230 B",
+    "custo": 74.25
+  },
+  {
+    "codigo": "6609",
+    "descricao": "CENTRAL DE ALARME 32 Z - LINHA NEO (NAO USAR)",
+    "custo": 57.4
+  },
+  {
+    "codigo": "6614",
+    "descricao": "COMUNICADOR DE ALARME INTERNET. LINHA NEO",
+    "custo": 86.36
+  },
+  {
+    "codigo": "6615",
+    "descricao": "BOTAO INOX AC6904",
+    "custo": 12.72
+  },
+  {
+    "codigo": "6616",
+    "descricao": "STAND ALONE DIGITAL DE VÍDEO 16 CANAIS INTELBRAS M",
+    "custo": 156.79
+  },
+  {
+    "codigo": "6618",
+    "descricao": "FONTE PARA STAND ALONE  12V 5A",
+    "custo": 15.31
+  },
+  {
+    "codigo": "6620",
+    "descricao": "CONECTOR CONDULETE P/ CAIXA DE PASSAGEM GALV. 1",
+    "custo": 0.36
+  },
+  {
+    "codigo": "6621",
+    "descricao": "CABO FLEXIVEL 1,5MM",
+    "custo": 0.14
+  },
+  {
+    "codigo": "6623",
+    "descricao": "CASE K VOICE",
+    "custo": 45.45
+  },
+  {
+    "codigo": "6625",
+    "descricao": "AUTOMATIZADOR PORTÃO DESLIZANTE DE ATE 400 KG",
+    "custo": 76.35
+  },
+  {
+    "codigo": "6628",
+    "descricao": "RECEPTOR  INTELBRAS XAR 4000 SMART",
+    "custo": 20.51
+  },
+  {
+    "codigo": "6629",
+    "descricao": "STAND ALONE MULTI HD MHDX 1032",
+    "custo": 310.29
+  },
+  {
+    "codigo": "6631",
+    "descricao": "CENTRAL VW8Z GPRS IP",
+    "custo": 61.68
+  },
+  {
+    "codigo": "6633",
+    "descricao": "ESPIRAL ORGANIZADOR DE FIOS E CABOS",
+    "custo": 1.19
+  },
+  {
+    "codigo": "6644",
+    "descricao": "CONTROLE REMOTO VIAWEB SMART",
+    "custo": 3.9
+  },
+  {
+    "codigo": "6645",
+    "descricao": "BALUN CONVERSOR BNC PARA P4 RACK ONIX",
+    "custo": 3.64
+  },
+  {
+    "codigo": "6649",
+    "descricao": "CABO FLEXIVEL VERMELHO 1,5 MM P/ ATERRAMENTO",
+    "custo": 0.29
+  },
+  {
+    "codigo": "6650",
+    "descricao": "CONVERSOR DE MIDIA FAST MONO 20 KM WDM-KFSD 1120 A",
+    "custo": 58.61
+  },
+  {
+    "codigo": "6651",
+    "descricao": "CONVERSOR DE MIDIA FAST MONO 20 KM WDM-KFSD 1120 B",
+    "custo": 58.37
+  },
+  {
+    "codigo": "6652",
+    "descricao": "LEITOR BIOMETRICO COM RFID LE 311E",
+    "custo": 144.35
+  },
+  {
+    "codigo": "6653",
+    "descricao": "ACIONADOR DE EMERGENCIA REARMAVEL AS2010",
+    "custo": 21.17
+  },
+  {
+    "codigo": "6657",
+    "descricao": "CASE EM ACRILICO 2,4MM PARA BIÔMETRO",
+    "custo": 4.55
+  },
+  {
+    "codigo": "6659",
+    "descricao": "CONTROLE REMOTO INTELBRAS XAC 4000 SMART CONTROL P",
+    "custo": 3.59
+  },
+  {
+    "codigo": "6660",
+    "descricao": "RECEPTOR UNIVERSAL XAR 3060 UN 4540012 IP2 N3",
+    "custo": 15.67
+  },
+  {
+    "codigo": "6664",
+    "descricao": "CAMERA DE SEGURANÇA WI-FI HD IC3",
+    "custo": 39.62
+  },
+  {
+    "codigo": "6665",
+    "descricao": "CANALETA EM ALUMINIO COM TAMPA 2 MT",
+    "custo": 24.55
+  },
+  {
+    "codigo": "6671",
+    "descricao": "DISCO RIGIDO INTERNO WD 4TB PURBLE",
+    "custo": 178.18
+  },
+  {
+    "codigo": "6672",
+    "descricao": "CAMERA DOME IP 1 MEGA GIGA",
+    "custo": 26.73
+  },
+  {
+    "codigo": "6674",
+    "descricao": "SENSOR VOLUMÉTRICO  IRD-640 PET 30KG",
+    "custo": 15.45
+  },
+  {
+    "codigo": "6675",
+    "descricao": "CAMERA BULLET HD-TVI IR 20 MTS 1536 2.8MM IP66 3MP",
+    "custo": 37.22
+  },
+  {
+    "codigo": "6677",
+    "descricao": "CENTRAL DE ALARME DE INCÊNDIO CONVENCIONAL   (CIE",
+    "custo": 226.03
+  },
+  {
+    "codigo": "6678",
+    "descricao": "SINALIZADOR AUDIVISUAL CONVENCIONAL   SAV420C",
+    "custo": 9.65
+  },
+  {
+    "codigo": "6679",
+    "descricao": "ACIONADOR MANUAL CONVENCIONAL (AMC 420) (NAO USAR)",
+    "custo": 7.34
+  },
+  {
+    "codigo": "6684",
+    "descricao": "CENTRAL DE ALARME  JFL ACTIVE 32 DUO",
+    "custo": 87.6
+  },
+  {
+    "codigo": "6686",
+    "descricao": "CENTRAL DE ALARME JFL  ACTIVE 20 ULTRA",
+    "custo": 66.44
+  },
+  {
+    "codigo": "6687",
+    "descricao": "CENTRAL DE ALARME  JFL  ACTIVE 20 COM GPRS",
+    "custo": 107.24
+  },
+  {
+    "codigo": "6688",
+    "descricao": "CENTRAL DE ALARME JFL ACTIVE 20 COM ETHERNET",
+    "custo": 79.56
+  },
+  {
+    "codigo": "6689",
+    "descricao": "PLACA ME-04 PARA ACESSO A INTERNET NA CENTRAL",
+    "custo": 27.21
+  },
+  {
+    "codigo": "6690",
+    "descricao": "PLACA PARA ACESSO GPRS NA CENTRAL MGP-04",
+    "custo": 56.26
+  },
+  {
+    "codigo": "6692",
+    "descricao": "SENSOR PASSIVO EXTERNO DSE-830 PET 30KG",
+    "custo": 53.24
+  },
+  {
+    "codigo": "6697",
+    "descricao": "SENSOR DE MOV PASSIVO INTERNO IDX-2001 PET 20KG",
+    "custo": 6.97
+  },
+  {
+    "codigo": "6698",
+    "descricao": "SENSOR VOLUMETRICO IRD-640",
+    "custo": 15.45
+  },
+  {
+    "codigo": "6699",
+    "descricao": "SENSOR VOLUMÉTRICO  TEC-550 PET",
+    "custo": 21.69
+  },
+  {
+    "codigo": "6700",
+    "descricao": "SENSOR DE MOV PASSIVO SEM FIO INTERNO IRS-430I",
+    "custo": 16.14
+  },
+  {
+    "codigo": "6701",
+    "descricao": "SENSOR DE MOV PASSIVO SEM FIO INTERNO PET-510 PET",
+    "custo": 16.64
+  },
+  {
+    "codigo": "6705",
+    "descricao": "SENSOR DE BARREIRA 2 FEIXE 60 METROS IRA 260",
+    "custo": 28.72
+  },
+  {
+    "codigo": "6706",
+    "descricao": "SENSOR DE BARREIRA 2 FEIXE 150 METEROS IRA 360",
+    "custo": 24.91
+  },
+  {
+    "codigo": "6707",
+    "descricao": "SENSOR ATIVO (BARR) DUPLO 2 FEIXE 60 METRO IRA 315",
+    "custo": 29.88
+  },
+  {
+    "codigo": "6710",
+    "descricao": "TECLADO PARA CENTRAL DE ALARME JFL TEC 300",
+    "custo": 22.92
+  },
+  {
+    "codigo": "6714",
+    "descricao": "SENSOR PARA ABERTURA DE JANELA SEM FIO SHC FIT",
+    "custo": 5.6
+  },
+  {
+    "codigo": "6717",
+    "descricao": "SENSOR MICROONDAS  IVP 3000 MW EXTERNO",
+    "custo": 76.91
+  },
+  {
+    "codigo": "6718",
+    "descricao": "SENSOR MAGNÉTICO XAS 4010",
+    "custo": 6.02
+  },
+  {
+    "codigo": "6720",
+    "descricao": "RECEPTOR TETEC. MIC. POR RF RRC - 100 V3 - RRC 100",
+    "custo": 9.47
+  },
+  {
+    "codigo": "6721",
+    "descricao": "RECEPTOR TETEC. MIC.   POR RF RRC - 200 V3",
+    "custo": 11.72
+  },
+  {
+    "codigo": "6722",
+    "descricao": "RECEPTOR TETEC. MIC. POR RF RRC - 400 V3",
+    "custo": 13.97
+  },
+  {
+    "codigo": "6724",
+    "descricao": "CONTROLE REMOTO DIG. RF ROLL. CODE TX FIT",
+    "custo": 3.27
+  },
+  {
+    "codigo": "6726",
+    "descricao": "GRAVADOR DE CAMERA HD DVR DS-7216 HGHI-F1/N 16 CAN",
+    "custo": 147.05
+  },
+  {
+    "codigo": "6728",
+    "descricao": "CABO PARA PROGRAMAR CENTRAIS",
+    "custo": 13.31
+  },
+  {
+    "codigo": "6729",
+    "descricao": "CONECTOR BALUN",
+    "custo": 3.51
+  },
+  {
+    "codigo": "6730",
+    "descricao": "CONECTOR P4 COM BORNE",
+    "custo": 0.2
+  },
+  {
+    "codigo": "6738",
+    "descricao": "DVR 2104 (4 CANAIS, 1 MEGA, 960P, 5 EM 1)",
+    "custo": 76.0
+  },
+  {
+    "codigo": "6740",
+    "descricao": "DVR 1108 (8 CANAIS, 1 MEGA, 960P, 5 EM 1)",
+    "custo": 54.55
+  },
+  {
+    "codigo": "6741",
+    "descricao": "DVR 3308 (8 CANAIS, 3 MEGA, 1536P, 5 EM 1)",
+    "custo": 86.36
+  },
+  {
+    "codigo": "6744",
+    "descricao": "GANCHO PARA CERCA ELETRICA",
+    "custo": 0.24
+  },
+  {
+    "codigo": "6745",
+    "descricao": "ISOLADOR W PARA CERCA ELETRICA",
+    "custo": 0.13
+  },
+  {
+    "codigo": "6746",
+    "descricao": "HASTE PARA CERCA ELETRICA 30X30 COM 6 ISOLADORES W",
+    "custo": 2.04
+  },
+  {
+    "codigo": "6747",
+    "descricao": "HASTE PARA CERCA ELETRICA 30X30 COMPLETA",
+    "custo": 2.73
+  },
+  {
+    "codigo": "6748",
+    "descricao": "HASTE PARA CERCA ELETRICA 40X40 COM 6 ISOLADORES W",
+    "custo": 3.07
+  },
+  {
+    "codigo": "6749",
+    "descricao": "HASTE PARA CERCA ELETRICA 40X40 COMPLETA",
+    "custo": 4.35
+  },
+  {
+    "codigo": "6750",
+    "descricao": "CAMERA IP DS-2CD1001-I (BULLET 1 MEGA 720P 20 METR",
+    "custo": 52.3
+  },
+  {
+    "codigo": "6751",
+    "descricao": "CAMERA IP DS-2CD1101-I (DOME 1 MEGA 720P 20 METROS",
+    "custo": 41.18
+  },
+  {
+    "codigo": "6752",
+    "descricao": "CAMERA IP DS-2CD1023GOE (BULLET 2 MEGA 1080P 20 ME",
+    "custo": 63.67
+  },
+  {
+    "codigo": "6753",
+    "descricao": "CAMERA IP DS-2CD2120F-IS (DOME 2M 1800P 20M IP EXT",
+    "custo": 79.69
+  },
+  {
+    "codigo": "6755",
+    "descricao": "GRAVADOR DE CAMERAS   IP NVR DS-7616NI-Q2 16CH POE",
+    "custo": 407.27
+  },
+  {
+    "codigo": "6759",
+    "descricao": "GRAVADOR DE CAMERAS FULL HD DVR DS-7204HQHI-F1 4 C",
+    "custo": 99.27
+  },
+  {
+    "codigo": "6760",
+    "descricao": "GRAVADOR DE CAMERAS HD DVR DS-7208HGHI-F1 8 CANAIS",
+    "custo": 153.15
+  },
+  {
+    "codigo": "6762",
+    "descricao": "CAMERA, DOME PLAST 1 MEGA 720P 20M 4 EM 1 INT. 2.8",
+    "custo": 16.73
+  },
+  {
+    "codigo": "6763",
+    "descricao": "BATERIA RECARREGAVEL AA 1500 - 7.2V P/ KIT-445",
+    "custo": 15.68
+  },
+  {
+    "codigo": "6764",
+    "descricao": "CAMERA DS-2CE56COT IRPF PLAST. DOME 1MEG.720P 20M",
+    "custo": 13.93
+  },
+  {
+    "codigo": "6765",
+    "descricao": "CAMERA DS-2CE56COT IRPF PLAST. DOME 720P 20 METROS",
+    "custo": 19.64
+  },
+  {
+    "codigo": "6766",
+    "descricao": "CAMERA DS-2CE1ACOT IRP PLAST. BULLET 1MEGA 720P 15",
+    "custo": 18.91
+  },
+  {
+    "codigo": "6767",
+    "descricao": "CAMERA DS-2CE56COT IRMF METAL DOME 1MEGA 720P 20ME",
+    "custo": 19.27
+  },
+  {
+    "codigo": "6769",
+    "descricao": "CAMERA DS-2CE56D1T IRMF METAL DOME 2MEGA 1080P 20M",
+    "custo": 18.16
+  },
+  {
+    "codigo": "6770",
+    "descricao": "CÂMERA BULLET 720P HIKVISION DS-2CE16C0T-IRPF 20M",
+    "custo": 20.9
+  },
+  {
+    "codigo": "6772",
+    "descricao": "CAMERA DS-2CE56DOT IRPF PLAST DOME 2MEGA 1080P 20M",
+    "custo": 22.87
+  },
+  {
+    "codigo": "6773",
+    "descricao": "CAMERA DS-2CE56DOT IRPF PLAST DOME 2MEGA 1080P 20M",
+    "custo": 24.7
+  },
+  {
+    "codigo": "6774",
+    "descricao": "CAMERA DS-2CE16DOT IRP PLAST BULLET 2MEGA 1080P 20",
+    "custo": 31.6
+  },
+  {
+    "codigo": "6775",
+    "descricao": "CAMERA DS-2CE16D0T-IRPF PLAST BULLET 2MEGA 1080P 2",
+    "custo": 22.45
+  },
+  {
+    "codigo": "6776",
+    "descricao": "CANCELA GARD4 COM ECONDER",
+    "custo": 924.53
+  },
+  {
+    "codigo": "6779",
+    "descricao": "ARTICULAÇÃO SEMIELIPTICA - ESQUERDA",
+    "custo": 165.37
+  },
+  {
+    "codigo": "6781",
+    "descricao": "MOLA BALANCEAMENTO 50 MM",
+    "custo": 22.76
+  },
+  {
+    "codigo": "6787",
+    "descricao": "GRAVADOR DE CAMERAS HD DVR DS-7216HGHI-F1/N (16 CA",
+    "custo": 147.05
+  },
+  {
+    "codigo": "6788",
+    "descricao": "GRAVADOR DE CAMERAS FULL HD DVR DS-7216HGHI-K1/N (",
+    "custo": 163.63
+  },
+  {
+    "codigo": "6790",
+    "descricao": "CABO COAXIAL FLEX BIPOLAR 4MM",
+    "custo": 0.15
+  },
+  {
+    "codigo": "6791",
+    "descricao": "CABO COAXIAL FLEXIVEL 4MM BIPOLAR CONDUTTI 100 MET",
+    "custo": 0.15
+  },
+  {
+    "codigo": "6792",
+    "descricao": "STAND ALONE MHDX 1004+HD 1TB INTELBRAS",
+    "custo": 98.36
+  },
+  {
+    "codigo": "6793",
+    "descricao": "CORDAO OPTICO ST/ST MONOMODO 2,5MTS",
+    "custo": 10.18
+  },
+  {
+    "codigo": "6794",
+    "descricao": "CABO COAXIAL FLEXIVEL 4MM BIPOLAR GOLDENTEC",
+    "custo": 0.09
+  },
+  {
+    "codigo": "6795",
+    "descricao": "CABO COAXIAL FLEXIVEL 4MM BIPOLAR MEGATRON",
+    "custo": 0.09
+  },
+  {
+    "codigo": "6800",
+    "descricao": "CONECTOR BNC COM BORNE",
+    "custo": 0.34
+  },
+  {
+    "codigo": "6801",
+    "descricao": "CONECTOR PA COM BORNE FC",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6804",
+    "descricao": "CABO ALTA TENSÃO P/ CERCA ELETRICA 5MM",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6811",
+    "descricao": "FONTE COLMEIA 12V 20 AMPERE",
+    "custo": 13.65
+  },
+  {
+    "codigo": "6814",
+    "descricao": "SENSOR DE DETEC. INFRAVERM DS-520 BUS",
+    "custo": 15.75
+  },
+  {
+    "codigo": "6815",
+    "descricao": "TECLADO DADOS P/ CENTRAL ALARME TEC 300",
+    "custo": 22.93
+  },
+  {
+    "codigo": "6817",
+    "descricao": "SENSOR DE DETEC. MIC INFRAV. IRD 650 DUO S/FIO",
+    "custo": 19.02
+  },
+  {
+    "codigo": "6820",
+    "descricao": "TECLADO PARADOX DE LED K32",
+    "custo": 88.17
+  },
+  {
+    "codigo": "6821",
+    "descricao": "CONVERSOR DE VIDEO BALUN PAR TRANÇADO 400 MTS - AN",
+    "custo": 3.51
+  },
+  {
+    "codigo": "6822",
+    "descricao": "FONTE 24V 5A PARA SPEED DOME",
+    "custo": 28.37
+  },
+  {
+    "codigo": "6824",
+    "descricao": "SENSOR INFRAVERMELHO 8 FEIXOS ATIVO - LINHA IRB 81",
+    "custo": 74.55
+  },
+  {
+    "codigo": "6825",
+    "descricao": "SENSOR INFRAVERMELHO ATIVO - LINHA IRB 1010",
+    "custo": 88.84
+  },
+  {
+    "codigo": "6826",
+    "descricao": "SENSOR INFRAVERMELHO 06 FEIXOS ATIVO - LINHA IRB",
+    "custo": 78.15
+  },
+  {
+    "codigo": "6827",
+    "descricao": "SENSOR INFRAVERMELHO 04 FEIXOS ATIVO - LINHA IRB 4",
+    "custo": 43.95
+  },
+  {
+    "codigo": "6828",
+    "descricao": "SENSOR INFRAVERMELHO 10 FEIXOS ATIVO - LINHA IRB",
+    "custo": 120.81
+  },
+  {
+    "codigo": "6829",
+    "descricao": "CONECTOR R 45",
+    "custo": 0.04
+  },
+  {
+    "codigo": "6830",
+    "descricao": "CAMERA VIO S1220 D G2",
+    "custo": 47.82
+  },
+  {
+    "codigo": "6831",
+    "descricao": "CAMERA VIP S3020 G2",
+    "custo": 43.27
+  },
+  {
+    "codigo": "6832",
+    "descricao": "CAMERA VIP S3230 G2",
+    "custo": 71.15
+  },
+  {
+    "codigo": "6833",
+    "descricao": "GRAVADOR DIGITAL DE VIDEO EM REDE 16 CANAIS NVD 31",
+    "custo": 309.15
+  },
+  {
+    "codigo": "6834",
+    "descricao": "GRAVADOR DIGITAL DE VIDEO EM REDE 8 CANAIS NVD 310",
+    "custo": 149.82
+  },
+  {
+    "codigo": "6836",
+    "descricao": "CHAVEIRO/TAG LINEAR 125KHZ",
+    "custo": 0.96
+  },
+  {
+    "codigo": "6837",
+    "descricao": "MODULO INTERTRAVAMENTO SEM BOTÕES LINEAR",
+    "custo": 44.27
+  },
+  {
+    "codigo": "6838",
+    "descricao": "LEITOR RFID LN-101 LINEAR",
+    "custo": 30.0
+  },
+  {
+    "codigo": "6839",
+    "descricao": "CABO HDMI 30 MTS",
+    "custo": 86.63
+  },
+  {
+    "codigo": "6841",
+    "descricao": "EXPANSOR VW16Z KIT PLUS S/CX METALICA",
+    "custo": 43.61
+  },
+  {
+    "codigo": "6842",
+    "descricao": "MÓDULO I/O TCP/IP COM 8 SAÍDAS E 8 ENTRADAS",
+    "custo": 318.34
+  },
+  {
+    "codigo": "6843",
+    "descricao": "BATERIA PARA RASTREADOR SUNTECH",
+    "custo": 3.6
+  },
+  {
+    "codigo": "6846",
+    "descricao": "HASTE SEMI ELIPTICA 4M",
+    "custo": 107.59
+  },
+  {
+    "codigo": "6847",
+    "descricao": "REFORÇO INTERNO P/ HASTE SEMI ELIPTICA",
+    "custo": 13.58
+  },
+  {
+    "codigo": "6848",
+    "descricao": "CENTRAL DE ALARME INTELBRAS  AMT 4010 SMART NET",
+    "custo": 105.32
+  },
+  {
+    "codigo": "6849",
+    "descricao": "MODULO EXPANSÃO INTELBRAS XEZ 4008 SMART",
+    "custo": 33.89
+  },
+  {
+    "codigo": "6851",
+    "descricao": "MODULO DE COMUNICAÇÃO ETHERNET XE 4000 SMART",
+    "custo": 67.54
+  },
+  {
+    "codigo": "6852",
+    "descricao": "MODULO COMUNICAÇÃO INTELBRAS GPRS XG 4000 SMART",
+    "custo": 56.56
+  },
+  {
+    "codigo": "6858",
+    "descricao": "MOLA BALANCEAMENTO 55MM",
+    "custo": 46.3
+  },
+  {
+    "codigo": "6860",
+    "descricao": "MOLA BALANCEAMENTO 40MM",
+    "custo": 25.83
+  },
+  {
+    "codigo": "6861",
+    "descricao": "DETECTOR DE MASSA METALICA (BICANAL)",
+    "custo": 94.07
+  },
+  {
+    "codigo": "6863",
+    "descricao": "PEDESTAL SUPORTE P/ INTERFONE CURVO",
+    "custo": 24.53
+  },
+  {
+    "codigo": "6864",
+    "descricao": "CABO CONTROLE 4 VIAS X 1MM",
+    "custo": 0.88
+  },
+  {
+    "codigo": "6867",
+    "descricao": "SWITCH 16 PORTAS  1P G 1P SFP SF 1811 POE",
+    "custo": 277.89
+  },
+  {
+    "codigo": "6871",
+    "descricao": "HD SATA 10 TB WD102 PUR",
+    "custo": 544.47
+  },
+  {
+    "codigo": "6873",
+    "descricao": "PATCH PANEL POE 12 PORTAS 3T PLUS FAST ETHERNET",
+    "custo": 60.73
+  },
+  {
+    "codigo": "6877",
+    "descricao": "QUADRO COMANDO  102X80X35",
+    "custo": 257.07
+  },
+  {
+    "codigo": "6878",
+    "descricao": "CAMERA DE TV IP 3230 B INTELBRAS",
+    "custo": 71.15
+  },
+  {
+    "codigo": "6881",
+    "descricao": "CONTROLADORA TRI JOBS FIRMWARE T-PLUS",
+    "custo": 324.51
+  },
+  {
+    "codigo": "6885",
+    "descricao": "SENSOR PARA ABERTURA DE JANELA SHC FIT V2",
+    "custo": 5.6
+  },
+  {
+    "codigo": "6886",
+    "descricao": "RECEPTOR DETEC. MIC. POR RF RRC-400 V2 - JFL",
+    "custo": 11.82
+  },
+  {
+    "codigo": "6887",
+    "descricao": "DESENGRIPANTE SPRAY 300 ML  WD 40",
+    "custo": 6.93
+  },
+  {
+    "codigo": "6888",
+    "descricao": "LEITOR  BIOMÉTRICO LN5-P LINEAR HCS",
+    "custo": 203.54
+  },
+  {
+    "codigo": "6889",
+    "descricao": "ADAPTADOR DE RJ45 PARA VGA",
+    "custo": 4.36
+  },
+  {
+    "codigo": "6892",
+    "descricao": "CONTROLE REMOTO TRANSMISSOR TX 303 MHZ AZUL APPTX3",
+    "custo": 4.09
+  },
+  {
+    "codigo": "6893",
+    "descricao": "MODULO DE COMUNICAÇÃO IP JFL",
+    "custo": 12.81
+  },
+  {
+    "codigo": "6894",
+    "descricao": "STAND ALONE INTELBRAS MHDX+1 HD TB 1016 16 CANAIS",
+    "custo": 165.32
+  },
+  {
+    "codigo": "6895",
+    "descricao": "ENCOLDER PARA MOTOR SOCIAL GIRO PPA",
+    "custo": 8.18
+  },
+  {
+    "codigo": "6896",
+    "descricao": "ROTEADOR MIKROTIK 5 PORTAS GBIT RB750",
+    "custo": 109.04
+  },
+  {
+    "codigo": "6899",
+    "descricao": "NVD 1208",
+    "custo": 67.27
+  },
+  {
+    "codigo": "6902",
+    "descricao": "LEITOR ACURA MIFARE AM-08",
+    "custo": 128.09
+  },
+  {
+    "codigo": "6903",
+    "descricao": "CARTÃO MIFARE",
+    "custo": 1.04
+  },
+  {
+    "codigo": "6907",
+    "descricao": "SENSOR INFRAVERMELHO  IVP 4101 PET SMART",
+    "custo": 22.91
+  },
+  {
+    "codigo": "6910",
+    "descricao": "CONVERSOR DE MIDIA P/  FIBRA  MONOMODO KFS 1120",
+    "custo": 54.22
+  },
+  {
+    "codigo": "6915",
+    "descricao": "CABO HDMI 15MTS",
+    "custo": 19.7
+  },
+  {
+    "codigo": "6916",
+    "descricao": "ADAPTADOR HDMI P/VGA",
+    "custo": 11.84
+  },
+  {
+    "codigo": "6917",
+    "descricao": "GATEWAY VOIP - MAT-41E",
+    "custo": 260.37
+  },
+  {
+    "codigo": "6921",
+    "descricao": "DVR HIBRIDO 16 CANAIS DS-7216HQHI-K1",
+    "custo": 248.06
+  },
+  {
+    "codigo": "6922",
+    "descricao": "TECLADO LCD TEC300",
+    "custo": 19.09
+  },
+  {
+    "codigo": "6923",
+    "descricao": "CONECTOR RJ45 PARA CAT6 / GIGA LAN BLINDADO",
+    "custo": 0.45
+  },
+  {
+    "codigo": "6924",
+    "descricao": "CONTROLE DE ACESSO K1T804EF",
+    "custo": 151.2
+  },
+  {
+    "codigo": "6925",
+    "descricao": "RACK 19 40U (FEHADO COM BANDEJA DE VENTILAÇÃO)",
+    "custo": 276.36
+  },
+  {
+    "codigo": "6926",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (ESEYE)",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6927",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (CLARO)",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6928",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (VODAFONE)",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6929",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (TIM)",
+    "custo": 0.18
+  },
+  {
+    "codigo": "6931",
+    "descricao": "HD PARA DESKTOP 500GB SATA II",
+    "custo": 27.09
+  },
+  {
+    "codigo": "6932",
+    "descricao": "CABO HDMI 20 MTS",
+    "custo": 29.09
+  },
+  {
+    "codigo": "6933",
+    "descricao": "PROTETOR BIVOLTE 110V/220V",
+    "custo": 3.27
+  },
+  {
+    "codigo": "6934",
+    "descricao": "SUPORTE P/ FECHADURA ELETROIMÃ",
+    "custo": 9.09
+  },
+  {
+    "codigo": "6935",
+    "descricao": "FONTE UPS-30 12V",
+    "custo": 21.8
+  },
+  {
+    "codigo": "6940",
+    "descricao": "RABICHO 3 VIAS FIM DE CURSO PARA MOTOR DZ1500",
+    "custo": 0.47
+  },
+  {
+    "codigo": "6941",
+    "descricao": "MODULO DE INTERTRAVAMENTO LINEAR 4 TECLAS",
+    "custo": 86.66
+  },
+  {
+    "codigo": "6944",
+    "descricao": "CORDÃO DUPLEX MM (62.5) LC-SPC/LC SPC 1,5M",
+    "custo": 8.01
+  },
+  {
+    "codigo": "6945",
+    "descricao": "CORDAO OPTICO DUPLEX MULTI MODE (2,5 LC/LC 62,5/12",
+    "custo": 8.01
+  },
+  {
+    "codigo": "6947",
+    "descricao": "LEITOR BIOMÉTRICO  LE 311 MF",
+    "custo": 169.07
+  },
+  {
+    "codigo": "6949",
+    "descricao": "CONTROLE REMOTO INTELBRAS XAC 3000 4K",
+    "custo": 10.59
+  },
+  {
+    "codigo": "6950",
+    "descricao": "DIVISOR DE IMAGEM HDMI  1X2 AMPLIFICADA",
+    "custo": 32.99
+  },
+  {
+    "codigo": "6952",
+    "descricao": "TERMINAL FEMEA  FASTON 6,3MM",
+    "custo": 0.06
+  },
+  {
+    "codigo": "6953",
+    "descricao": "SENSOR VOLUMETRICO PET FRIENDLY PIR",
+    "custo": 14.22
+  },
+  {
+    "codigo": "6955",
+    "descricao": "SENSOR MICROONDAS DETECTOR ISC PDL 1 WA 18G",
+    "custo": 79.39
+  },
+  {
+    "codigo": "6959",
+    "descricao": "CHAVEIRO DE ACESSO POR PROXIMIDADE   XID 1000",
+    "custo": 1.57
+  },
+  {
+    "codigo": "6967",
+    "descricao": "QUADRO DE COMANDO EXTERNO 120X60 CM",
+    "custo": 170.23
+  },
+  {
+    "codigo": "6971",
+    "descricao": "QUADRO DE COMANDO METALICO 40X30X20 COM PLACA DE M",
+    "custo": 61.29
+  },
+  {
+    "codigo": "6972",
+    "descricao": "HASTE 40X40 COMPLETA SUPERCA CERCA 1,20 C/ ESTICAD",
+    "custo": 7.15
+  },
+  {
+    "codigo": "6973",
+    "descricao": "CENTRAL INVERSORA DE FREQUENCIA COM DISSIPADOR",
+    "custo": 118.0
+  },
+  {
+    "codigo": "6974",
+    "descricao": "CONJUNTO DESLIZANTE DZ HOME JETFLEX",
+    "custo": 68.73
+  },
+  {
+    "codigo": "6975",
+    "descricao": "CONJUNTO FIM DE DZ HOME",
+    "custo": 3.09
+  },
+  {
+    "codigo": "6978",
+    "descricao": "CENTRAL ALARME FAMILY CARE WIFI - RESIDENCIAL",
+    "custo": 55.19
+  },
+  {
+    "codigo": "6979",
+    "descricao": "CENTRAL ALARME FAMILY CARE WIFI C/ COMUNICAÇÃO AUX",
+    "custo": 106.07
+  },
+  {
+    "codigo": "6980",
+    "descricao": "SENSOR DE INTRUSÃO S/FIO MAGNET FAMILY CARE",
+    "custo": 17.9
+  },
+  {
+    "codigo": "6981",
+    "descricao": "SENSOR DE MOV SEM FIO FAMILY CARE",
+    "custo": 21.95
+  },
+  {
+    "codigo": "6982",
+    "descricao": "SIRENE SEM FIO FAMILY CARE",
+    "custo": 19.19
+  },
+  {
+    "codigo": "6983",
+    "descricao": "INTERRUPTOR INTELIGENTE FAMILY CARE",
+    "custo": 30.75
+  },
+  {
+    "codigo": "6984",
+    "descricao": "CONTROLE DE SEGURANÇA FAMILY CARE",
+    "custo": 21.95
+  },
+  {
+    "codigo": "6986",
+    "descricao": "PORTA SOCIAL GIRO ALUM 220V 60HZ S/RADAR - PECCINI",
+    "custo": 232.73
+  },
+  {
+    "codigo": "6987",
+    "descricao": "CENTRAL 04 TRIMPOTS LINHA PE 62TXS",
+    "custo": 10.18
+  },
+  {
+    "codigo": "6988",
+    "descricao": "CONJUNTO DE ALAV. DEST DZ IND COM F",
+    "custo": 9.45
+  },
+  {
+    "codigo": "6989",
+    "descricao": "CONTROLE MONIT FAMILY CARE",
+    "custo": 8.18
+  },
+  {
+    "codigo": "6993",
+    "descricao": "SWITCH 24 PORTAS  10/100/1000-SG2404",
+    "custo": 840.37
+  },
+  {
+    "codigo": "6995",
+    "descricao": "CONECTOR RJ45 FEMEA - HAMMER",
+    "custo": 1.09
+  },
+  {
+    "codigo": "6996",
+    "descricao": "CONTROLADORA TRIW FLEX",
+    "custo": 259.64
+  },
+  {
+    "codigo": "6999",
+    "descricao": "SENSOR ATIVO IVA 7100 HEXA",
+    "custo": 85.58
+  },
+  {
+    "codigo": "7002",
+    "descricao": "COMPUTADOR INTEL CORE, HD 500",
+    "custo": 435.27
+  },
+  {
+    "codigo": "7005",
+    "descricao": "CENTRAL COMUNIC 16",
+    "custo": 75.49
+  },
+  {
+    "codigo": "7006",
+    "descricao": "PLACA RAMAIS 8 RAMAIS DESBALANC. COMUNIC 48",
+    "custo": 25.51
+  },
+  {
+    "codigo": "7007",
+    "descricao": "CONVERSOR POWER BALUN 16 CANAIS VBP A16C FULLHD",
+    "custo": 194.19
+  },
+  {
+    "codigo": "7008",
+    "descricao": "RACK DE PISO 19 12U",
+    "custo": 122.07
+  },
+  {
+    "codigo": "7011",
+    "descricao": "CAIXA HERMETICA OUTDOOR 55X42,5X25CM (EXTERNO)",
+    "custo": 67.73
+  },
+  {
+    "codigo": "7012",
+    "descricao": "ROTEADOR ANTENA ELEVADOR CPE 5GHZ WOM 5A SISO G2 1",
+    "custo": 43.21
+  },
+  {
+    "codigo": "7013",
+    "descricao": "HD SATA 3,5\" 8 TB",
+    "custo": 436.35
+  },
+  {
+    "codigo": "7014",
+    "descricao": "CONTROLE REMOTO COM ALCANCE TX-5 DUO FIT",
+    "custo": 2.96
+  },
+  {
+    "codigo": "7016",
+    "descricao": "ELETRODUTO PVC ROSCA 4' - 6 MT - TIGRE",
+    "custo": 22.45
+  },
+  {
+    "codigo": "7017",
+    "descricao": "ELETRODUTO GARGANTA 25MM - TIGRE",
+    "custo": 12.91
+  },
+  {
+    "codigo": "7018",
+    "descricao": "ELETRODUTO GARGANTA 32MM - TIGRE",
+    "custo": 0.46
+  },
+  {
+    "codigo": "7022",
+    "descricao": "CASINHA CEGA PARA TOTEM",
+    "custo": 31.82
+  },
+  {
+    "codigo": "7023",
+    "descricao": "PARAFUSO BROCANTE COST. 12X7/8",
+    "custo": 0.1
+  },
+  {
+    "codigo": "7024",
+    "descricao": "CAIXA PARA CONDULETE TIPO X 2\"",
+    "custo": 5.81
+  },
+  {
+    "codigo": "7025",
+    "descricao": "LEITOR DE CARTÃO RFID MODELO ACULMULTI R03 W26",
+    "custo": 77.72
+  },
+  {
+    "codigo": "7027",
+    "descricao": "CABO FLEXIVEL 6MM",
+    "custo": 1.04
+  },
+  {
+    "codigo": "7028",
+    "descricao": "LUVA PVC  4''",
+    "custo": 5.32
+  },
+  {
+    "codigo": "7029",
+    "descricao": "\"CURVA PARA ELETRODUTO PVC ROSCA 4\"\"\"",
+    "custo": 16.98
+  },
+  {
+    "codigo": "7030",
+    "descricao": "RASTREADOR TELTONIKA FMB920",
+    "custo": 36.36
+  },
+  {
+    "codigo": "7031",
+    "descricao": "CABO MANGA 4 VIAS (FLEXIVEL 26 AWG 72% COM FIOS DE",
+    "custo": 0.78
+  },
+  {
+    "codigo": "7032",
+    "descricao": "CENTRAL PORTÃO AC 4 HALL 433 MHZ",
+    "custo": 20.91
+  },
+  {
+    "codigo": "7037",
+    "descricao": "CAMERA, VHD 3240 FULL COLOR 24HS",
+    "custo": 71.03
+  },
+  {
+    "codigo": "7050",
+    "descricao": "CABO CHICOTE PARA RASTREADOR COM CONECTOR 8 VIAS C",
+    "custo": 1.13
+  },
+  {
+    "codigo": "7055",
+    "descricao": "CAMERA DE TV IP S3020 G3",
+    "custo": 39.07
+  },
+  {
+    "codigo": "7056",
+    "descricao": "CAMERA IP BULLET VIP 1020 B G2 3.6MM",
+    "custo": 49.73
+  },
+  {
+    "codigo": "7067",
+    "descricao": "KIT HILOOK (DVR 4 CN + CAMERA SEG)",
+    "custo": 86.35
+  },
+  {
+    "codigo": "7069",
+    "descricao": "CAMERA DOME DS-CE16COT-IRPF 2,8MM",
+    "custo": 19.99
+  },
+  {
+    "codigo": "7072",
+    "descricao": "HASTE HCC ESTRUTURADA 1,5 MT",
+    "custo": 8.71
+  },
+  {
+    "codigo": "7073",
+    "descricao": "ADAPTADOR ELETRODUTO/CONDULETE GALVA 2\" (N USAR)",
+    "custo": 0.95
+  },
+  {
+    "codigo": "7074",
+    "descricao": "CENTRAL DE COMANDO ROSSI",
+    "custo": 36.82
+  },
+  {
+    "codigo": "7075",
+    "descricao": "IMA 100X20X10",
+    "custo": 1.82
+  },
+  {
+    "codigo": "7076",
+    "descricao": "REED FIM DE CURSO 1,50M",
+    "custo": 5.16
+  },
+  {
+    "codigo": "7077",
+    "descricao": "FECHADURA   PV90 2R CROM C/ PUX C/MAC BOLA",
+    "custo": 52.44
+  },
+  {
+    "codigo": "7080",
+    "descricao": "CONTROLADORA    CT 500 2PB",
+    "custo": 515.82
+  },
+  {
+    "codigo": "7081",
+    "descricao": "SENSOR INFRAVERMELHO  VW QUAID",
+    "custo": 6.7
+  },
+  {
+    "codigo": "7088",
+    "descricao": "PORCA SEXTAVADA 5/16 UNC PO",
+    "custo": 0.02
+  },
+  {
+    "codigo": "7089",
+    "descricao": "ROLDANA 2 U CANAL 1/2 CAIXA ABERTA",
+    "custo": 2.91
+  },
+  {
+    "codigo": "7092",
+    "descricao": "BATERIA DE LITION CR2016 3V",
+    "custo": 2.36
+  },
+  {
+    "codigo": "7097",
+    "descricao": "DISJUNTOR MONOFASICO  20 A",
+    "custo": 1.46
+  },
+  {
+    "codigo": "7098",
+    "descricao": "PLACA EXPANSORA GPRS  2018",
+    "custo": 78.4
+  },
+  {
+    "codigo": "7099",
+    "descricao": "INTERFACE DE COMUNICAÇÃO IP INTELBRAS REMOTE",
+    "custo": 118.98
+  },
+  {
+    "codigo": "7100",
+    "descricao": "MODULO INTELIGENTE DE PORTARIA MIP 1000",
+    "custo": 88.91
+  },
+  {
+    "codigo": "7101",
+    "descricao": "RECEPTOR SCA XRE 1000",
+    "custo": 39.08
+  },
+  {
+    "codigo": "7102",
+    "descricao": "PORTEIRO ELETRONICO 13 TECLAS C/ RFID INTELBRAS XP",
+    "custo": 95.91
+  },
+  {
+    "codigo": "7103",
+    "descricao": "HASTE METALON GALV. TUBULAR 40X40 1.20MT",
+    "custo": 1.93
+  },
+  {
+    "codigo": "7105",
+    "descricao": "CAMERA BULLET CS 1080P OPEN HD SONY EXMOR1080 LENT",
+    "custo": 34.91
+  },
+  {
+    "codigo": "7108",
+    "descricao": "ABRAÇADEIRA DE PLASTICO PRETA UV T18R 10CM X 2,5MM",
+    "custo": 0.03
+  },
+  {
+    "codigo": "7110",
+    "descricao": "MODEM 4G",
+    "custo": 78.55
+  },
+  {
+    "codigo": "7111",
+    "descricao": "KIT HILOOK 8 CAMERAS",
+    "custo": 143.62
+  },
+  {
+    "codigo": "7112",
+    "descricao": "FECHADURA FR 400",
+    "custo": 134.26
+  },
+  {
+    "codigo": "7113",
+    "descricao": "TAG FECHADURA FR 400",
+    "custo": 0.36
+  },
+  {
+    "codigo": "7115",
+    "descricao": "FIBRA ÓPTICA MONOMODO 8 VIAS BLI A/B - PADRÃO ITU-",
+    "custo": 0.68
+  },
+  {
+    "codigo": "7116",
+    "descricao": "ELETRODUTO DUTO KANAFLEX SW 2'",
+    "custo": 1.08
+  },
+  {
+    "codigo": "7117",
+    "descricao": "CABO FLEXIVEL 1 X 2,5 MM2 - PRETO",
+    "custo": 0.4
+  },
+  {
+    "codigo": "7119",
+    "descricao": "DISJUNTOR TRIPOLAR 3KA C-63A",
+    "custo": 15.84
+  },
+  {
+    "codigo": "7120",
+    "descricao": "\"HASTE TERRA S/ ROSCA BC-IH-1058 5/8\"\" X 3M\"",
+    "custo": 11.79
+  },
+  {
+    "codigo": "7122",
+    "descricao": "CABO COBRE NU (19 FIOS) 50MM",
+    "custo": 7.4
+  },
+  {
+    "codigo": "7125",
+    "descricao": "GRAVADOR DIG. DE VIDEO MHDX 1116 C/ HD 3TB",
+    "custo": 225.83
+  },
+  {
+    "codigo": "7126",
+    "descricao": "GRAVADOR DIG. DE VIDEO MHDX 1116 C/ HD 4TB",
+    "custo": 259.73
+  },
+  {
+    "codigo": "7127",
+    "descricao": "CAMERA WI-FI IC3",
+    "custo": 32.18
+  },
+  {
+    "codigo": "7128",
+    "descricao": "ELETRODUTO GALVANIZADO PESADO (6 METROS) 2 1/2'",
+    "custo": 121.9
+  },
+  {
+    "codigo": "7130",
+    "descricao": "PORTEIRO ELETRONICO DEDICADO INTELBRAS XPE 48",
+    "custo": 36.37
+  },
+  {
+    "codigo": "7131",
+    "descricao": "ELETROCALHA 100 X 50 MM",
+    "custo": 10.41
+  },
+  {
+    "codigo": "7133",
+    "descricao": "EMENDA DE PERFILADO  38 X 38",
+    "custo": 0.56
+  },
+  {
+    "codigo": "7134",
+    "descricao": "CURVA ELETROCALHA 20 X 10",
+    "custo": 0.42
+  },
+  {
+    "codigo": "7135",
+    "descricao": "CURVA ELETROCALHA 100 X 50",
+    "custo": 1.75
+  },
+  {
+    "codigo": "7136",
+    "descricao": "BALANÇO DE ELETROCALHA GRAMPO C",
+    "custo": 1.16
+  },
+  {
+    "codigo": "7139",
+    "descricao": "KIT EXPANSAO COMUNICADOR RELATUS 4 LINE (PLACA + D",
+    "custo": 271.64
+  },
+  {
+    "codigo": "7142",
+    "descricao": "TRANSMISSOR CONTROLE REMOTO INTELBRAS XTR 1000",
+    "custo": 5.37
+  },
+  {
+    "codigo": "7145",
+    "descricao": "ALAVANCA MANUAL P/ MOTOR DESLIZANTE",
+    "custo": 10.0
+  },
+  {
+    "codigo": "7146",
+    "descricao": "CÂMERA BULLET IP IR 30M 2MP 1080P",
+    "custo": 61.82
+  },
+  {
+    "codigo": "7147",
+    "descricao": "CÂMERA DOME IP IR 30M 2MP 1080P",
+    "custo": 53.07
+  },
+  {
+    "codigo": "7151",
+    "descricao": "SWITCH 5 PORTAS SF-500 POE",
+    "custo": 56.11
+  },
+  {
+    "codigo": "7152",
+    "descricao": "\"RACK 19\"\" 20 U\"",
+    "custo": 177.73
+  },
+  {
+    "codigo": "7154",
+    "descricao": "CONECTOR RETO FLEXOR C/ ROSCA 3/4",
+    "custo": 0.48
+  },
+  {
+    "codigo": "7155",
+    "descricao": "DISCO RIGIDO INTERNO WD 3TB PURPLE",
+    "custo": 129.43
+  },
+  {
+    "codigo": "7156",
+    "descricao": "FITA AÇO INOX  430 0,50X3/4 X 30M",
+    "custo": 14.53
+  },
+  {
+    "codigo": "7160",
+    "descricao": "GRAVADOR DIG VIDEO NVR HIKVISION DS-7108 NI-Q1 8 C",
+    "custo": 156.83
+  },
+  {
+    "codigo": "7165",
+    "descricao": "LEITOR PROXIMIDADE FP3511A INDALA 125KHZ COM CAPA",
+    "custo": 239.19
+  },
+  {
+    "codigo": "7166",
+    "descricao": "SENSOR VOLUMÉTRICO  5001 PET 20KG 12M",
+    "custo": 8.53
+  },
+  {
+    "codigo": "7167",
+    "descricao": "CÂMERA BULLET AXIS M1124 - BZ-630562",
+    "custo": 384.6
+  },
+  {
+    "codigo": "7169",
+    "descricao": "CÂMERA BULLET AXIS M2025-LE BZ-815309",
+    "custo": 372.09
+  },
+  {
+    "codigo": "7172",
+    "descricao": "CONVERSOR POWER BALUN 6 CANAIS VBP A4C",
+    "custo": 77.21
+  },
+  {
+    "codigo": "7173",
+    "descricao": "CAIXA DE BLOQUEIO OPTICO 6 FIBRAS",
+    "custo": 41.8
+  },
+  {
+    "codigo": "7175",
+    "descricao": "CONVERSOR DE MIDIA MONOMODO WDM FAST 20KM T810SW B",
+    "custo": 30.36
+  },
+  {
+    "codigo": "7176",
+    "descricao": "CONVERSOR DE MIDIA MONOMODO WDM FAST 20KM T810SW A",
+    "custo": 30.36
+  },
+  {
+    "codigo": "7179",
+    "descricao": "BUTTON COM CHAVEIRO P/ RASTREAMENTO",
+    "custo": 1.41
+  },
+  {
+    "codigo": "7180",
+    "descricao": "LEITOR DE BUTTON P/ RASTREAMENTO",
+    "custo": 7.25
+  },
+  {
+    "codigo": "7181",
+    "descricao": "SENSOR   LC151",
+    "custo": 79.09
+  },
+  {
+    "codigo": "7184",
+    "descricao": "SUPORTE PARA POSTE",
+    "custo": 86.03
+  },
+  {
+    "codigo": "7185",
+    "descricao": "SENSOR TETO  IVP 3011",
+    "custo": 18.1
+  },
+  {
+    "codigo": "7186",
+    "descricao": "SENSOR INFRAVERMELHO  PET - IVP 5002",
+    "custo": 14.99
+  },
+  {
+    "codigo": "7188",
+    "descricao": "CHAVE TOQUE 5MM C/DIODO",
+    "custo": 0.18
+  },
+  {
+    "codigo": "7190",
+    "descricao": "CENTRAL COMUNIC 48 - SEM RAMAIS - C/ EMB",
+    "custo": 54.09
+  },
+  {
+    "codigo": "7191",
+    "descricao": "CONTROLE REMOTO 4 TECLAS CROMADO 433 MHZ",
+    "custo": 5.45
+  },
+  {
+    "codigo": "7193",
+    "descricao": "CAMERA DE TV IP VIP 3220 B",
+    "custo": 58.36
+  },
+  {
+    "codigo": "7194",
+    "descricao": "CAMERA DE TV IP DOME VIP 1020 D G2",
+    "custo": 66.9
+  },
+  {
+    "codigo": "7195",
+    "descricao": "GRAVADOR DIG. DE IMAGEM NVD 1216",
+    "custo": 162.5
+  },
+  {
+    "codigo": "7197",
+    "descricao": "CAMERA IP VIP 3220 D",
+    "custo": 66.9
+  },
+  {
+    "codigo": "7200",
+    "descricao": "BROCA A/R 5/32",
+    "custo": 1.34
+  },
+  {
+    "codigo": "7201",
+    "descricao": "UNIDUT 3/4 METALICO COM ROSCA",
+    "custo": 0.26
+  },
+  {
+    "codigo": "7202",
+    "descricao": "CAIXA DISJUNTOR SOBREPOR PVC 1 DISJUNTOR COM BARRA",
+    "custo": 1.77
+  },
+  {
+    "codigo": "7203",
+    "descricao": "CONVERSOR POWER BALUN 8 CANAIS VBP A08C FULL HD",
+    "custo": 131.56
+  },
+  {
+    "codigo": "7207",
+    "descricao": "STAND ALONE DHD 2108N 8CH",
+    "custo": 50.91
+  },
+  {
+    "codigo": "7208",
+    "descricao": "CABO COAXIAL HD-40-75 96%M",
+    "custo": 0.16
+  },
+  {
+    "codigo": "7209",
+    "descricao": "CONECTOR BNC HD 3MM 4019",
+    "custo": 1.36
+  },
+  {
+    "codigo": "7210",
+    "descricao": "CAMERA, MIBO IM3 COM CARTÃO WI-FI",
+    "custo": 45.18
+  },
+  {
+    "codigo": "7211",
+    "descricao": "SENSOR FUMAÇA  DFE 520",
+    "custo": 16.63
+  },
+  {
+    "codigo": "7212",
+    "descricao": "PORTEIRO ELETRONICO INTELBRAS XPE 1001 PLUS ID",
+    "custo": 65.55
+  },
+  {
+    "codigo": "7213",
+    "descricao": "ELETRODUTO GALVANIZADO NBR 5598 3,35 X 3 MTS",
+    "custo": 61.7
+  },
+  {
+    "codigo": "7214",
+    "descricao": "HASTE TERRA S/ROS.BC IH-858 5/8 X 2,40 MTS",
+    "custo": 9.64
+  },
+  {
+    "codigo": "7215",
+    "descricao": "CONECTOR P/ HASTE DE TERRA TH-12-58",
+    "custo": 0.7
+  },
+  {
+    "codigo": "7216",
+    "descricao": "BASCULANTE LEVANTE R JET FLEX 1,5MT",
+    "custo": 124.54
+  },
+  {
+    "codigo": "7223",
+    "descricao": "MODULO GPRS MGP04",
+    "custo": 39.98
+  },
+  {
+    "codigo": "7224",
+    "descricao": "PORTEIRO RESIDENCIAL INTELBRAS IPR 1010",
+    "custo": 26.56
+  },
+  {
+    "codigo": "7225",
+    "descricao": "EXTENSÃO DE AUDIO DE PORTEIROS E VIDEOPORTEIROS",
+    "custo": 16.18
+  },
+  {
+    "codigo": "7226",
+    "descricao": "ARAME ALUMINIO - 1,20MM",
+    "custo": 0.09
+  },
+  {
+    "codigo": "7227",
+    "descricao": "CÂMERA IP 2 MPX HIKVISION DOME (LENTE DE 4MM) -> 2",
+    "custo": 104.76
+  },
+  {
+    "codigo": "7228",
+    "descricao": "CAMERA VIP 1130 POE PASSIVO",
+    "custo": 49.73
+  },
+  {
+    "codigo": "7231",
+    "descricao": "CENTRAL DE ALARME  INTELBRAS AMT 8000 - SEM FIO",
+    "custo": 84.61
+  },
+  {
+    "codigo": "7232",
+    "descricao": "SENSOR MAGNETICO SEM FIO XAS 8000",
+    "custo": 10.17
+  },
+  {
+    "codigo": "7233",
+    "descricao": "SENSOR PASSIVO SEM FIO 8000 PET CAM",
+    "custo": 66.95
+  },
+  {
+    "codigo": "7234",
+    "descricao": "SIRENE  SEM FIO  XSS 8000",
+    "custo": 25.46
+  },
+  {
+    "codigo": "7235",
+    "descricao": "CONTROLE REMOTO PRETO XAC 8000 - SEM FIO",
+    "custo": 7.32
+  },
+  {
+    "codigo": "7236",
+    "descricao": "SENSOR PASSIVO SEM FIO 8000 PET",
+    "custo": 20.82
+  },
+  {
+    "codigo": "7237",
+    "descricao": "TECLADO SEM FIO INTELBRAS XAT 8000",
+    "custo": 32.89
+  },
+  {
+    "codigo": "7241",
+    "descricao": "TOMADA CONDULETE DUPLA 10A ALUMINIO 1\" 2P+T",
+    "custo": 2.23
+  },
+  {
+    "codigo": "7242",
+    "descricao": "TOMADA CONDULETE  RJ45 CAT.5 FÊMEA",
+    "custo": 2.27
+  },
+  {
+    "codigo": "7243",
+    "descricao": "TAMPA CONDULETE ALUMINIO 1\" PARA 1 TOMADA RJ45",
+    "custo": 1.07
+  },
+  {
+    "codigo": "7244",
+    "descricao": "TECLADO PARA CENTRAL DE CHOQUE Z14KP JVA Z25",
+    "custo": 165.7
+  },
+  {
+    "codigo": "7247",
+    "descricao": "CENTRAL DE COMANDO TRIFLEX CONNECT DZ 1500",
+    "custo": 32.73
+  },
+  {
+    "codigo": "7248",
+    "descricao": "INTERFONE IP - MPI-31E - (MIFARE, QRCODE, TECLADO,",
+    "custo": 442.91
+  },
+  {
+    "codigo": "7249",
+    "descricao": "CONDULETES TIPO T 3/4\"",
+    "custo": 1.93
+  },
+  {
+    "codigo": "7250",
+    "descricao": "\"CONDULETES TIPO T 1\"\"\"",
+    "custo": 2.38
+  },
+  {
+    "codigo": "7251",
+    "descricao": "\"CONDULETES TIPO C 3/4\"\"\"",
+    "custo": 1.52
+  },
+  {
+    "codigo": "7252",
+    "descricao": "\"CONDULETES TIPO C 1\"\"\"",
+    "custo": 2.09
+  },
+  {
+    "codigo": "7253",
+    "descricao": "DISCO RIGIDO INTERNO WD 1TB PURPLE",
+    "custo": 69.77
+  },
+  {
+    "codigo": "7254",
+    "descricao": "HD WD PURPLE 2TB",
+    "custo": 91.51
+  },
+  {
+    "codigo": "7256",
+    "descricao": "GRAVADOR DE CAMERA FULL HD DVR DS-7216 HQHI-K2 16",
+    "custo": 168.64
+  },
+  {
+    "codigo": "7257",
+    "descricao": "GRAVADOR DE CAMERAS FULL HD DVR DS-7208HQHI-K1 8 C",
+    "custo": 145.45
+  },
+  {
+    "codigo": "7259",
+    "descricao": "TOMADA DUPLA  SOBREPOR 2P+T 10A",
+    "custo": 1.77
+  },
+  {
+    "codigo": "7260",
+    "descricao": "CONECTOR BNC FEMEA COM MOLA E PARAFUSO",
+    "custo": 0.2
+  },
+  {
+    "codigo": "7265",
+    "descricao": "SOFTWARE WINDOWS 1O PRO",
+    "custo": 130.07
+  },
+  {
+    "codigo": "7266",
+    "descricao": "SENSOR DE TETO PARA ABERTURA JANELA SHC FIT V2",
+    "custo": 3.63
+  },
+  {
+    "codigo": "7267",
+    "descricao": "MODULO RECEPTOR MRF F-01",
+    "custo": 2.0
+  },
+  {
+    "codigo": "7268",
+    "descricao": "CAIXA DE SOBREPOR BR 3X3 (75X75X78MM) SOLAN",
+    "custo": 0.84
+  },
+  {
+    "codigo": "7269",
+    "descricao": "ESPELHO PLASTICO 3X3 BRANCO P/1 RJ45",
+    "custo": 0.57
+  },
+  {
+    "codigo": "7270",
+    "descricao": "ESPELHO PLASTICO 3X3 BRANCO P/2 RJ45",
+    "custo": 0.98
+  },
+  {
+    "codigo": "7271",
+    "descricao": "KIT PARA MAÇANETA FIXA",
+    "custo": 9.09
+  },
+  {
+    "codigo": "7273",
+    "descricao": "EXTENSÃO OPTICA DUPLEX MONOMODO SC 2,5M",
+    "custo": 5.22
+  },
+  {
+    "codigo": "7275",
+    "descricao": "INT P/ALARME/CENT MONIT ALARME MOD REC MR F-01",
+    "custo": 1.62
+  },
+  {
+    "codigo": "7276",
+    "descricao": "TECLADO ENT DADOS P CENTRAL ALARME TEC 300",
+    "custo": 26.17
+  },
+  {
+    "codigo": "7277",
+    "descricao": "SENSOR MICROONDAS INFRA IRS-430I 433MHZ",
+    "custo": 11.54
+  },
+  {
+    "codigo": "7278",
+    "descricao": "FITA DUPLA FACE  VONDER 12MM X 20M",
+    "custo": 7.73
+  },
+  {
+    "codigo": "7283",
+    "descricao": "CANALETA ABERTA 30X50MM HELADUCT",
+    "custo": 5.88
+  },
+  {
+    "codigo": "7284",
+    "descricao": "CORDAO OPTICO ST/ST MONOMODO 2,5MTS",
+    "custo": 1.47
+  },
+  {
+    "codigo": "7290",
+    "descricao": "SENSOR MAGNETICO SEM FIO PGX975",
+    "custo": 35.99
+  },
+  {
+    "codigo": "7291",
+    "descricao": "TECLADO LCD HONEYWELL HS2LCDP",
+    "custo": 100.56
+  },
+  {
+    "codigo": "7292",
+    "descricao": "TRANSCEPTOR   HSM2HOSTX",
+    "custo": 100.56
+  },
+  {
+    "codigo": "7293",
+    "descricao": "REPETIDOR PG 4920",
+    "custo": 111.15
+  },
+  {
+    "codigo": "7294",
+    "descricao": "MODULO DE SAIDA DE BAIXA CORRENTE",
+    "custo": 32.08
+  },
+  {
+    "codigo": "7296",
+    "descricao": "MODULO DE INSTALAÇAO REMOTA DO COMUNICADOR",
+    "custo": 28.54
+  },
+  {
+    "codigo": "7297",
+    "descricao": "SENSOR MICROONDAS  WP12",
+    "custo": 19.91
+  },
+  {
+    "codigo": "7299",
+    "descricao": "CENTRAL DE CHOQUE JVA Z25",
+    "custo": 700.96
+  },
+  {
+    "codigo": "7300",
+    "descricao": "PROTETOR CONTRA SURTOS",
+    "custo": 52.57
+  },
+  {
+    "codigo": "7301",
+    "descricao": "TORNIQUETE CINZA DUO",
+    "custo": 4654.61
+  },
+  {
+    "codigo": "7302",
+    "descricao": "KIT PICTOGRAMA DUO",
+    "custo": 349.03
+  },
+  {
+    "codigo": "7306",
+    "descricao": "D GUARD PROJECTS - CONEXÃO NVR 32",
+    "custo": 242.55
+  },
+  {
+    "codigo": "7307",
+    "descricao": "MODULO ISOLADOR ESTABILIZADO MIE G3 300VA BIV/115V",
+    "custo": 39.05
+  },
+  {
+    "codigo": "7308",
+    "descricao": "INTERFONE AUDIO PORTEIRO GDS 3705 GRANDS (N USAR)",
+    "custo": 290.91
+  },
+  {
+    "codigo": "7314",
+    "descricao": "MODULO GPRS INTELBRAS XAG 8000",
+    "custo": 58.71
+  },
+  {
+    "codigo": "7317",
+    "descricao": "ENCODER P7304 4 CANAIS",
+    "custo": 417.12
+  },
+  {
+    "codigo": "7318",
+    "descricao": "PLACA MONTADA CP48/CP112 LTS C/EMB",
+    "custo": 61.73
+  },
+  {
+    "codigo": "7320",
+    "descricao": "CENTRAL DE ALARME  INTELBRAS AMT 2118 EG",
+    "custo": 120.57
+  },
+  {
+    "codigo": "7321",
+    "descricao": "SENSOR MAGNETICO SEM FIO XAS LIGHT",
+    "custo": 5.81
+  },
+  {
+    "codigo": "7322",
+    "descricao": "CENTRAL DE ALARME  INTELBRAS AMT 4010 SMART",
+    "custo": 71.89
+  },
+  {
+    "codigo": "7323",
+    "descricao": "CAMERA MIBO IM5 WI-FI",
+    "custo": 71.35
+  },
+  {
+    "codigo": "7324",
+    "descricao": "CABO PARALELO 2X1MM BRANCO",
+    "custo": 0.41
+  },
+  {
+    "codigo": "7325",
+    "descricao": "FECHADURA SOLENOIDE  FAIL SAFE FS3010",
+    "custo": 93.63
+  },
+  {
+    "codigo": "7328",
+    "descricao": "MOTOR REDUTOR IRREVERSIVEL COM ENCOLDER P/ FOLHAS",
+    "custo": 157.12
+  },
+  {
+    "codigo": "7329",
+    "descricao": "QUADRO DE COMANDO P/ PORTOES COM 2 FOLHAS BAT",
+    "custo": 120.67
+  },
+  {
+    "codigo": "7330",
+    "descricao": "BRAÇO RETO DE TRANSMISSÃO E GUIA DE DESLIZANTE",
+    "custo": 52.21
+  },
+  {
+    "codigo": "7331",
+    "descricao": "CENTRAL DE CHOQUE ELC 5002 HIGH POWER",
+    "custo": 29.81
+  },
+  {
+    "codigo": "7332",
+    "descricao": "BATERIA UNIPOWER 12V 4,5A",
+    "custo": 10.05
+  },
+  {
+    "codigo": "7340",
+    "descricao": "CENTRAL DE CHOQUE ALIARA",
+    "custo": 436.36
+  },
+  {
+    "codigo": "7342",
+    "descricao": "POSTE 40 X 40 DE PASSAGEM COM 8 FIOS SEM BASE",
+    "custo": 7.36
+  },
+  {
+    "codigo": "7344",
+    "descricao": "TAG CHAVEIRO AZUL MIFARE 13.56MHZ",
+    "custo": 1.09
+  },
+  {
+    "codigo": "7347",
+    "descricao": "T-PLUS (2 TERMINAIS, 1 MODULO, 1 GATEWAY) ATÉ 10.0",
+    "custo": 370.91
+  },
+  {
+    "codigo": "7349",
+    "descricao": "CONTACTOR 006A 220V 50/60HZ 1NA",
+    "custo": 10.17
+  },
+  {
+    "codigo": "7350",
+    "descricao": "QUADRO DE SOBREPOR DE DISTRIBUIÇÃO P/ 2 DISJUNTORE",
+    "custo": 5.23
+  },
+  {
+    "codigo": "7353",
+    "descricao": "CABO FLEXIVEL  AZUL 750V 2,5MM",
+    "custo": 0.4
+  },
+  {
+    "codigo": "7354",
+    "descricao": "CABO FLEXIVEL  VERDE 750V 2,5MM",
+    "custo": 0.36
+  },
+  {
+    "codigo": "7355",
+    "descricao": "CABO FLEXIVEL  VERMELHO 750V 2,5MM",
+    "custo": 0.41
+  },
+  {
+    "codigo": "7356",
+    "descricao": "CHAVEIRO ACIONADOR APROX  RFID TH1000MF",
+    "custo": 0.54
+  },
+  {
+    "codigo": "7357",
+    "descricao": "MOTOR BASCULANTE BR400 FAST 2MT",
+    "custo": 146.11
+  },
+  {
+    "codigo": "7358",
+    "descricao": "RASTREADOR SUNTECH ST390",
+    "custo": 60.95
+  },
+  {
+    "codigo": "7359",
+    "descricao": "RASTREADOR SUNTECH ST500",
+    "custo": 68.56
+  },
+  {
+    "codigo": "7360",
+    "descricao": "RASTREADOR SUNTECH ST340 UR",
+    "custo": 58.91
+  },
+  {
+    "codigo": "7361",
+    "descricao": "RASTREADOR SUNTECH ST410G (SKD)",
+    "custo": 78.47
+  },
+  {
+    "codigo": "7362",
+    "descricao": "CABO CCI 4 X 50 100% COBRE",
+    "custo": 0.27
+  },
+  {
+    "codigo": "7364",
+    "descricao": "ROLDANA DE AÇO 3U C CAIXA 5/8",
+    "custo": 2.89
+  },
+  {
+    "codigo": "7365",
+    "descricao": "FECHADURA DIGITAL  FR 320",
+    "custo": 234.81
+  },
+  {
+    "codigo": "7366",
+    "descricao": "ROLDANA DE AÇO 1/2 2,5 POLEGADAS",
+    "custo": 4.64
+  },
+  {
+    "codigo": "7367",
+    "descricao": "ECLUSA DE ALUMINIO P/ CONDOMINIO",
+    "custo": 909.09
+  },
+  {
+    "codigo": "7368",
+    "descricao": "PORTEIRO RESIDENCIAL IPR 8010",
+    "custo": 32.15
+  },
+  {
+    "codigo": "7369",
+    "descricao": "PROTETOR DE SURTO (DPS) PARA REDE ETHERNET",
+    "custo": 21.08
+  },
+  {
+    "codigo": "7370",
+    "descricao": "TRILHO DIN 35MM",
+    "custo": 1.35
+  },
+  {
+    "codigo": "7371",
+    "descricao": "CÂMERA BULLET IP DS-2CD2021G1-I(2.8MM) FULL HD IR",
+    "custo": 85.45
+  },
+  {
+    "codigo": "7376",
+    "descricao": "CONTROLE CABEADO P/ SELEÇÃO DE TECNOLOGIA",
+    "custo": 2.93
+  },
+  {
+    "codigo": "7377",
+    "descricao": "EXTENSOR HDMI / RJ45 -  30M PASSIVO",
+    "custo": 17.8
+  },
+  {
+    "codigo": "7379",
+    "descricao": "RASTREADOR ST310U SEM CONECTOR",
+    "custo": 24.79
+  },
+  {
+    "codigo": "7380",
+    "descricao": "CHIP DE COMUNICAÇÃO DE DADOS (ARQIA)",
+    "custo": 0.36
+  },
+  {
+    "codigo": "7385",
+    "descricao": "TECLADO LCD  POWERSERIES 64 ZONAS",
+    "custo": 41.81
+  },
+  {
+    "codigo": "7386",
+    "descricao": "CONTROLE REMOTO DE 2 CANAIS COM LCD",
+    "custo": 54.79
+  },
+  {
+    "codigo": "7387",
+    "descricao": "REPETIDOR DE SINAL SEM FIO CENTRAL DE ALARME AMT 8",
+    "custo": 50.86
+  },
+  {
+    "codigo": "7390",
+    "descricao": "\"BOX RETO ALUMINIO 3/4\"\"\"",
+    "custo": 0.48
+  },
+  {
+    "codigo": "7391",
+    "descricao": "\"BOX RETO ALUMINIO 1\"\"\"",
+    "custo": 0.63
+  },
+  {
+    "codigo": "7392",
+    "descricao": "CABO FLEX 1,50MM2 PT",
+    "custo": 0.24
+  },
+  {
+    "codigo": "7393",
+    "descricao": "ACIONADOR MANUAL END S/ SIRENE AME 521 (N USAR)",
+    "custo": 12.99
+  },
+  {
+    "codigo": "7394",
+    "descricao": "ISOLADOR DE LAÇO  IDL 520",
+    "custo": 21.77
+  },
+  {
+    "codigo": "7395",
+    "descricao": "CABO FLEX 1,50MM2 VM",
+    "custo": 0.24
+  },
+  {
+    "codigo": "7396",
+    "descricao": "EXTENSÃO DE AUDIO INTERFONE 1010",
+    "custo": 12.57
+  },
+  {
+    "codigo": "7401",
+    "descricao": "BOTOEIRA COM INFRA VERMELHO",
+    "custo": 17.8
+  },
+  {
+    "codigo": "7402",
+    "descricao": "TRANSMISSOR UNIVERSAL SEM FIO TX 4020 SMART",
+    "custo": 4.98
+  },
+  {
+    "codigo": "7406",
+    "descricao": "PORTEIRO ELETRONICO  INTELBRAS XPE1001 IP",
+    "custo": 243.05
+  },
+  {
+    "codigo": "7409",
+    "descricao": "CABO PARALELO 2 X 2.5MM",
+    "custo": 0.93
+  },
+  {
+    "codigo": "7410",
+    "descricao": "CABO PARALELO 2 X 4,0MM",
+    "custo": 1.51
+  },
+  {
+    "codigo": "7411",
+    "descricao": "CABO FLEXIVEL DE 2,5MM",
+    "custo": 0.4
+  },
+  {
+    "codigo": "7412",
+    "descricao": "CABO FLEXIVEL DE 4.0MM",
+    "custo": 0.71
+  },
+  {
+    "codigo": "7413",
+    "descricao": "DISJUNTOR MONOFASICO  4A",
+    "custo": 9.49
+  },
+  {
+    "codigo": "7414",
+    "descricao": "DISJUNTOR MONOFASICO  6A",
+    "custo": 4.75
+  },
+  {
+    "codigo": "7415",
+    "descricao": "PROTETOR  SURTO DPS 40KA CLASSE 2",
+    "custo": 9.65
+  },
+  {
+    "codigo": "7416",
+    "descricao": "PROTETOR  SURTO DPS 20KA CLASSE 2",
+    "custo": 8.02
+  },
+  {
+    "codigo": "7417",
+    "descricao": "CABO PP - 2X2,50MM",
+    "custo": 1.17
+  },
+  {
+    "codigo": "7418",
+    "descricao": "CABO PP 2 X 4,00MM",
+    "custo": 1.71
+  },
+  {
+    "codigo": "7419",
+    "descricao": "CONECTOR (BORNER) PARA CABO DE 2,5MM",
+    "custo": 0.94
+  },
+  {
+    "codigo": "7420",
+    "descricao": "CONECTOR (BORNER) PARA CABO DE 4MM",
+    "custo": 1.15
+  },
+  {
+    "codigo": "7424",
+    "descricao": "CONECTOR DE CAMPO TIPO FAST SC/UPC TIPO ROSCA",
+    "custo": 0.9
+  },
+  {
+    "codigo": "7425",
+    "descricao": "CABO OPTICO SPEED STAR MINI FLET DROP - 1 GTIN - B",
+    "custo": 0.07
+  },
+  {
+    "codigo": "7427",
+    "descricao": "CAMERA IP VIP 3230 D SL",
+    "custo": 102.52
+  },
+  {
+    "codigo": "7428",
+    "descricao": "CAMERA DE VIDEO IP BULLET 3240 Z G2",
+    "custo": 198.31
+  },
+  {
+    "codigo": "7432",
+    "descricao": "SWITCH 16 PORTAS  GIGABIT E IP SFP SF 1811",
+    "custo": 190.4
+  },
+  {
+    "codigo": "7433",
+    "descricao": "FECHADURA AUTOMATIZADA ELITE 150KGF",
+    "custo": 67.27
+  },
+  {
+    "codigo": "7434",
+    "descricao": "CAMERA DE TV BULLET VIP 1020 B G2 - INTELBRAS",
+    "custo": 43.34
+  },
+  {
+    "codigo": "7435",
+    "descricao": "CABO REDE UTP FURUKAWA CAT6 CMX",
+    "custo": 0.53
+  },
+  {
+    "codigo": "7436",
+    "descricao": "CONECTOR RJ45 CAT 5E P/ CABO SOLIDO FLEXIVEL C/ 10",
+    "custo": 0.15
+  },
+  {
+    "codigo": "7438",
+    "descricao": "MOLA SLIDE BACK",
+    "custo": 81.82
+  },
+  {
+    "codigo": "7440",
+    "descricao": "REFLETOR LED SLIM  PT 30 WATTS 5.500",
+    "custo": 14.36
+  },
+  {
+    "codigo": "7441",
+    "descricao": "CAMERA SPEED DOME VHD 5225 SD IR",
+    "custo": 464.22
+  },
+  {
+    "codigo": "7445",
+    "descricao": "GRAVADOR DIG DE IMAGEM NVD 1308",
+    "custo": 107.86
+  },
+  {
+    "codigo": "7450",
+    "descricao": "ROLDANA 2 U CANAL 5/8 CAIXA ABERTA",
+    "custo": 5.66
+  },
+  {
+    "codigo": "7452",
+    "descricao": "MASTRO SENSOR ATIVO  ALUMINIO  1M",
+    "custo": 12.02
+  },
+  {
+    "codigo": "7453",
+    "descricao": "CAMERA, VHD 3120 B G5 INTELBRAS",
+    "custo": 34.63
+  },
+  {
+    "codigo": "7454",
+    "descricao": "CAMERA, VHD 3120 D G5 INTELBRAS",
+    "custo": 29.65
+  },
+  {
+    "codigo": "7455",
+    "descricao": "CAMERA DE TV P/ SIST. SEG. VHD 3130 B G5",
+    "custo": 34.63
+  },
+  {
+    "codigo": "7458",
+    "descricao": "CONDULETE GALVANIZADA  2' COM TAMPA",
+    "custo": 8.0
+  },
+  {
+    "codigo": "7460",
+    "descricao": "CAIXA HERMETICA PVC 40 X 40",
+    "custo": 14.88
+  },
+  {
+    "codigo": "7462",
+    "descricao": "CAMERA VHL 1220 B BULET",
+    "custo": 25.03
+  },
+  {
+    "codigo": "7464",
+    "descricao": "CAMERA, VHD 3230 B G4",
+    "custo": 45.95
+  },
+  {
+    "codigo": "7465",
+    "descricao": "CAMERA, VHD 3220 D A COM ENTRADA DE AUDIO",
+    "custo": 44.54
+  },
+  {
+    "codigo": "7467",
+    "descricao": "MICROFONE AMPLIFICADO CFTV 3050",
+    "custo": 4.65
+  },
+  {
+    "codigo": "7468",
+    "descricao": "HD INTERNO 3TB",
+    "custo": 129.43
+  },
+  {
+    "codigo": "7469",
+    "descricao": "PORTEIRO ELETRONICO INTELBRAS XPE 1013 PLUS ID",
+    "custo": 95.91
+  },
+  {
+    "codigo": "7473",
+    "descricao": "PLACA 08 RAMAIS BAL COMUNIC 48",
+    "custo": 41.01
+  },
+  {
+    "codigo": "7474",
+    "descricao": "PLACA 08 RAMAIS DESB COMUNIC 48",
+    "custo": 13.1
+  },
+  {
+    "codigo": "7475",
+    "descricao": "VIDEO PORTEIRO WT7",
+    "custo": 307.68
+  },
+  {
+    "codigo": "7477",
+    "descricao": "CAMERA BULLET CX-2920 IR 20 4 EM 1 720P 2.8MM",
+    "custo": 11.27
+  },
+  {
+    "codigo": "7478",
+    "descricao": "ADAPTADOR P/ CONDULETE GALV. 2\"",
+    "custo": 1.27
+  },
+  {
+    "codigo": "7479",
+    "descricao": "TAMPÃO PLASTICO P/ CONDULETE 2\"",
+    "custo": 0.17
+  },
+  {
+    "codigo": "7480",
+    "descricao": "ELETRODUTO GALVANIZADO 2\" 3mtrs",
+    "custo": 57.44
+  },
+  {
+    "codigo": "7481",
+    "descricao": "LUVA GALVANIZADA  2''",
+    "custo": 1.13
+  },
+  {
+    "codigo": "7484",
+    "descricao": "INTERFONE UNID EXTERNA ANTIVANDALISMO DS-KB8112-IM",
+    "custo": 132.18
+  },
+  {
+    "codigo": "7487",
+    "descricao": "SITUATOR PROJECTS STANDARD",
+    "custo": 229.09
+  },
+  {
+    "codigo": "7488",
+    "descricao": "SITUATOR PROJECTS ENTERPRISE",
+    "custo": 1158.18
+  },
+  {
+    "codigo": "7489",
+    "descricao": "SITUATOR PROJECTS ACESSO",
+    "custo": 183.27
+  },
+  {
+    "codigo": "7490",
+    "descricao": "SITUATOR PROJECTS PORTA",
+    "custo": 21.09
+  },
+  {
+    "codigo": "7491",
+    "descricao": "VIAWEB ACCESS V2",
+    "custo": 37.72
+  },
+  {
+    "codigo": "7492",
+    "descricao": "MÓDULO LEITOR DE CARTÃO VW",
+    "custo": 42.55
+  },
+  {
+    "codigo": "7493",
+    "descricao": "CARTÃO DE PROXIMIDADE CRACHÁ",
+    "custo": 0.9
+  },
+  {
+    "codigo": "7495",
+    "descricao": "SENSOR PASSIVO  3000 PET",
+    "custo": 18.73
+  },
+  {
+    "codigo": "7497",
+    "descricao": "SENSOR PASSIVO IVP 3000 MW EX",
+    "custo": 75.96
+  },
+  {
+    "codigo": "7498",
+    "descricao": "MODULO ETHERNET/GPRS XEG 4000 SMART",
+    "custo": 52.12
+  },
+  {
+    "codigo": "7499",
+    "descricao": "EXPANSOR DE ZONAS XEZ 4008 SMART",
+    "custo": 33.89
+  },
+  {
+    "codigo": "7500",
+    "descricao": "SENSOR MICROONDAS  IVP 3000 MW",
+    "custo": 26.62
+  },
+  {
+    "codigo": "7502",
+    "descricao": "RASTREADOR SUNTECH - ST300HD (SKD)",
+    "custo": 68.26
+  },
+  {
+    "codigo": "7503",
+    "descricao": "CONVERSOR POWER BALUN 8 CANAIS VB 3008",
+    "custo": 158.51
+  },
+  {
+    "codigo": "7504",
+    "descricao": "CAMERA DOME 4 EM 1 IR 20M 720P",
+    "custo": 15.98
+  },
+  {
+    "codigo": "7505",
+    "descricao": "CÂMERA BULLET 4 EM 1 IR 20M 720P",
+    "custo": 19.63
+  },
+  {
+    "codigo": "7509",
+    "descricao": "ROLDANA GALV. 3\" TIPO TRUCK (U)",
+    "custo": 22.18
+  },
+  {
+    "codigo": "7510",
+    "descricao": "ROLDANA GALV. 4\" C/SUPORTE (U)",
+    "custo": 10.91
+  },
+  {
+    "codigo": "7511",
+    "descricao": "RECEPTOR SMART 1264  VIA SMART",
+    "custo": 20.47
+  },
+  {
+    "codigo": "7512",
+    "descricao": "SENSOR IVPTD SMART2 SEM FIO",
+    "custo": 16.08
+  },
+  {
+    "codigo": "7514",
+    "descricao": "FECHADURA ELETRICA FX 200 AJ",
+    "custo": 52.36
+  },
+  {
+    "codigo": "7516",
+    "descricao": "PARAFUSO SEXTAVADO ROSCA SOB GALV 1/4 X 100",
+    "custo": 0.02
+  },
+  {
+    "codigo": "7517",
+    "descricao": "BUCHA IVASA D10 10MM",
+    "custo": 0.02
+  },
+  {
+    "codigo": "7519",
+    "descricao": "SITUATOR PROJECTS VÍDEO",
+    "custo": 28.55
+  },
+  {
+    "codigo": "7520",
+    "descricao": "SITUATOR PROJECTS CÂMERAS",
+    "custo": 9.8
+  },
+  {
+    "codigo": "7523",
+    "descricao": "INTERFACE SERIAL USB",
+    "custo": 6.14
+  },
+  {
+    "codigo": "7527",
+    "descricao": "MOTOR DESLIZANTE PPA DZ HOME JET FLEX",
+    "custo": 91.82
+  },
+  {
+    "codigo": "7529",
+    "descricao": "BATERIA DE LITION CR 2950 3V",
+    "custo": 0.31
+  },
+  {
+    "codigo": "7530",
+    "descricao": "CENTRAL JET FLEX COM PLACA CONECT",
+    "custo": 78.18
+  },
+  {
+    "codigo": "7531",
+    "descricao": "CAMERA ESPIA AHD PARAFUSO C/ MICROFONE PIN HO",
+    "custo": 19.82
+  },
+  {
+    "codigo": "7532",
+    "descricao": "MODULO DE COMUNICAÇÃO 3G",
+    "custo": 96.44
+  },
+  {
+    "codigo": "7533",
+    "descricao": "GRAVADOR DIG. DE IMAGEM NVD 1316",
+    "custo": 162.51
+  },
+  {
+    "codigo": "7534",
+    "descricao": "SENSOR JFL DSE-830",
+    "custo": 51.09
+  },
+  {
+    "codigo": "7535",
+    "descricao": "SENSOR DE DETECTOR INFRANV. DS-510 BUS",
+    "custo": 10.64
+  },
+  {
+    "codigo": "7537",
+    "descricao": "CABO PARALELO BICOLOR 2X1MM",
+    "custo": 0.2
+  },
+  {
+    "codigo": "7539",
+    "descricao": "SENSOR ATIVO (BARREIRA) DUPLO 5040 AT",
+    "custo": 32.32
+  },
+  {
+    "codigo": "7540",
+    "descricao": "SENSOR MAGNETICO BLINDADO XAS PORTA DE AÇO SP",
+    "custo": 15.26
+  },
+  {
+    "codigo": "7541",
+    "descricao": "TECLADO SEM FIO INTELBRAS XAT 4000",
+    "custo": 35.23
+  },
+  {
+    "codigo": "7544",
+    "descricao": "BATERIA LITIO 3V CR2450",
+    "custo": 0.36
+  },
+  {
+    "codigo": "7545",
+    "descricao": "CENTRAL DE ALARME  INTELBRAS AMT 8000 - SEM FIO",
+    "custo": 84.61
+  },
+  {
+    "codigo": "7546",
+    "descricao": "TRANSMISSOR UNIVERSAL SEM FIO TX 8000",
+    "custo": 10.94
+  },
+  {
+    "codigo": "7548",
+    "descricao": "FECHADURA ELETROIMA FS150 12V",
+    "custo": 68.18
+  },
+  {
+    "codigo": "7549",
+    "descricao": "CONECTOR RJ45 CAT6",
+    "custo": 0.09
+  },
+  {
+    "codigo": "7552",
+    "descricao": "GRAVADOR DIG. DE IMAGEM NVD 3116",
+    "custo": 336.13
+  },
+  {
+    "codigo": "7553",
+    "descricao": "CENTRAL DE CHOQUE  ELC 5112",
+    "custo": 35.0
+  },
+  {
+    "codigo": "7558",
+    "descricao": "SENSOR FUMAÇA  DFE 420",
+    "custo": 18.11
+  },
+  {
+    "codigo": "7561",
+    "descricao": "DISPOSITIVO DE PROTEÇÃO ELETRICA  EPS 301 BR",
+    "custo": 4.55
+  },
+  {
+    "codigo": "7562",
+    "descricao": "DISPOSITIVO DE PROTEÇÃO ELETRICA  EPS 302 BR",
+    "custo": 5.78
+  },
+  {
+    "codigo": "7563",
+    "descricao": "CAMERA, INTERNA INTELIGENTE WI-FI FULL HD IM3 S/ C",
+    "custo": 41.94
+  },
+  {
+    "codigo": "7564",
+    "descricao": "GRADE DE PROTEÇÃO P/CAM 20X20X20  PT",
+    "custo": 9.02
+  },
+  {
+    "codigo": "7566",
+    "descricao": "PLACA 585 5 ZONAS DSC",
+    "custo": 42.4
+  },
+  {
+    "codigo": "7569",
+    "descricao": "PORCA 5/8",
+    "custo": 0.04
+  },
+  {
+    "codigo": "7570",
+    "descricao": "ELETRODUTO COND.TOP LISO 3/4 CINZA",
+    "custo": 2.52
+  },
+  {
+    "codigo": "7571",
+    "descricao": "CURVA ELETRODUTO COND.TOP 3/4 CINZA",
+    "custo": 0.78
+  },
+  {
+    "codigo": "7572",
+    "descricao": "ABRAÇADEIRA P/ COND. TOP 3/4 CINZA",
+    "custo": 0.31
+  },
+  {
+    "codigo": "7573",
+    "descricao": "TAMPA CEGA PVC 3/4.",
+    "custo": 0.47
+  },
+  {
+    "codigo": "7574",
+    "descricao": "CAIXA DE PASSAGEM P/ COND.TOP 3/4 6E CINZA",
+    "custo": 1.05
+  },
+  {
+    "codigo": "7575",
+    "descricao": "ADAPTADOR P/ COND.TOP 3/4 CINZA",
+    "custo": 0.17
+  },
+  {
+    "codigo": "7576",
+    "descricao": "LUVA LISA P/ COND.TOP 3/4 CINZA",
+    "custo": 0.7
+  },
+  {
+    "codigo": "7578",
+    "descricao": "FECHADURA ELETROIMA  300KGF COM KIT UNIVERSAL",
+    "custo": 93.63
+  },
+  {
+    "codigo": "7620",
+    "descricao": "HASTE PRINCIPAL COMPLETA, 12 GANCHOS E 12 ISOLADOR",
+    "custo": 4.25
+  },
+  {
+    "codigo": "7621",
+    "descricao": "HASTE CANTO COMPLETA, 12 GANCHOS E 12 ISOLADORES C",
+    "custo": 4.25
+  },
+  {
+    "codigo": "7622",
+    "descricao": "HASTE INTERMEDIARIA COMPLETA, 06 ISOLADORES W, 40X",
+    "custo": 2.75
+  },
+  {
+    "codigo": "7626",
+    "descricao": "CAMERA, BULLET PLASTICO THC-B110C-P LENTE 2.8 MM",
+    "custo": 18.47
+  },
+  {
+    "codigo": "7627",
+    "descricao": "CAMERA, DOME PLASTICO THC-110C-P LENTE 2.8MM 720P",
+    "custo": 17.05
+  },
+  {
+    "codigo": "7636",
+    "descricao": "GRAVADOR DIG. DE VIDEO MHDX 1116 MANAUS",
+    "custo": 158.55
+  },
+  {
+    "codigo": "7638",
+    "descricao": "EXTENSOR   HDMI 60 METROS",
+    "custo": 47.4
+  },
+  {
+    "codigo": "7639",
+    "descricao": "VIDEO PORTEIRO RESIDENCIAL - IVR 1070 HS",
+    "custo": 118.87
+  },
+  {
+    "codigo": "7640",
+    "descricao": "GATEWAY ANALOGICO SIP UTECH MGA-122E - 12 PORTAS F",
+    "custo": 269.73
+  },
+  {
+    "codigo": "7641",
+    "descricao": "ATUALIZAÇÃO FIRMWARE/SOFTWARE CENTRAL PABX IP PORT",
+    "custo": 130.91
+  },
+  {
+    "codigo": "7647",
+    "descricao": "SENSOR MICROONDAS  IVP 5311 MW PET",
+    "custo": 21.79
+  },
+  {
+    "codigo": "7650",
+    "descricao": "FONTE NOBREAK FULL POWER 200W 12V/8A",
+    "custo": 87.42
+  },
+  {
+    "codigo": "7658",
+    "descricao": "CHAVEIRO ACIONADO POR APROXIMAÇÃO   RFID 125 KHZ T",
+    "custo": 0.66
+  },
+  {
+    "codigo": "7659",
+    "descricao": "SENSOR PASSIVO SEM FIO 8000 EX",
+    "custo": 39.2
+  },
+  {
+    "codigo": "7662",
+    "descricao": "PROTET INTERFONE 018",
+    "custo": 6.71
+  },
+  {
+    "codigo": "7665",
+    "descricao": "SUPORTE ARTICULADO PARA MONITOR",
+    "custo": 21.64
+  },
+  {
+    "codigo": "7666",
+    "descricao": "STAND ALONE 4 CANAIS  MHDX 1104",
+    "custo": 77.73
+  },
+  {
+    "codigo": "7667",
+    "descricao": "QUADRO COMANDO  60X40X20",
+    "custo": 86.35
+  },
+  {
+    "codigo": "7669",
+    "descricao": "TERMINAL DEDICADO INTELBRAS TDMI 300",
+    "custo": 7.88
+  },
+  {
+    "codigo": "7670",
+    "descricao": "KIT LINHA 8000 INTELBRAS (01-CENTRAL, 02-XAS 8000,",
+    "custo": 150.75
+  },
+  {
+    "codigo": "7672",
+    "descricao": "POWER CONVERSOR ESTÁTICO VIDEO BALUN",
+    "custo": 15.45
+  },
+  {
+    "codigo": "7673",
+    "descricao": "CAMERA MIBO IM4 COM CARTÃO WI-FI INTELBRAS",
+    "custo": 63.02
+  },
+  {
+    "codigo": "7674",
+    "descricao": "CAMERA, VHD 3130 B G6 INTELBRAS",
+    "custo": 34.63
+  },
+  {
+    "codigo": "7676",
+    "descricao": "CAMERA IP INTELBRAS VIP 1230 D",
+    "custo": 58.29
+  },
+  {
+    "codigo": "7686",
+    "descricao": "CANCELA DE VEÍCULOS 220V LARANJA",
+    "custo": 502.76
+  },
+  {
+    "codigo": "7687",
+    "descricao": "HASTE REDONDA 3M PARA CANCELA",
+    "custo": 36.01
+  },
+  {
+    "codigo": "7688",
+    "descricao": "HASTE REDONDA 5M PARA CANCELA",
+    "custo": 57.09
+  },
+  {
+    "codigo": "7691",
+    "descricao": "INTERFACE CELULAR  ITC 4100 GSM",
+    "custo": 54.1
+  },
+  {
+    "codigo": "7692",
+    "descricao": "INTERFACE CELULAR 3G INTELBRAS ITC 5100",
+    "custo": 98.13
+  },
+  {
+    "codigo": "7693",
+    "descricao": "EXPANSOR VW 16Z LIGHT VIAWEB",
+    "custo": 18.06
+  },
+  {
+    "codigo": "7694",
+    "descricao": "ANTENA LEITORA UHF LNC6011C - VEICULAR",
+    "custo": 591.85
+  },
+  {
+    "codigo": "7695",
+    "descricao": "TAG ADESIVA VEICULAR  HCS CR5A NICE",
+    "custo": 1.54
+  },
+  {
+    "codigo": "7696",
+    "descricao": "SINALEIRA LUX PRETA",
+    "custo": 14.4
+  },
+  {
+    "codigo": "7697",
+    "descricao": "KIT LEITOR + IBUTTON",
+    "custo": 7.25
+  },
+  {
+    "codigo": "7699",
+    "descricao": "DISPOSITIVO DE PROTEÇÃO ELETRICA PRF",
+    "custo": 18.18
+  },
+  {
+    "codigo": "7700",
+    "descricao": "BUCHA REDUCAO ALUMÍNIO DE 2\" PARA 1\"",
+    "custo": 2.08
+  },
+  {
+    "codigo": "7701",
+    "descricao": "GRAVADOR DIG. DE IMAGEM NVD 7132",
+    "custo": 813.98
+  },
+  {
+    "codigo": "7702",
+    "descricao": "GRAVADOR DIG. DE IMAGEM NVD 1232",
+    "custo": 274.3
+  },
+  {
+    "codigo": "7703",
+    "descricao": "PORTEIRO COLETIVO COLLECTIVE 8 RAMAIS",
+    "custo": 96.55
+  },
+  {
+    "codigo": "7704",
+    "descricao": "PORTEIRO COLETIVO COLLECTIVE 12 RAMAIS",
+    "custo": 101.81
+  },
+  {
+    "codigo": "7705",
+    "descricao": "CAMERA, BULLET IP VIP 1130 B POE INTELBRAS",
+    "custo": 49.73
+  },
+  {
+    "codigo": "7706",
+    "descricao": "GRAVADOR DVR 16CH FULL HD (HDTVI/AHD/CVI/CVBS/IP)",
+    "custo": 211.85
+  },
+  {
+    "codigo": "7707",
+    "descricao": "SENSOR ATIVO IVA 7100 DUAL",
+    "custo": 45.98
+  },
+  {
+    "codigo": "7718",
+    "descricao": "CABO VGA - 5M",
+    "custo": 6.81
+  },
+  {
+    "codigo": "7725",
+    "descricao": "CONJ. AUTO. BV CONDOMINIUM JETFLEX CONNECT HIBRIDA",
+    "custo": 559.09
+  },
+  {
+    "codigo": "7731",
+    "descricao": "CONTROLADOR DE ACESSO SS 3530 MF FACE W/PN:4682075",
+    "custo": 263.61
+  },
+  {
+    "codigo": "7733",
+    "descricao": "CONECTOR BALUN VB 500",
+    "custo": 3.82
+  },
+  {
+    "codigo": "7736",
+    "descricao": "CONTROLE REMOTO NICE ERA INTI2C PRETO",
+    "custo": 5.45
+  },
+  {
+    "codigo": "7738",
+    "descricao": "CAMERA DE TV IP BULLET VIP 1230 B - INTELBRAS",
+    "custo": 66.9
+  },
+  {
+    "codigo": "7741",
+    "descricao": "ACIONAMENTO BV PREDIAL (CHAPA U) ANALOG/HIBRID 1.5",
+    "custo": 105.45
+  },
+  {
+    "codigo": "7745",
+    "descricao": "PARAFUSO M FIX-CHIP- PH CH 4.5 9X20",
+    "custo": 0.01
+  },
+  {
+    "codigo": "7752",
+    "descricao": "CONJ AUTO MOV P/ PIVO PISTON COND INOX JET FLEX HI",
+    "custo": 309.09
+  },
+  {
+    "codigo": "7753",
+    "descricao": "ACIONADOR PINTADO PIVO PISTON COND JET FLEX HIBR S",
+    "custo": 309.09
+  },
+  {
+    "codigo": "7760",
+    "descricao": "MÓDULO DE ÁDUDIO DE REDE",
+    "custo": 325.36
+  },
+  {
+    "codigo": "7765",
+    "descricao": "SENSOR ATIVO IVA 5080 AT/PN:4541046",
+    "custo": 41.68
+  },
+  {
+    "codigo": "7766",
+    "descricao": "SENSOR ATIVO IVA 7100 QUAD",
+    "custo": 67.7
+  },
+  {
+    "codigo": "7772",
+    "descricao": "TUBO QUADRADO (METALON) 50 X 50 X 1.20 X 6.000 FF",
+    "custo": 28.52
+  },
+  {
+    "codigo": "7776",
+    "descricao": "LEITOR LN-106 LINEAR-HCS USB MESA",
+    "custo": 41.96
+  },
+  {
+    "codigo": "7779",
+    "descricao": "MINI RACK DESMONTAVEL 12U 570MM - MRD 1257/PN:4771",
+    "custo": 107.25
+  },
+  {
+    "codigo": "7791",
+    "descricao": "ABRACADEIRA TIPO CUNHA 1/2",
+    "custo": 0.43
+  },
+  {
+    "codigo": "7794",
+    "descricao": "CÂMERA DE SEGURANÇA MIBO IM4 WI-FI HD (360) S/ CAR",
+    "custo": 64.32
+  },
+  {
+    "codigo": "7797",
+    "descricao": "CONTROLADOR DE ACESSO DIGIPROX SA 203",
+    "custo": 57.8
+  },
+  {
+    "codigo": "7800",
+    "descricao": "CAMERA DE TV P/SIST SEG VHD 3140 VF G6",
+    "custo": 34.51
+  },
+  {
+    "codigo": "7801",
+    "descricao": "CONTROLADORA DE ACESSO CT500 2P",
+    "custo": 233.42
+  },
+  {
+    "codigo": "7802",
+    "descricao": "LEITOR CARD RFID PROX LE 130 MF",
+    "custo": 27.92
+  },
+  {
+    "codigo": "7809",
+    "descricao": "PARAFUSO N 10 C/BUCHA",
+    "custo": 0.12
+  },
+  {
+    "codigo": "7824",
+    "descricao": "TECLADO SP LED 10 ZONAS K10",
+    "custo": 48.29
+  },
+  {
+    "codigo": "7826",
+    "descricao": "TELEFONE IP",
+    "custo": 71.86
+  },
+  {
+    "codigo": "7836",
+    "descricao": "RELE FOTOCELULA",
+    "custo": 3.35
+  },
+  {
+    "codigo": "8414",
+    "descricao": "FECHADURA DIGITAL S/FIO SMART X",
+    "custo": 161.82
+  },
+  {
+    "codigo": "8427",
+    "descricao": "CONTROLADOR DE ACESSO FACIAL SS 7530 FACE",
+    "custo": 376.36
+  },
+  {
+    "codigo": "8428",
+    "descricao": "GRAVADOR DIG. DE VIDEO IMHDX 5008",
+    "custo": 913.51
+  },
+  {
+    "codigo": "8432",
+    "descricao": "ISC-PDL1-WA18G - DETECTOR TRITECH 18X25M SÉRIE PRO",
+    "custo": 108.15
+  },
+  {
+    "codigo": "8434",
+    "descricao": "EXTENSOR HDMI INFRA TX E RX VEX 3120",
+    "custo": 138.53
+  },
+  {
+    "codigo": "8437",
+    "descricao": "REDE LAMINADA CONCERTINA  PERFIL RLXG1X3 M",
+    "custo": 30.95
+  },
+  {
+    "codigo": "8445",
+    "descricao": "RADIO COMUNICADOR RC 4002/PN:4528103",
+    "custo": 84.91
+  },
+  {
+    "codigo": "8446",
+    "descricao": "CONJ MOV AUTO P.S RAC BRUSHLESS 24V 60HZ BRANCA",
+    "custo": 338.18
+  },
+  {
+    "codigo": "8462",
+    "descricao": "CABO HDMI 1.4V 20MTS S/FILTRO",
+    "custo": 28.45
+  },
+  {
+    "codigo": "8464",
+    "descricao": "RASTREADOR E3+ BWM TECNOLOGIA",
+    "custo": 22.73
+  },
+  {
+    "codigo": "8475",
+    "descricao": "CANTONEIRA AÇO CARBONO L A36 1X1/8",
+    "custo": 16.17
+  },
+  {
+    "codigo": "8478",
+    "descricao": "CAIXA PLASTICA DE PASSAGEM VBOX 1100",
+    "custo": 4.15
+  },
+  {
+    "codigo": "8479",
+    "descricao": "INTERFONE IP WALL KHOMP 312S",
+    "custo": 307.18
+  },
+  {
+    "codigo": "8480",
+    "descricao": "BATERIA RECARREG NIMH AA 2200 7,2V P/5800RP",
+    "custo": 26.01
+  },
+  {
+    "codigo": "8498",
+    "descricao": "TAMPA CEGA P/ CONDULETE 1\" PVC",
+    "custo": 0.57
+  },
+  {
+    "codigo": "8500",
+    "descricao": "VIDEO PORTEIRO WIFI ALLO WT7",
+    "custo": 293.13
+  },
+  {
+    "codigo": "8503",
+    "descricao": "CAMERA DS-2CE76DOT-ITPF",
+    "custo": 28.46
+  },
+  {
+    "codigo": "8505",
+    "descricao": "RASTREADOR GTK 110 - NEXCORP",
+    "custo": 38.91
+  },
+  {
+    "codigo": "8510",
+    "descricao": "CREMALHEIRA PARA DZ 2500",
+    "custo": 16.18
+  },
+  {
+    "codigo": "8519",
+    "descricao": "RADIO WOM 5A",
+    "custo": 42.5
+  },
+  {
+    "codigo": "8520",
+    "descricao": "SWITCH 8 PORTAS PARA ELEVADOR SF 800 VLAN",
+    "custo": 9.09
+  },
+  {
+    "codigo": "8524",
+    "descricao": "AUTOMATIZADOR DE PORTA PP 200",
+    "custo": 271.98
+  },
+  {
+    "codigo": "8528",
+    "descricao": "TUBO DUTO CORRUGADO ELETRODUTO PEAD 3/4\" C/ GUIA",
+    "custo": 0.56
+  },
+  {
+    "codigo": "8532",
+    "descricao": "TOTEM DUPLO SEM URNA - CARBONO",
+    "custo": 412.73
+  },
+  {
+    "codigo": "8548",
+    "descricao": "MODULO INTELIGENTE DE PORTARIA MIP 1000 IP",
+    "custo": 78.78
+  },
+  {
+    "codigo": "8560",
+    "descricao": "BARRA CHATA A36 1.1/2 X 3/16 (NAO USAR)",
+    "custo": 1.97
+  },
+  {
+    "codigo": "8561",
+    "descricao": "BARRA ROSCADA 3/8X1.00 - ST (NAO USAR)",
+    "custo": 2.18
+  },
+  {
+    "codigo": "8567",
+    "descricao": "GRAVADOR DIG DE IMAGEM - NVD 3208 P",
+    "custo": 243.46
+  },
+  {
+    "codigo": "8568",
+    "descricao": "gravador de video nvd 3116 p",
+    "custo": 488.79
+  },
+  {
+    "codigo": "8570",
+    "descricao": "SWITCH BP GIGA SG 800 Q+",
+    "custo": 36.35
+  },
+  {
+    "codigo": "8571",
+    "descricao": "CÂMERA IP DOME P/ ELEVADOR VIP 1130 D G2",
+    "custo": 49.73
+  },
+  {
+    "codigo": "8572",
+    "descricao": "CÂMERA BULLET VHD 1120 B - MULTI-HD®",
+    "custo": 20.57
+  },
+  {
+    "codigo": "8573",
+    "descricao": "CÂMERA DOME VHD 1120 D - MULTI-HD®",
+    "custo": 19.5
+  },
+  {
+    "codigo": "8574",
+    "descricao": "HD P/ DVR 2TB WD20PURZ",
+    "custo": 94.66
+  },
+  {
+    "codigo": "8575",
+    "descricao": "DVR 16 CANAIS MHDX 1116 - MANAUS - MULTI-HD®",
+    "custo": 157.14
+  },
+  {
+    "codigo": "8576",
+    "descricao": "POWER BALUN 16 CANAIS VB 1016 WP FULL HD MULTI",
+    "custo": 164.15
+  },
+  {
+    "codigo": "8577",
+    "descricao": "CAIXA PARA CONECTORES VBOX 1100 E",
+    "custo": 2.2
+  },
+  {
+    "codigo": "8578",
+    "descricao": "CONECTOR P4  MACHO",
+    "custo": 0.62
+  },
+  {
+    "codigo": "8579",
+    "descricao": "INTERFONE IP 1 TECLA EXTERNO XPE 1001 IP",
+    "custo": 247.92
+  },
+  {
+    "codigo": "8580",
+    "descricao": "PORTEIRO EXTERNO XPE 3001T IP",
+    "custo": 161.24
+  },
+  {
+    "codigo": "8581",
+    "descricao": "SWITCH 16 PORTAS SWITCH SF 1600 Q+",
+    "custo": 32.97
+  },
+  {
+    "codigo": "8582",
+    "descricao": "REGUA DE TODAMA RACK 19 08 TOMADAS EPR 208",
+    "custo": 10.34
+  },
+  {
+    "codigo": "8583",
+    "descricao": "REGUA DE TOMADA COM 5  EPE 205 + BR",
+    "custo": 6.54
+  },
+  {
+    "codigo": "8584",
+    "descricao": "MODULO INTELIGENTE DE PORTARIA MIP 1000 IP",
+    "custo": 74.4
+  },
+  {
+    "codigo": "8585",
+    "descricao": "RECEPTOR SCA XRE 1000",
+    "custo": 105.39
+  },
+  {
+    "codigo": "8586",
+    "descricao": "LEITORA DE TAG VEICULAR  LE 170 UHF",
+    "custo": 570.89
+  },
+  {
+    "codigo": "8587",
+    "descricao": "LEITOR DE CARTÃO RFID INTERNO XLT 1000 ID",
+    "custo": 44.65
+  },
+  {
+    "codigo": "8589",
+    "descricao": "CONTROLADOR DE ACESSO CT 500 1P",
+    "custo": 101.72
+  },
+  {
+    "codigo": "8590",
+    "descricao": "LEITOR DE CARTAO RFID PROX LE 130 MF",
+    "custo": 35.63
+  },
+  {
+    "codigo": "8591",
+    "descricao": "CAIXA DE EMERGENCIA REARMAVEL  AS2010",
+    "custo": 39.7
+  },
+  {
+    "codigo": "8592",
+    "descricao": "CHAVEIRO TAG SVIP / SCA - XID1000",
+    "custo": 1.1
+  },
+  {
+    "codigo": "8593",
+    "descricao": "CONTROLE VEICULAR XTR 1000",
+    "custo": 3.49
+  },
+  {
+    "codigo": "8594",
+    "descricao": "NOBREAK VEICULAR GNB 1000VA-220V",
+    "custo": 89.02
+  },
+  {
+    "codigo": "8595",
+    "descricao": "FECHADURA ELETROIMA FS20150 INOX SEM SENSOR",
+    "custo": 34.46
+  },
+  {
+    "codigo": "8596",
+    "descricao": "AUTOMATIZADOR PARA PORTÃO DESLIZANTE ATÉ 800 KG",
+    "custo": 145.01
+  },
+  {
+    "codigo": "8597",
+    "descricao": "SENSOR ATIVO P/ PORTÕES IVA 5015 DIGITAL",
+    "custo": 10.17
+  },
+  {
+    "codigo": "8598",
+    "descricao": "MOLA HIDRÁULICA AÉREA MH 103 A P/ 65KG",
+    "custo": 17.52
+  },
+  {
+    "codigo": "8599",
+    "descricao": "CONTROLADOR DE ACESSO BIO INOX PLUS SS 311E",
+    "custo": 245.44
+  },
+  {
+    "codigo": "8600",
+    "descricao": "CONTROLADOR DE ACESSO BIOINOX PLUS SS 311 MF",
+    "custo": 161.54
+  },
+  {
+    "codigo": "8601",
+    "descricao": "MODULO ETHERNET WIFI ME 05WB",
+    "custo": 24.49
+  },
+  {
+    "codigo": "8602",
+    "descricao": "ETIQUETA ACIONAMENTO RFID VEICULAR 900 MHZ TH 3020",
+    "custo": 2.0
+  },
+  {
+    "codigo": "8603",
+    "descricao": "CAIXA PASSAGEM AÇO 152x152x82",
+    "custo": 4.73
+  },
+  {
+    "codigo": "8605",
+    "descricao": "CONTROLADOR DE ACESSO SA 211",
+    "custo": 78.38
+  },
+  {
+    "codigo": "8606",
+    "descricao": "SUPORTE MOLA AEREA AS30 PARA VIDRO",
+    "custo": 9.09
+  },
+  {
+    "codigo": "8608",
+    "descricao": "CONDULETE PVC MULT X CINZA",
+    "custo": 1.05
+  },
+  {
+    "codigo": "8621",
+    "descricao": "CAMERA BULLET VHD 3230 B GERRAÇÃO 6 MULTI HD",
+    "custo": 45.95
+  },
+  {
+    "codigo": "8623",
+    "descricao": "STAND ALONE IMHDX 3004 GRAV. INTELIGENTE 4 CANAIS",
+    "custo": 91.83
+  },
+  {
+    "codigo": "8624",
+    "descricao": "STAND ALONE IMHDX 3008 GRAV. INTELIGENTE 8 CANAIS",
+    "custo": 175.81
+  },
+  {
+    "codigo": "8626",
+    "descricao": "HD SEAGATE 10 TB - HD",
+    "custo": 397.44
+  },
+  {
+    "codigo": "8627",
+    "descricao": "SENSOR VOLUMETRICO COM FIO 5301 PET PRO - INTELBRAS",
+    "custo": 7.39
+  },
+  {
+    "codigo": "8628",
+    "descricao": "CONJ. AUTO. MOV. P. PIVO PISTON CONDOMINIUM",
+    "custo": 558.18
+  },
+  {
+    "codigo": "8629",
+    "descricao": "ACIONADOR PIVO PISTON CONDOMINIUM",
+    "custo": 80.32
+  },
+  {
+    "codigo": "8630",
+    "descricao": "CABO DE FIBRA OPTICA 12FO",
+    "custo": 0.33
+  },
+  {
+    "codigo": "8631",
+    "descricao": "STAND ALONE IMHDX 3032",
+    "custo": 579.76
+  },
+  {
+    "codigo": "8632",
+    "descricao": "STAND ALONE IMHDX 3016",
+    "custo": 251.1
+  },
+  {
+    "codigo": "8633",
+    "descricao": "SWITCH 24 PORTAS POE",
+    "custo": 840.37
+  },
+  {
+    "codigo": "8634",
+    "descricao": "POWER BALUN 8 CANAIS VB 1008",
+    "custo": 130.09
+  },
+  {
+    "codigo": "8639",
+    "descricao": "CREMALHEIRA DE AÇO C/ GOMOS DE NYLON",
+    "custo": 4.89
+  },
+  {
+    "codigo": "8640",
+    "descricao": "CONTROLE DE ACESSO SA 210E",
+    "custo": 85.08
+  },
+  {
+    "codigo": "8645",
+    "descricao": "KIT COM 20 ADESIVOS REFLETIVOS",
+    "custo": 18.65
+  },
+  {
+    "codigo": "8647",
+    "descricao": "CAMERA IP BULLET VIP 1130 B G2 3.6MM",
+    "custo": 44.65
+  },
+  {
+    "codigo": "8648",
+    "descricao": "HASTE QUADRADA 30 X 30 X 1,20 X 6 SEM ISOLADOR",
+    "custo": 13.8
+  },
+  {
+    "codigo": "8649",
+    "descricao": "CONTROLE PARA GCP 10000",
+    "custo": 4.0
+  },
+  {
+    "codigo": "8650",
+    "descricao": "DVR 16C IDS 7216 HQHI-M1/S",
+    "custo": 236.13
+  },
+  {
+    "codigo": "8651",
+    "descricao": "DISCO RIGIDO HD 6TB PARA CFTV",
+    "custo": 218.5
+  },
+  {
+    "codigo": "8652",
+    "descricao": "DISJUNTOR MONOFASICO 10A",
+    "custo": 1.46
+  },
+  {
+    "codigo": "8655",
+    "descricao": "CAMERA DE VIDEO IP 3260 Z G2",
+    "custo": 260.04
+  },
+  {
+    "codigo": "8661",
+    "descricao": "CENTRAL DE LAÇO INDUTIVO 2X1 2 PONTOS CXA 7602",
+    "custo": 112.05
+  },
+  {
+    "codigo": "8663",
+    "descricao": "CENTRAL DE ALARME DE INCENDIO ENDEREÇAVEL",
+    "custo": 500.93
+  },
+  {
+    "codigo": "8664",
+    "descricao": "DETECTOR DE TEMPERATURA ENDEREÇAVEL DTE 521",
+    "custo": 18.71
+  },
+  {
+    "codigo": "8665",
+    "descricao": "DETECTOR DE FUMAÇA LINEAR 70 A 100 METROS DFL 3103",
+    "custo": 302.43
+  },
+  {
+    "codigo": "8666",
+    "descricao": "MODULO DE ENTRADA E SAIDA MIO 520",
+    "custo": 30.72
+  },
+  {
+    "codigo": "8668",
+    "descricao": "CENTRAL ELETR INV SPRINT 3F",
+    "custo": 92.72
+  },
+  {
+    "codigo": "8669",
+    "descricao": "TERMINAL INTERNO VIDEO PORTEIRO IP - TVIP3",
+    "custo": 129.1
+  },
+  {
+    "codigo": "8670",
+    "descricao": "VIDEO PORTEIRO EXTERNO XPE3115 IP",
+    "custo": 398.05
+  },
+  {
+    "codigo": "8671",
+    "descricao": "ROTEADOR WIRELESS 300MBPS 4 PORTAS",
+    "custo": 17.91
+  },
+  {
+    "codigo": "8672",
+    "descricao": "ACIONADOR DE PORTAO BASCULANTE 2.0M",
+    "custo": 63.62
+  },
+  {
+    "codigo": "8676",
+    "descricao": "WIT-51E POE",
+    "custo": 1200.89
+  },
+  {
+    "codigo": "8681",
+    "descricao": "PARAFUSO PHILIPS CHATO P/ BUCHA S-6",
+    "custo": 0.01
+  },
+  {
+    "codigo": "8683",
+    "descricao": "PLASTDUTO",
+    "custo": 0.85
+  },
+  {
+    "codigo": "8685",
+    "descricao": "TOMADA ENERB CANAL. 2S DIST 2P+T 10A",
+    "custo": 2.93
+  },
+  {
+    "codigo": "8687",
+    "descricao": "RECEPTOR MULTIFUNCAO RMF3004",
+    "custo": 170.18
+  },
+  {
+    "codigo": "8698",
+    "descricao": "CAMERA WI-FI FULL HD IM5 S COM MICRO",
+    "custo": 83.9
+  },
+  {
+    "codigo": "8701",
+    "descricao": "CONTROLADOR DE ACESSO IBPROX SS 120",
+    "custo": 137.69
+  },
+  {
+    "codigo": "8704",
+    "descricao": "CENTRAL DE COMANDO TRIFLEX CONNECT BRUSHLES DZ2500",
+    "custo": 49.09
+  },
+  {
+    "codigo": "8705",
+    "descricao": "BARREIRA AUTO BARRIER R BRUSHLESS BIVOLT 60HZ 6MTS",
+    "custo": 907.82
+  },
+  {
+    "codigo": "8706",
+    "descricao": "SWITCH 16P-POE- SF1821",
+    "custo": 280.32
+  },
+  {
+    "codigo": "8707",
+    "descricao": "CAMERA BULLET COM INT ARTIFICIAL",
+    "custo": 150.33
+  },
+  {
+    "codigo": "8708",
+    "descricao": "ROLD. GALV. 4\" TIPO TRUCK (U)",
+    "custo": 41.82
+  },
+  {
+    "codigo": "8709",
+    "descricao": "DISCO TYROLIT 4,5\"",
+    "custo": 0.73
+  },
+  {
+    "codigo": "8710",
+    "descricao": "DISCO REDESCOR 4,5\"",
+    "custo": 0.91
+  },
+  {
+    "codigo": "8712",
+    "descricao": "CAMERA DE VIDEO WIFI FULL HD IMX C/MICRO SD 32GB",
+    "custo": 45.18
+  },
+  {
+    "codigo": "8713",
+    "descricao": "MICROFONE P/SISTEMA DE SEG MIC 3080",
+    "custo": 9.14
+  },
+  {
+    "codigo": "8714",
+    "descricao": "TRANS BALUN PASSIVO VIDEO VB 1001 WP",
+    "custo": 13.24
+  },
+  {
+    "codigo": "8715",
+    "descricao": "CABO PP - 4 X 2,50MM",
+    "custo": 1.9
+  },
+  {
+    "codigo": "8721",
+    "descricao": "TERMINAL DEDICADO PORTEIRO XPE1001 FIT",
+    "custo": 39.64
+  },
+  {
+    "codigo": "8722",
+    "descricao": "CAMERA DE VIDEO SPEED DOME VIP 3220 SD IR",
+    "custo": 468.82
+  },
+  {
+    "codigo": "8727",
+    "descricao": "NVR DS-7732NI-I4 S/POE 32 CANAIS",
+    "custo": 826.54
+  },
+  {
+    "codigo": "8728",
+    "descricao": "NVR DS-7616NI-Q2 16 CANAIS",
+    "custo": 338.18
+  },
+  {
+    "codigo": "8729",
+    "descricao": "BATERIA 60A 12V VEICULAR",
+    "custo": 94.64
+  },
+  {
+    "codigo": "8730",
+    "descricao": "REFLETOR DE LED 100W BIVOLT",
+    "custo": 21.45
+  },
+  {
+    "codigo": "8731",
+    "descricao": "CON.AUT.MOV.P.DZRIOR800 JFLEX HIB CONDOMINIO",
+    "custo": 300.0
+  },
+  {
+    "codigo": "8732",
+    "descricao": "CON.AUT.MOV.P.DZCOND. JFLEX CON. HIB BI60HZ(Z12)",
+    "custo": 310.36
+  },
+  {
+    "codigo": "8733",
+    "descricao": "CON.AUT.MOV.P.DZRIOR600 JFLEX FAC. HIB BI60HZ(Z18)",
+    "custo": 211.81
+  },
+  {
+    "codigo": "8734",
+    "descricao": "EXPANSOR XEZ 4108 SMART",
+    "custo": 29.89
+  },
+  {
+    "codigo": "8735",
+    "descricao": "ANTENA LEITOR RTAG3000 12DBI 6M NICE",
+    "custo": 672.72
+  },
+  {
+    "codigo": "8736",
+    "descricao": "CHIP DE COMUNICACAO DE DADOS (ALGAR)",
+    "custo": 0.75
+  },
+  {
+    "codigo": "8737",
+    "descricao": "CONJ. COMPLETO DE ALAVANCAS DO DESTRAVAMENTO",
+    "custo": 11.81
+  },
+  {
+    "codigo": "8738",
+    "descricao": "EXTENSOR DE VIDEO HDMI VEX 1050",
+    "custo": 52.28
+  },
+  {
+    "codigo": "8739",
+    "descricao": "CAMERA BULLET VHD 3430 B G6",
+    "custo": 76.74
+  },
+  {
+    "codigo": "8740",
+    "descricao": "INTERFONE IP C/ TECLADO MPI-31EV",
+    "custo": 508.0
+  },
+  {
+    "codigo": "8741",
+    "descricao": "INTERFONE IP INOX C/ TECLADO MPI-31EIV",
+    "custo": 631.63
+  },
+  {
+    "codigo": "8742",
+    "descricao": "CENTRAL SPECTRA SP 4 Z DUPLAS EXPANSIVEL ATE 32",
+    "custo": 42.38
+  },
+  {
+    "codigo": "8743",
+    "descricao": "CENTRAL SPECTRA SP 8 Z DUPLAS EXPANSIVEL ATE 32",
+    "custo": 95.07
+  },
+  {
+    "codigo": "8744",
+    "descricao": "CENTRAL SPECTRA SP 16 ZONAS DUPLAS",
+    "custo": 120.29
+  },
+  {
+    "codigo": "8745",
+    "descricao": "KIT 3 LENTES PARA SENSOR RK 200",
+    "custo": 54.54
+  },
+  {
+    "codigo": "8746",
+    "descricao": "RASTREADOR MGC E3+ PERSONAL TRACKER",
+    "custo": 41.45
+  },
+  {
+    "codigo": "8747",
+    "descricao": "CABO DE CONFIGURACAO E3",
+    "custo": 5.45
+  },
+  {
+    "codigo": "8748",
+    "descricao": "CARTAO DE MEMORIA 128GB",
+    "custo": 34.68
+  },
+  {
+    "codigo": "8749",
+    "descricao": "FITA DE LED RGB",
+    "custo": 28.9
+  },
+  {
+    "codigo": "8750",
+    "descricao": "COFRE GUARDA CHAVES",
+    "custo": 2.18
+  },
+  {
+    "codigo": "8751",
+    "descricao": "CREMALHEIRA ALUMINIO PRETO",
+    "custo": 7.09
+  },
+  {
+    "codigo": "8752",
+    "descricao": "BARRA DE CREMALHEIRA 1,5M LINHA POP (FERRO)",
+    "custo": 6.72
+  },
+  {
+    "codigo": "8753",
+    "descricao": "NOBREAK VOLT GATE 127V 60HZ (SEM BATERIA)",
+    "custo": 192.94
+  },
+  {
+    "codigo": "8754",
+    "descricao": "CAIXA ACRILICA P/PROTECAO DE INTERFONE A18XL20XP10",
+    "custo": 21.81
+  },
+  {
+    "codigo": "8755",
+    "descricao": "CONTROLE ZAP POP PPA 433MHZ DUAS TECLAS",
+    "custo": 5.45
+  },
+  {
+    "codigo": "8756",
+    "descricao": "CAP PVC ESG 150MM",
+    "custo": 8.18
+  },
+  {
+    "codigo": "8757",
+    "descricao": "TUBO PVC ESG MTS 150MM",
+    "custo": 8.18
+  },
+  {
+    "codigo": "8759",
+    "descricao": "FECHADURA DE ACO 1/2 ROSCA C/PORCA SEXTAVADA",
+    "custo": 3.63
+  },
+  {
+    "codigo": "8760",
+    "descricao": "CENTRAL TELEFONICA UNNITI 1000",
+    "custo": 901.77
+  },
+  {
+    "codigo": "8761",
+    "descricao": "PLACA DE CONTROLE DA CATRACA DIGICON",
+    "custo": 177.66
+  },
+  {
+    "codigo": "8762",
+    "descricao": "PLACA CODEC 60 UNNITI",
+    "custo": 162.7
+  },
+  {
+    "codigo": "8763",
+    "descricao": "TELEFONE IP - TDMI 400 IP POE",
+    "custo": 43.6
+  },
+  {
+    "codigo": "8764",
+    "descricao": "RADAR SELECTION PARA PORTA SOCIAL",
+    "custo": 54.36
+  },
+  {
+    "codigo": "8765",
+    "descricao": "CONTROLADORA DE GIRO DECC BLANTECH",
+    "custo": 110.85
+  },
+  {
+    "codigo": "8766",
+    "descricao": "SWITCH HP 8 P GIGABIT +2 SFP POE+2530-8G-POE+67",
+    "custo": 362.96
+  },
+  {
+    "codigo": "8767",
+    "descricao": "ATUADOR SEM FIO PGM 8000",
+    "custo": 40.69
+  },
+  {
+    "codigo": "8768",
+    "descricao": "PORT- LUZ MODULO TEMPORIZADOR UNIVERSAL",
+    "custo": 4.29
+  },
+  {
+    "codigo": "8769",
+    "descricao": "SINALIZADOR COM LAMPADAS",
+    "custo": 40.0
+  },
+  {
+    "codigo": "8770",
+    "descricao": "CAIXA MULTIUSO HERMETICA BABY SLIM",
+    "custo": 1.87
+  },
+  {
+    "codigo": "8771",
+    "descricao": "CONVERSOR DE MIDIA MULTIMODO 1105",
+    "custo": 68.8
+  },
+  {
+    "codigo": "8772",
+    "descricao": "FITA ISOLANTE 10M",
+    "custo": 0.8
+  },
+  {
+    "codigo": "8773",
+    "descricao": "CONTROLE EP 02 PRETO",
+    "custo": 3.34
+  },
+  {
+    "codigo": "8774",
+    "descricao": "CAIXA ACRILICA 3MM FUME 30CM AL23X10 PROF3CM",
+    "custo": 23.09
+  },
+  {
+    "codigo": "8775",
+    "descricao": "ROTEADOR DUAL BAND 4 ANTENAS ACI200 TENDA",
+    "custo": 37.81
+  },
+  {
+    "codigo": "8776",
+    "descricao": "REFLETOR LED SLIM 50W BRANCO FRIO",
+    "custo": 26.97
+  },
+  {
+    "codigo": "8777",
+    "descricao": "CENTRAL DE PORTARIA BASIC - COMUNIC 80",
+    "custo": 128.12
+  },
+  {
+    "codigo": "8778",
+    "descricao": "PLACA RAMAL DESB 16 RAMAIS CP48/CP112",
+    "custo": 65.05
+  },
+  {
+    "codigo": "8781",
+    "descricao": "LEITOR BIOMETRICO LN-BIO",
+    "custo": 119.46
+  },
+  {
+    "codigo": "8782",
+    "descricao": "CONTR DIGITAL DE ACESSO LN-P7 EM POE",
+    "custo": 200.0
+  },
+  {
+    "codigo": "8783",
+    "descricao": "CONJ. AUTO. P. DZRIO 500 JET FLEX",
+    "custo": 125.45
+  },
+  {
+    "codigo": "8784",
+    "descricao": "CONECTOR DE SAIDA CX. DER. MULT. PVC 3/4\"",
+    "custo": 0.29
+  },
+  {
+    "codigo": "8785",
+    "descricao": "TAMPA CX. DER. PVC MULT. 1/2\"",
+    "custo": 0.51
+  },
+  {
+    "codigo": "8786",
+    "descricao": "TUBO ELETRODUTO PVC 1/2\"",
+    "custo": 4.83
+  },
+  {
+    "codigo": "8788",
+    "descricao": "MODULO INTERTRAVAMENTO LINEAR 2 TECLAS",
+    "custo": 41.81
+  },
+  {
+    "codigo": "8789",
+    "descricao": "CHAPEU NAPOLEAO",
+    "custo": 0.9
+  },
+  {
+    "codigo": "8790",
+    "descricao": "CONECTOR DERIV. PERF(CDP70)1,5-10MM",
+    "custo": 1.57
+  },
+  {
+    "codigo": "8791",
+    "descricao": "ESPUMA POLIURETANO TYTAN STANDARD 3 40G/500ML",
+    "custo": 6.49
+  },
+  {
+    "codigo": "8792",
+    "descricao": "CHAVEIRO ACIONADOR APROX RFID TH1000",
+    "custo": 0.68
+  },
+  {
+    "codigo": "8793",
+    "descricao": "DETECTOR DE FUMACA SMART IDF 620",
+    "custo": 32.29
+  },
+  {
+    "codigo": "8794",
+    "descricao": "CABO FLEXIVEL 750V SIL PT 6MM",
+    "custo": 0.81
+  },
+  {
+    "codigo": "8795",
+    "descricao": "CABO FLEXIVEL 750V SIL AZ 6MM",
+    "custo": 0.81
+  },
+  {
+    "codigo": "8796",
+    "descricao": "CABO FLEXIVEL 750V SIL VD 6MM",
+    "custo": 0.81
+  },
+  {
+    "codigo": "8799",
+    "descricao": "DISCO RIGIDO WD PURPLE 8TB",
+    "custo": 312.7
+  },
+  {
+    "codigo": "8800",
+    "descricao": "CABO OPTICO DROP F8 FIT SM 4 FIBRAS",
+    "custo": 0.25
+  },
+  {
+    "codigo": "8801",
+    "descricao": "CONTROLE DE ACESSO FACIAL IDFACE PRO FACE PROX ASK",
+    "custo": 227.18
+  },
+  {
+    "codigo": "8802",
+    "descricao": "CONTROLE DE ACESSO ID PROX SLIM ASK 125KHZ",
+    "custo": 52.0
+  },
+  {
+    "codigo": "8803",
+    "descricao": "CONTROLE DE ACESSO ID BOX P/CATRACA BIO PROX ASK",
+    "custo": 326.13
+  },
+  {
+    "codigo": "8804",
+    "descricao": "CONTROLE DE ACESSO CONTROL ID FLEX BIO PROX",
+    "custo": 123.92
+  },
+  {
+    "codigo": "8805",
+    "descricao": "CONTROLE DE ACESSO CONTROL ID FLEX IP65 BIO PROX A",
+    "custo": 160.99
+  },
+  {
+    "codigo": "8806",
+    "descricao": "CÂMERA SPEED DOME PTZ IP IR 150M 25X 1080P",
+    "custo": 535.08
+  },
+  {
+    "codigo": "8807",
+    "descricao": "TAG ADESIVA COM RFID UHF 900MHZ",
+    "custo": 0.86
+  },
+  {
+    "codigo": "8808",
+    "descricao": "CONTROLE DE ACESSO FACIAL IDFACE FACE BIO PROX ASK",
+    "custo": 258.1
+  },
+  {
+    "codigo": "8810",
+    "descricao": "CAMERA DE VIDEO IP VIP 3240IA",
+    "custo": 150.32
+  },
+  {
+    "codigo": "8812",
+    "descricao": "FECHADURA INTELBRAS FD 1000",
+    "custo": 56.2
+  },
+  {
+    "codigo": "8813",
+    "descricao": "RACK 19' 12U X 400MM",
+    "custo": 82.05
+  },
+  {
+    "codigo": "8814",
+    "descricao": "ETIQUETA VEICULAR DE ACION RFID 900MHZ TH3010",
+    "custo": 0.6
+  },
+  {
+    "codigo": "8815",
+    "descricao": "CONJUNTO FIM DE CURSO PV ROBO GAREN",
+    "custo": 46.07
+  },
+  {
+    "codigo": "8816",
+    "descricao": "TOMADA FAME BLANC 2S 2P+T 20A PB DIST S/P BR",
+    "custo": 2.32
+  },
+  {
+    "codigo": "8818",
+    "descricao": "CAMERA FULL HD 1080 D 1220 HDCVI 20MTS",
+    "custo": 23.78
+  },
+  {
+    "codigo": "8819",
+    "descricao": "ACIONAMENTO BV PREDIAL (CHAPA U)ANALOG HIBR 2,0MTS",
+    "custo": 105.45
+  },
+  {
+    "codigo": "8820",
+    "descricao": "CONJ.A.MOV.P.BV PENTA COND.PREDIAL J. F.HIBR B60HZ",
+    "custo": 194.54
+  },
+  {
+    "codigo": "8821",
+    "descricao": "DISJ 016A C 03KA 220V",
+    "custo": 2.72
+  },
+  {
+    "codigo": "8822",
+    "descricao": "CABO PP 500V SIL 2 X 0,75MM",
+    "custo": 0.44
+  },
+  {
+    "codigo": "8823",
+    "descricao": "CAMERA IP DS-2CD2347G2-L(U)",
+    "custo": 263.63
+  },
+  {
+    "codigo": "8824",
+    "descricao": "LC-103-PIMSK - DETECTOR PIR PET SMART",
+    "custo": 52.29
+  },
+  {
+    "codigo": "8825",
+    "descricao": "CHAVEIRO DE ACIONAM POR APROX CONTROL ID 125KHZ",
+    "custo": 0.73
+  },
+  {
+    "codigo": "8827",
+    "descricao": "ETIQUETA DE ACION RFID UHF 915-928 MHZ CONTROL ID",
+    "custo": 0.56
+  },
+  {
+    "codigo": "8828",
+    "descricao": "CONTROLADOR DE ACESSO IDUHF CONTROL ID",
+    "custo": 371.12
+  },
+  {
+    "codigo": "8831",
+    "descricao": "BATERIA ESTACIONARIA 70AH",
+    "custo": 69.09
+  },
+  {
+    "codigo": "8832",
+    "descricao": "RADIO ROTEADOR WOM 5A MIMO",
+    "custo": 68.19
+  },
+  {
+    "codigo": "8833",
+    "descricao": "NOBREAK 2000VA",
+    "custo": 228.44
+  },
+  {
+    "codigo": "8834",
+    "descricao": "CENTRAL DE LAÇO INDUTIVO 1X1 1 PONTO CXA 7601",
+    "custo": 92.9
+  },
+  {
+    "codigo": "8835",
+    "descricao": "DISPLAY SINALIZADOR PUXE/EMPURRE",
+    "custo": 35.27
+  },
+  {
+    "codigo": "8836",
+    "descricao": "SENSOR IVP 1000 PET SMART S/FIO",
+    "custo": 6.49
+  },
+  {
+    "codigo": "8837",
+    "descricao": "ARAME AÇO INOX 1,20MM",
+    "custo": 0.1
+  },
+  {
+    "codigo": "8838",
+    "descricao": "CONVERSOR DE MIDIA 10/100/1000M BID SM 20KM 3023CB",
+    "custo": 53.65
+  },
+  {
+    "codigo": "8839",
+    "descricao": "CONVERSOR DE MIDIA 10/100/1000M BID SM 20KM 3023CA",
+    "custo": 53.87
+  },
+  {
+    "codigo": "8840",
+    "descricao": "CONECTOR OPTICO DE ROSCA SP ACP 2FLEX",
+    "custo": 1.05
+  },
+  {
+    "codigo": "8841",
+    "descricao": "TIRAS DE LED'S BICOLOR 5MTS",
+    "custo": 18.01
+  },
+  {
+    "codigo": "8842",
+    "descricao": "FONTE DE ALIMENTACAO PARA LED BICOLOR",
+    "custo": 60.92
+  },
+  {
+    "codigo": "8843",
+    "descricao": "LACO INDUTIVO 1,90X0,80M CX -4001",
+    "custo": 25.0
+  },
+  {
+    "codigo": "8844",
+    "descricao": "BARREIRA AUTO K1 R UNIVER BIVOLT 60HZ 4MTS LARANJA",
+    "custo": 490.9
+  },
+  {
+    "codigo": "8845",
+    "descricao": "BARREIRA RETAN LED3MTS ALU NAT6030(79-061C)BARRIER",
+    "custo": 176.9
+  },
+  {
+    "codigo": "8846",
+    "descricao": "ETIQUETA VEICULAR DE ACION RFID 900MHZ TH3020",
+    "custo": 1.89
+  },
+  {
+    "codigo": "8847",
+    "descricao": "CONJ.AUTO.MOV.P.DZ1300IND JET FLEX CONNECT",
+    "custo": 345.45
+  },
+  {
+    "codigo": "8848",
+    "descricao": "REED FIM DE CURSO 2,00MTS",
+    "custo": 10.9
+  },
+  {
+    "codigo": "8849",
+    "descricao": "CONJUNTO ENCODER UNIVERSAL CABO",
+    "custo": 15.45
+  },
+  {
+    "codigo": "8850",
+    "descricao": "PLACA DE CONTROLE DA CATRACA DIGICON",
+    "custo": 0.09
+  },
+  {
+    "codigo": "8851",
+    "descricao": "TH 4000 MF PULSEIRA ACION POR APROXI RFID 13,56MHZ",
+    "custo": 12.35
+  },
+  {
+    "codigo": "8852",
+    "descricao": "TRANSFORMADOR 110/220V 16,5V 2,5A",
+    "custo": 11.94
+  },
+  {
+    "codigo": "8853",
+    "descricao": "FONTE POE FG FE 1201P 12V 2A",
+    "custo": 4.34
+  },
+  {
+    "codigo": "8854",
+    "descricao": "CAMERA BULLET VHD 1130 B MULTI HD",
+    "custo": 19.95
+  },
+  {
+    "codigo": "8855",
+    "descricao": "MODULO XAG 8000 3G GPRS",
+    "custo": 65.67
+  },
+  {
+    "codigo": "8856",
+    "descricao": "GRAVADOR DIG. DE VIDEO MHDX 1216",
+    "custo": 183.31
+  },
+  {
+    "codigo": "8857",
+    "descricao": "BATERIA ESTACIONARIA 050A",
+    "custo": 52.56
+  },
+  {
+    "codigo": "8859",
+    "descricao": "CAMERA DE VIDEO WI-FI FULL HD IMX",
+    "custo": 43.63
+  },
+  {
+    "codigo": "8860",
+    "descricao": "ABRACADEIRA TIPO U 1\"",
+    "custo": 0.16
+  },
+  {
+    "codigo": "8861",
+    "descricao": "LINGUETA FECHADURA DESTRAVAMENTO",
+    "custo": 0.38
+  },
+  {
+    "codigo": "8862",
+    "descricao": "CAIXA BOX ANTIVANDALISMO PARA CAMERA",
+    "custo": 18.92
+  },
+  {
+    "codigo": "8874",
+    "descricao": "CONJUNTO GRAND PIVO ROBO 1/2HP AL",
+    "custo": 250.18
+  },
+  {
+    "codigo": "8876",
+    "descricao": "CAMPAINHA SEM FIO COM BATERIA CIB 101",
+    "custo": 15.59
+  },
+  {
+    "codigo": "8877",
+    "descricao": "GRAVADOR DIGITAL DE VIDEO MHDX 1232",
+    "custo": 418.16
+  },
+  {
+    "codigo": "8878",
+    "descricao": "CURVA GALV 2\"",
+    "custo": 9.98
+  },
+  {
+    "codigo": "8879",
+    "descricao": "AUT PIVO ROBO MON 220V 60HZ",
+    "custo": 357.38
+  },
+  {
+    "codigo": "8881",
+    "descricao": "DISJUNTOR MONOFASICO 16A",
+    "custo": 1.63
+  },
+  {
+    "codigo": "8882",
+    "descricao": "MONITOR 23\"",
+    "custo": 181.63
+  },
+  {
+    "codigo": "8883",
+    "descricao": "CABO FLEX 750V 16,00MM PT",
+    "custo": 2.65
+  },
+  {
+    "codigo": "8884",
+    "descricao": "CENTRAL DE CHOQUE ELC 3020",
+    "custo": 36.1
+  },
+  {
+    "codigo": "8885",
+    "descricao": "CABO PP 4 X 1,0MM",
+    "custo": 1.06
+  }
+]

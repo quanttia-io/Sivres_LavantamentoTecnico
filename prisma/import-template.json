@@ -1,0 +1,454 @@
+[
+  {
+    "descricao": "ABRACADEIRA PLASTICO 40CM X 5MM",
+    "codigo": "1122"
+  },
+  {
+    "descricao": "MASTRO SENSOR ATIVO  ALUMINIO 40CM",
+    "codigo": "1123"
+  },
+  {
+    "descricao": "ARAME GALVANIZADO TRIPLA - 1,83MM",
+    "codigo": "1127"
+  },
+  {
+    "descricao": "BATERIA SELADA 12V 7A/H",
+    "codigo": "1135"
+  },
+  {
+    "descricao": "REBITE DE REPUXO ALUMINIO 4,8MM X 30MM 0,3 CT X 62",
+    "codigo": "1136"
+  },
+  {
+    "descricao": "SENSOR MAGNETICO INDUSTRIAL",
+    "codigo": "1161"
+  },
+  {
+    "descricao": "CABO DE ALTA TENSÃO 5MM",
+    "codigo": "1164"
+  },
+  {
+    "descricao": "CABO CAT5-E",
+    "codigo": "1165"
+  },
+  {
+    "descricao": "CABO PP - 4X0,75MM",
+    "codigo": "1173"
+  },
+  {
+    "descricao": "SIRENE  PIEZO ELETRONICA  120 DB",
+    "codigo": "1183"
+  },
+  {
+    "descricao": "CENTRAL DE CHOQUE ECR - 18 PLUS",
+    "codigo": "1198"
+  },
+  {
+    "descricao": "ESTICADOR COM PORCA SUPER CERCA CONFISEG",
+    "codigo": "1235"
+  },
+  {
+    "descricao": "ISOLADOR CASTANHA",
+    "codigo": "1237"
+  },
+  {
+    "descricao": "TOMADA FEMEA  10A EXTENSÃO 2P+T",
+    "codigo": "1288"
+  },
+  {
+    "descricao": "RACK   8U X 470 X 19P",
+    "codigo": "1465"
+  },
+  {
+    "descricao": "BUCHA FIXA Nº 8",
+    "codigo": "1882"
+  },
+  {
+    "descricao": "PARAFUSO Nº 08",
+    "codigo": "1928"
+  },
+  {
+    "descricao": "SENSOR ATIVO (BARREIRA) SIMPLES 30MTS -  IRA 50",
+    "codigo": "2882"
+  },
+  {
+    "descricao": "HASTE DE ATERRAMENTO 2MM",
+    "codigo": "3129"
+  },
+  {
+    "descricao": "FONTE FLUTUADORA  C/CARREGADOR 12V X 3A",
+    "codigo": "3308"
+  },
+  {
+    "descricao": "CONECTOR P4",
+    "codigo": "3405"
+  },
+  {
+    "descricao": "PLUG  MACHO 10A 2P + T P/ EXTENSAO",
+    "codigo": "3501"
+  },
+  {
+    "descricao": "QUADRO COMANDO  50X40X20",
+    "codigo": "4845"
+  },
+  {
+    "descricao": "CABO FLEXIVEL  BRANCO 750V 2,5MM",
+    "codigo": "4852"
+  },
+  {
+    "descricao": "CONECTOR RJ45 PARA CAT5",
+    "codigo": "4880"
+  },
+  {
+    "descricao": "RECEPTOR MULTIFUNÇÃO LINEAR HCS 4A",
+    "codigo": "5075"
+  },
+  {
+    "descricao": "HASTE ALUMINIO COMPLETA LISA W PASS 40X40 1 M",
+    "codigo": "5338"
+  },
+  {
+    "descricao": "ELETRODUTO PVC RIGIDO 1''",
+    "codigo": "5421"
+  },
+  {
+    "descricao": "LUVA PVC  1''",
+    "codigo": "5422"
+  },
+  {
+    "descricao": "ELETRODUTO GALVANIZADO 1'",
+    "codigo": "5425"
+  },
+  {
+    "descricao": "CONDULETE UNIVERSAL  1 POLEGADA",
+    "codigo": "5426"
+  },
+  {
+    "descricao": "CABO PARALELO BICOLOR 2X1,50MM",
+    "codigo": "5538"
+  },
+  {
+    "descricao": "MODULO GUARITA LINEAR HCS MODELO: 2015 IP",
+    "codigo": "5636"
+  },
+  {
+    "descricao": "PATCH CORD CAT 5E",
+    "codigo": "5644"
+  },
+  {
+    "descricao": "ELETROCALHA VENTILADA  50X50 PVC C/ TAMPA",
+    "codigo": "5804"
+  },
+  {
+    "descricao": "QUADRO DE COMANDO 45X30X20",
+    "codigo": "5883"
+  },
+  {
+    "descricao": "HASTE ALUMINIO COMPLETA LISA CAST ESTIC 40X40 1M",
+    "codigo": "6069"
+  },
+  {
+    "descricao": "SENSOR DE BARREIRA ATIVO 30MTS -  IRA 115",
+    "codigo": "6091"
+  },
+  {
+    "descricao": "TRANSMISSOR 3 TECLAS NICE",
+    "codigo": "6186"
+  },
+  {
+    "descricao": "MODULO DE RELE DA FACILITY - PPA",
+    "codigo": "6196"
+  },
+  {
+    "descricao": "TAMPA CEGA GALVANIZADA 1''",
+    "codigo": "6230"
+  },
+  {
+    "descricao": "REGUA DE 6 TOMADAS",
+    "codigo": "6240"
+  },
+  {
+    "descricao": "CURVA PVC  1''",
+    "codigo": "6257"
+  },
+  {
+    "descricao": "ADAPTADOR ELETRODUTO/CONDULETE GALVANIZADO 1\"",
+    "codigo": "6258"
+  },
+  {
+    "descricao": "ABRACADEIRA CUNHA 1\"",
+    "codigo": "6259"
+  },
+  {
+    "descricao": "CURVA GALVANIZADA 1'",
+    "codigo": "6278"
+  },
+  {
+    "descricao": "CURVA PVC 2\"",
+    "codigo": "6281"
+  },
+  {
+    "descricao": "ABRACADEIRA CUNHA 2",
+    "codigo": "6283"
+  },
+  {
+    "descricao": "ELETRODUTO RIGIDO PVC 2\" 3MT",
+    "codigo": "6316"
+  },
+  {
+    "descricao": "TOMADA CONDULETE 10A REDONDA 2P+T",
+    "codigo": "6317"
+  },
+  {
+    "descricao": "TAMPAO CONDULETE PLÁSTICO 1''",
+    "codigo": "6318"
+  },
+  {
+    "descricao": "ESPELHO PARA TOMADA  2P+T, P/ CONDULETE 1\"",
+    "codigo": "6319"
+  },
+  {
+    "descricao": "ESPIRAFLEX   1''",
+    "codigo": "6330"
+  },
+  {
+    "descricao": "CREMALHEIRA PARA O MOTOR PPA RIO 1.4 - FERRO",
+    "codigo": "6349"
+  },
+  {
+    "descricao": "CAIXA PROTEÇÃO GRADEADA PARA CAMERA  20 X 20",
+    "codigo": "6400"
+  },
+  {
+    "descricao": "CAIXA HERMETICA PVC  30 x 22 x 12",
+    "codigo": "6445"
+  },
+  {
+    "descricao": "SWITCH 08 PORTAS 10/100",
+    "codigo": "6470"
+  },
+  {
+    "descricao": "PARAFUSO C/ PORCA GAIOLA",
+    "codigo": "6477"
+  },
+  {
+    "descricao": "CAMERA DE TV P/ SIST. SEG. VHD 1220 D FULL HD",
+    "codigo": "6560"
+  },
+  {
+    "descricao": "DISCO RIGIDO INTERNO 4TB",
+    "codigo": "6671"
+  },
+  {
+    "descricao": "SENSOR ATIVO (BARR) DUPLO 2 FEIXE 60 METRO IRA 315",
+    "codigo": "6707"
+  },
+  {
+    "descricao": "ISOLADOR W PARA CERCA ELETRICA",
+    "codigo": "6745"
+  },
+  {
+    "descricao": "FONTE COLMEIA 12V 10 AMPERE",
+    "codigo": "6809"
+  },
+  {
+    "descricao": "ROTEADOR MIKROTIK 5 PORTAS GBIT RB750",
+    "codigo": "6896"
+  },
+  {
+    "descricao": "CONVERSOR POWER BALUN 16 CANAIS VBP A16C FULLHD",
+    "codigo": "7007"
+  },
+  {
+    "descricao": "PARAFUSO BROCANTE COST. 12X7/8",
+    "codigo": "7023"
+  },
+  {
+    "descricao": "ABRAÇADEIRA DE PLASTICO PRETA UV T18R 10CM X 2,5MM",
+    "codigo": "7108"
+  },
+  {
+    "descricao": "CAMERA DE TV IP DOME VIP 1020 D G2",
+    "codigo": "7194"
+  },
+  {
+    "descricao": "CONECTOR P/ HASTE DE TERRA TH-12-58",
+    "codigo": "7215"
+  },
+  {
+    "descricao": "CABO FLEXIVEL  AZUL 750V 2,5MM",
+    "codigo": "7353"
+  },
+  {
+    "descricao": "CABO FLEXIVEL  VERDE 750V 2,5MM",
+    "codigo": "7354"
+  },
+  {
+    "descricao": "CABO FLEXIVEL  VERMELHO 750V 2,5MM",
+    "codigo": "7355"
+  },
+  {
+    "descricao": "PROTETOR  SURTO DPS 40KA CLASSE 2",
+    "codigo": "7415"
+  },
+  {
+    "descricao": "CONDULETE GALVANIZADA 2' COM TAMPA",
+    "codigo": "7458"
+  },
+  {
+    "descricao": "ADAPTADOR P/ CONDULETE GALV. 2\"",
+    "codigo": "7478"
+  },
+  {
+    "descricao": "LUVA GALVANIZADA 2'",
+    "codigo": "7481"
+  },
+  {
+    "descricao": "SENSOR MICROONDAS  IVP 5311 MW PET",
+    "codigo": "7647"
+  },
+  {
+    "descricao": "MULTI-BOX - MÓDULO EXPANSOR DE ENTRADAS E SAÍDAS D",
+    "codigo": "8564"
+  },
+  {
+    "descricao": "CAIXA PARA CONECTORES VBOX 1100 E",
+    "codigo": "8577"
+  },
+  {
+    "descricao": "INTERFONE IP 1 TECLA EXTERNO XPE 1001 IP",
+    "codigo": "8579"
+  },
+  {
+    "descricao": "PORTEIRO EXTERNO XPE 3001T IP",
+    "codigo": "8580"
+  },
+  {
+    "descricao": "SWITCH 16 PORTAS SWITCH SF 1600 Q+",
+    "codigo": "8581"
+  },
+  {
+    "descricao": "REGUA DE TOMADA COM 5  EPE 205 + BR",
+    "codigo": "8583"
+  },
+  {
+    "descricao": "CAIXA DE EMERGENCIA REARMAVEL  AS2010",
+    "codigo": "8591"
+  },
+  {
+    "descricao": "MOLA HIDRÁULICA AÉREA MH 103 A P/ 65KG",
+    "codigo": "8598"
+  },
+  {
+    "descricao": "SUPORTE MOLA AEREA AS30 PARA VIDRO",
+    "codigo": "8606"
+  },
+  {
+    "descricao": "DISJUNTOR MONOFASICO 10A",
+    "codigo": "8652"
+  },
+  {
+    "descricao": "COFRE GUARDA CHAVES",
+    "codigo": "8750"
+  },
+  {
+    "descricao": "CONJ. AUTO. P. DZRIO 500 JET FLEX",
+    "codigo": "8783"
+  },
+  {
+    "descricao": "RADIO ROTEADOR WOM 5A MIMO",
+    "codigo": "8832"
+  },
+  {
+    "descricao": "DISPLAY SINALIZADOR PUXE/EMPURRE",
+    "codigo": "8835"
+  },
+  {
+    "descricao": "QUADRO DE SOBREPOR PARA 6 DISJUNTORES",
+    "codigo": "8869"
+  },
+  {
+    "descricao": "FILTRO DE LINHA SMART WEB 10P|VOLT",
+    "codigo": "8897"
+  },
+  {
+    "descricao": "FECHADURA ELETROIMA FE20150 C/SENSOR PRATA",
+    "codigo": "8943"
+  },
+  {
+    "descricao": "ACIONADOR ABERTURA BT 3000 INOX SOBREPOR",
+    "codigo": "8977"
+  },
+  {
+    "descricao": "RELE 3L 12V PORTARIA",
+    "codigo": "9006"
+  },
+  {
+    "descricao": "SUPORTE PARA FECHADURA VIDRO SV 20150",
+    "codigo": "9017"
+  },
+  {
+    "descricao": "CONTROLADOR DE ACESSO FACIAL SS 3532 MF W",
+    "codigo": "9070"
+  },
+  {
+    "descricao": "DISP REC.FACIAL C/TELA LCD DE ALTA RES SS 1530MF W",
+    "codigo": "9071"
+  },
+  {
+    "descricao": "CAMERA DE TV VHD 1220 B FULL COLOR",
+    "codigo": "9086"
+  },
+  {
+    "descricao": "CAIXA DE INSPECAO C/ TAMPA TR CONICA 250X250MM",
+    "codigo": "9123"
+  },
+  {
+    "descricao": "PARAFUSO AUTO BROCANTE 4,2x38 CABEÇA CHATA",
+    "codigo": "9125"
+  },
+  {
+    "descricao": "MODULO GSM P/ CENTRAL DE ALARME INTRUSÃO XG 4G",
+    "codigo": "9219"
+  },
+  {
+    "descricao": "CONJUNTO MOTOR GRAND KDZ TSI 1500 2TX",
+    "codigo": "9225"
+  },
+  {
+    "descricao": "PARAFUSO PHILIPS ZINC FLANGE BROCANTE C/SER 4,2 X 13M",
+    "codigo": "9238"
+  },
+  {
+    "descricao": "PARAFUSO PHILIPS ZINC FLANGE BROCANTE C/SER 4,2 X 25M",
+    "codigo": "9239"
+  },
+  {
+    "descricao": "GRAVADOR DIG.DE VIDEO MHDX 1316",
+    "codigo": "9240"
+  },
+  {
+    "descricao": "CREMALHEIRA P/ CJ GRAND KDZ TSI 15001,50M",
+    "codigo": "9241"
+  },
+  {
+    "descricao": "NOBREAK GNB 1500 VA 220V",
+    "codigo": "9260"
+  },
+  {
+    "descricao": "BATERIA ESTACIONARIA FREEDOM DF2000 105A",
+    "codigo": "9261"
+  },
+  {
+    "descricao": "CASE DO FACIAL INTELBRAS",
+    "codigo": "9272"
+  },
+  {
+    "descricao": "CENTRAL DE ALARME AMT 2018 E SMART C/ TECLADO",
+    "codigo": "9312"
+  },
+  {
+    "descricao": "BV PENTA COND PREDIAL FR HIB BIV + ACION 2,00 MTS",
+    "codigo": "9369"
+  }
+]
