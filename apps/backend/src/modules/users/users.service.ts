@@ -25,12 +25,13 @@ export class UsersService {
   }
 
   async create(dto: CreateUserDto) {
-    const existing = await this.prisma.user.findUnique({ where: { email: dto.email } });
+    const email = dto.email.trim().toLowerCase();
+    const existing = await this.prisma.user.findUnique({ where: { email } });
     if (existing) throw new ConflictException('E-mail já cadastrado');
 
     const hashed = await bcrypt.hash(dto.password, 10);
     return this.prisma.user.create({
-      data: { ...dto, password: hashed },
+      data: { ...dto, email, password: hashed },
       select: { id: true, email: true, name: true, role: true, active: true, createdAt: true },
     });
   }
@@ -39,6 +40,7 @@ export class UsersService {
     await this.findOne(id);
 
     if (dto.email) {
+      dto.email = dto.email.trim().toLowerCase();
       const conflict = await this.prisma.user.findFirst({ where: { email: dto.email, NOT: { id } } });
       if (conflict) throw new ConflictException('E-mail já cadastrado');
     }
