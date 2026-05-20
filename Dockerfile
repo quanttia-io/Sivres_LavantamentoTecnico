@@ -50,4 +50,4 @@ RUN pnpm --filter @prss/backend build
 
 EXPOSE 3001
 
-CMD ["node", "apps/backend/dist/main"]
+CMD ["sh", "-c", "pnpm prisma migrate deploy && node apps/backend/dist/main"]
