@@ -71,6 +71,9 @@ export class CreateVistoriaDto {
   @ValidateNested({ each: true })
   @Type(() => VistoriaItemInputDto)
   itens?: VistoriaItemInputDto[];
+
+  @IsOptional()
+  dadosConfiguracao?: Record<string, unknown>;
 }
 
 export class UpdateVistoriaDto {

@@ -348,6 +348,7 @@ export default function NovaVistoriaPage() {
         tipoCondominio: formData.tipoCondominio || undefined,
         periodoAtendimento: formData.periodoAtendimento || undefined,
         observacoesGerais: formData.observacoesGerais || undefined,
+        dadosConfiguracao: configTecnica as any,
         itens: produtos.map((p) => ({ produtoId: p.produtoId, quantidade: p.quantidade })),
       })) as any;
 

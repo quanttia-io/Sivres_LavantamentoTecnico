@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Query } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post, Put, Query } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiBearerAuth, ApiQuery } from '@nestjs/swagger';
 import { VistoriasService } from './vistorias.service';
 import { CreateVistoriaDto, UpdateVistoriaDto, FilterVistoriaDto } from './dto/create-vistoria.dto';
@@ -47,6 +47,12 @@ export class VistoriasController {
   @ApiOperation({ summary: 'Excluir vistoria (soft delete)' })
   remove(@Param('id') id: string, @CurrentUser() user: UserCtx) {
     return this.service.remove(id, user);
+  }
+
+  @Put(':id/itens')
+  @ApiOperation({ summary: 'Substituir lista de itens da vistoria' })
+  updateItens(@Param('id') id: string, @Body() body: { itens: { produtoId: string; quantidade: number }[] }, @CurrentUser() user: UserCtx) {
+    return this.service.updateItens(id, body.itens, user);
   }
 
   @Post(':id/lock')

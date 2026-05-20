@@ -7,7 +7,7 @@ import FotoUpload from '@/components/vistoria/foto-upload';
 import AnexoUpload from '@/components/vistoria/anexo-upload';
 import SignaturePad from '@/components/vistoria/signature-pad';
 import toast from 'react-hot-toast';
-import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2, Trash2 } from 'lucide-react';
+import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2, Trash2, Pencil, Plus, Minus, Save, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAuthStore } from '@/store/auth.store';
 import { precificacaoApi } from '@/lib/api/configurador';
@@ -29,6 +29,13 @@ export default function VistoriaDetailPage() {
   const [vistoria, setVistoria] = useState<any>(null);
   const [activeTab, setActiveTab] = useState(0);
   const [loading, setLoading] = useState(true);
+
+  // Produtos edit state
+  const [editandoProdutos, setEditandoProdutos] = useState(false);
+  const [itensEditaveis, setItensEditaveis] = useState<any[]>([]);
+  const [buscaProduto, setBuscaProduto] = useState('');
+  const [resultadosBusca, setResultadosBusca] = useState<any[]>([]);
+  const [salvandoProdutos, setSalvandoProdutos] = useState(false);
 
   // Precificação tab state
   const [precificacao, setPrecificacao] = useState<any>(null);
@@ -124,6 +131,70 @@ export default function VistoriaDetailPage() {
     }
   };
 
+  const iniciarEdicaoProdutos = () => {
+    setItensEditaveis(vistoria.itens.map((i: any) => ({ ...i })));
+    setBuscaProduto('');
+    setResultadosBusca([]);
+    setEditandoProdutos(true);
+  };
+
+  const cancelarEdicaoProdutos = () => {
+    setEditandoProdutos(false);
+    setBuscaProduto('');
+    setResultadosBusca([]);
+  };
+
+  const alterarQtd = (produtoId: string, delta: number) => {
+    setItensEditaveis((prev) =>
+      prev.map((i) =>
+        i.produto.id === produtoId ? { ...i, quantidade: Math.max(1, i.quantidade + delta) } : i,
+      ),
+    );
+  };
+
+  const removerItemEditavel = (produtoId: string) => {
+    setItensEditaveis((prev) => prev.filter((i) => i.produto.id !== produtoId));
+  };
+
+  const buscarProdutos = async (termo: string) => {
+    setBuscaProduto(termo);
+    if (termo.trim().length < 2) { setResultadosBusca([]); return; }
+    try {
+      const res = (await (await import('@/lib/api/client')).api.get('/produtos', {
+        params: { search: termo, limit: 8 },
+      })) as any;
+      const lista = Array.isArray(res) ? res : res?.items ?? [];
+      const idsAtuais = new Set(itensEditaveis.map((i: any) => i.produto.id));
+      setResultadosBusca(lista.filter((p: any) => !idsAtuais.has(p.id)));
+    } catch { setResultadosBusca([]); }
+  };
+
+  const adicionarProduto = (produto: any) => {
+    setItensEditaveis((prev) => [
+      ...prev,
+      { produto, quantidade: 1 },
+    ]);
+    setBuscaProduto('');
+    setResultadosBusca([]);
+  };
+
+  const salvarProdutos = async () => {
+    setSalvandoProdutos(true);
+    try {
+      await vistoriasApi.updateItens(
+        id,
+        itensEditaveis.map((i) => ({ produtoId: i.produto.id, quantidade: i.quantidade })),
+      );
+      toast.success('Produtos atualizados');
+      setEditandoProdutos(false);
+      reload();
+    } catch (err: any) {
+      toast.error(err?.response?.data?.message ?? 'Erro ao salvar produtos');
+    } finally {
+      setSalvandoProdutos(false);
+    }
+  };
+
   const handleExcluir = async () => {
     if (!window.confirm(`Deseja mover a vistoria ${vistoria.numero} para a lixeira?`)) return;
     try {
@@ -159,7 +230,7 @@ export default function VistoriaDetailPage() {
   const isApproved = vistoria.status === 'APROVADO';
   const canEdit = !isApproved || user?.role === 'GESTOR' || user?.role === 'ADMINISTRADOR';
   const canManage = user?.role === 'GESTOR' || user?.role === 'ADMINISTRADOR';
-  const canApprove = canManage && vistoria.status === 'AGUARDANDO_APROVACAO';
+  const canApprove = canManage && vistoria.status !== 'APROVADO';
 
   return (
     <div className="flex flex-col min-h-full">
@@ -238,28 +309,96 @@ export default function VistoriaDetailPage() {
 
         {/* Tab — Produtos */}
         {tabs[activeTab] === 'Produtos' && (
-          <div className="card overflow-x-auto">
-            <h3 className="font-semibold text-gray-800 mb-3">Equipamentos Previstos</h3>
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-gray-200 text-left">
-                  <th className="pb-2 text-gray-500 font-medium">Código</th>
-                  <th className="pb-2 text-gray-500 font-medium">Descrição</th>
-                  <th className="pb-2 text-gray-500 font-medium text-center">Qtd</th>
-                </tr>
-              </thead>
-              <tbody>
-                {vistoria.itens?.map((item: any) => (
-                  <tr key={item.id} className="border-b border-gray-100 last:border-0">
-                    <td className="py-2.5 font-mono text-xs text-brand-700">{item.produto.codigo}</td>
-                    <td className="py-2.5">{item.produto.descricao}</td>
-                    <td className="py-2.5 text-center font-semibold">{item.quantidade}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            {!vistoria.itens?.length && (
-              <p className="text-gray-400 text-sm text-center py-4">Nenhum produto adicionado</p>
+          <div className="space-y-3">
+            {!editandoProdutos ? (
+              <div className="card overflow-x-auto">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-semibold text-gray-800">Equipamentos Previstos</h3>
+                  {canEdit && (
+                    <button onClick={iniciarEdicaoProdutos} className="btn-secondary py-1.5 px-3 min-h-0 text-xs flex items-center gap-1">
+                      <Pencil size={14} /> Editar
+                    </button>
+                  )}
+                </div>
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-gray-200 text-left">
+                      <th className="pb-2 text-gray-500 font-medium">Código</th>
+                      <th className="pb-2 text-gray-500 font-medium">Descrição</th>
+                      <th className="pb-2 text-gray-500 font-medium text-center">Qtd</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {vistoria.itens?.map((item: any) => (
+                      <tr key={item.id} className="border-b border-gray-100 last:border-0">
+                        <td className="py-2.5 font-mono text-xs text-brand-700">{item.produto.codigo}</td>
+                        <td className="py-2.5">{item.produto.descricao}</td>
+                        <td className="py-2.5 text-center font-semibold">{item.quantidade}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {!vistoria.itens?.length && (
+                  <p className="text-gray-400 text-sm text-center py-4">Nenhum produto adicionado</p>
+                )}
+              </div>
+            ) : (
+              <div className="card space-y-3">
+                <div className="flex items-center justify-between">
+                  <h3 className="font-semibold text-gray-800">Editando Produtos</h3>
+                  <div className="flex gap-2">
+                    <button onClick={cancelarEdicaoProdutos} className="btn-secondary py-1.5 px-3 min-h-0 text-xs flex items-center gap-1">
+                      <X size={14} /> Cancelar
+                    </button>
+                    <button onClick={salvarProdutos} disabled={salvandoProdutos} className="btn-primary py-1.5 px-3 min-h-0 text-xs flex items-center gap-1">
+                      {salvandoProdutos ? <Loader2 size={14} className="animate-spin" /> : <Save size={14} />} Salvar
+                    </button>
+                  </div>
+                </div>
+
+                {/* Lista editável */}
+                <div className="space-y-1">
+                  {itensEditaveis.map((item: any) => (
+                    <div key={item.produto.id} className="flex items-center gap-2 py-2 border-b border-gray-100 last:border-0">
+                      <span className="font-mono text-xs text-brand-700 w-16 shrink-0">{item.produto.codigo}</span>
+                      <span className="flex-1 text-sm truncate">{item.produto.descricao}</span>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button onClick={() => alterarQtd(item.produto.id, -1)} className="w-7 h-7 rounded-lg border border-gray-300 flex items-center justify-center hover:bg-gray-100">
+                          <Minus size={12} />
+                        </button>
+                        <span className="w-8 text-center text-sm font-semibold">{item.quantidade}</span>
+                        <button onClick={() => alterarQtd(item.produto.id, 1)} className="w-7 h-7 rounded-lg border border-gray-300 flex items-center justify-center hover:bg-gray-100">
+                          <Plus size={12} />
+                        </button>
+                        <button onClick={() => removerItemEditavel(item.produto.id)} className="w-7 h-7 rounded-lg border border-red-200 flex items-center justify-center text-red-500 hover:bg-red-50 ml-1">
+                          <X size={12} />
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Buscar produto */}
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Buscar produto por código ou descrição..."
+                    value={buscaProduto}
+                    onChange={(e) => buscarProdutos(e.target.value)}
+                    className="input text-sm py-2"
+                  />
+                  {resultadosBusca.length > 0 && (
+                    <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-xl shadow-lg z-10 max-h-48 overflow-y-auto mt-1">
+                      {resultadosBusca.map((p: any) => (
+                        <button key={p.id} onClick={() => adicionarProduto(p)} className="w-full text-left px-3 py-2.5 hover:bg-gray-50 border-b border-gray-100 last:border-0">
+                          <span className="font-mono text-xs text-brand-700 mr-2">{p.codigo}</span>
+                          <span className="text-sm">{p.descricao}</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
             )}
           </div>
         )}

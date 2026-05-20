@@ -27,8 +27,8 @@ export class AprovacaoService {
 
     if (!vistoria) throw new NotFoundException('Vistoria não encontrada');
 
-    if (vistoria.status !== VistoriaStatus.AGUARDANDO_APROVACAO) {
-      throw new BadRequestException('Vistoria não está aguardando aprovação');
+    if (vistoria.status === VistoriaStatus.APROVADO) {
+      throw new BadRequestException('Vistoria já está aprovada');
     }
 
     const novoStatus =

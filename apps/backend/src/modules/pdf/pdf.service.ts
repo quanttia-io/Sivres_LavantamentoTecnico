@@ -27,7 +27,15 @@ export class PdfService {
 
     if (!vistoria) throw new NotFoundException('Vistoria não encontrada');
 
-    const html = this.buildHtml(vistoria);
+    // Converte fotos para base64 para garantir renderização no Puppeteer
+    const fotosComBase64 = await Promise.all(
+      vistoria.fotos.map(async (foto: any) => {
+        const base64 = await this.fetchBase64(foto.url);
+        return { ...foto, urlBase64: base64 || foto.url };
+      }),
+    );
+
+    const html = this.buildHtml({ ...vistoria, fotos: fotosComBase64 });
 
     const browser = await puppeteer.launch({
       headless: true,
@@ -257,9 +265,9 @@ export class PdfService {
 
     const fotosHtml = v.fotos
       .map(
-        (foto: any, i: number) =>
+        (foto: any) =>
           `<div class="foto-cell">
-            <img src="${foto.url}" alt="${foto.categoria}" />
+            <img src="${foto.urlBase64 ?? foto.url}" alt="${foto.categoria}" />
             <p>${foto.categoria.replace(/_/g, ' ')}</p>
           </div>`,
       )
@@ -384,6 +392,18 @@ ${v.assinaturas.length > 0 ? `
 
 </body>
 </html>`;
+  }
+
+  private async fetchBase64(url: string): Promise<string> {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) return '';
+      const buf = await res.arrayBuffer();
+      const mime = res.headers.get('content-type') || 'image/jpeg';
+      return `data:${mime};base64,${Buffer.from(buf).toString('base64')}`;
+    } catch {
+      return '';
+    }
   }
 
   private headerTemplate(numero: string): string {

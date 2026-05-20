@@ -15,6 +15,8 @@ export const vistoriasApi = {
   atualizar: (id: string, data: unknown) => api.patch(`/vistorias/${id}`, data),
   finalizar: (id: string) => api.post(`/vistorias/${id}/finalizar`),
   excluir: (id: string) => api.delete(`/vistorias/${id}`),
+  updateItens: (id: string, itens: { produtoId: string; quantidade: number }[]) =>
+    api.put(`/vistorias/${id}/itens`, { itens }),
   adquirirLock: (id: string) => api.post(`/vistorias/${id}/lock`),
   liberarLock: (id: string) => api.delete(`/vistorias/${id}/lock`),
   gerarPdf: (id: string) =>

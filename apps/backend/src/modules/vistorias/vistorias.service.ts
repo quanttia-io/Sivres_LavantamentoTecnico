@@ -145,6 +145,7 @@ export class VistoriasService {
         tipoCondominio: dto.tipoCondominio,
         periodoAtendimento: dto.periodoAtendimento,
         observacoesGerais: dto.observacoesGerais,
+        dadosConfiguracao: dto.dadosConfiguracao ?? undefined,
         itens: itensData
           ? { createMany: { data: itensData } }
           : undefined,
@@ -227,6 +228,30 @@ export class VistoriasService {
       data: { status: VistoriaStatus.AGUARDANDO_APROVACAO },
       include: VISTORIA_INCLUDE,
     });
+  }
+
+  async updateItens(id: string, itens: { produtoId: string; quantidade: number }[], user: UserCtx) {
+    await this.findOne(id, user);
+
+    const produtoIds = itens.map((i) => i.produtoId);
+    const produtos = await this.prisma.produto.findMany({ where: { id: { in: produtoIds } } });
+    const produtoMap = new Map(produtos.map((p) => [p.id, p]));
+
+    await this.prisma.$transaction([
+      this.prisma.vistoriaItem.deleteMany({ where: { vistoriaId: id } }),
+      this.prisma.vistoriaItem.createMany({
+        data: itens
+          .filter((i) => produtoMap.has(i.produtoId))
+          .map((i) => ({
+            vistoriaId: id,
+            produtoId: i.produtoId,
+            quantidade: i.quantidade,
+            custoUnit: produtoMap.get(i.produtoId)!.custo,
+          })),
+      }),
+    ]);
+
+    return this.findOne(id, user);
   }
 
   async remove(id: string, user: UserCtx) {
