@@ -7,7 +7,7 @@ import FotoUpload from '@/components/vistoria/foto-upload';
 import AnexoUpload from '@/components/vistoria/anexo-upload';
 import SignaturePad from '@/components/vistoria/signature-pad';
 import toast from 'react-hot-toast';
-import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2 } from 'lucide-react';
+import { ChevronLeft, Download, Send, CheckCircle, XCircle, Loader2, Trash2 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAuthStore } from '@/store/auth.store';
 import { precificacaoApi } from '@/lib/api/configurador';
@@ -124,6 +124,17 @@ export default function VistoriaDetailPage() {
     }
   };
 
+  const handleExcluir = async () => {
+    if (!window.confirm(`Deseja mover a vistoria ${vistoria.numero} para a lixeira?`)) return;
+    try {
+      await vistoriasApi.excluir(id);
+      toast.success('Vistoria movida para a lixeira');
+      router.push('/vistorias');
+    } catch (err: any) {
+      toast.error(err?.response?.data?.message ?? 'Erro ao excluir vistoria');
+    }
+  };
+
   const handleGerarPdf = async () => {
     try {
       const blob = await vistoriasApi.gerarPdf(id) as unknown as Blob;
@@ -170,6 +181,11 @@ export default function VistoriaDetailPage() {
           <button onClick={handleGerarPdf} className="btn-secondary py-2 px-3 min-h-0" title="Gerar PDF">
             <Download size={18} />
           </button>
+          {canManage && (
+            <button onClick={handleExcluir} className="btn-secondary py-2 px-3 min-h-0 text-red-600 hover:bg-red-50 hover:border-red-300" title="Mover para lixeira">
+              <Trash2 size={18} />
+            </button>
+          )}
         </div>
 
         {/* Tabs */}
