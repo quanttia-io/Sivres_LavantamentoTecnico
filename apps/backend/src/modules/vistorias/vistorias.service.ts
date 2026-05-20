@@ -145,7 +145,7 @@ export class VistoriasService {
         tipoCondominio: dto.tipoCondominio,
         periodoAtendimento: dto.periodoAtendimento,
         observacoesGerais: dto.observacoesGerais,
-        dadosConfiguracao: dto.dadosConfiguracao ?? undefined,
+        dadosConfiguracao: (dto.dadosConfiguracao as import('@prisma/client').Prisma.InputJsonValue) ?? undefined,
         itens: itensData
           ? { createMany: { data: itensData } }
           : undefined,
