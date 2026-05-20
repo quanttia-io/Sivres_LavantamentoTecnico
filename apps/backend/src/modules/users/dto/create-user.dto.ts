@@ -24,6 +24,10 @@ export class UpdateUserDto {
   name?: string;
 
   @IsOptional()
+  @IsEmail({}, { message: 'E-mail inválido' })
+  email?: string;
+
+  @IsOptional()
   @IsEnum(Role)
   role?: Role;
 

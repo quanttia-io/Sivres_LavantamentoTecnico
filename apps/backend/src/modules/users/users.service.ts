@@ -38,6 +38,11 @@ export class UsersService {
   async update(id: string, dto: UpdateUserDto) {
     await this.findOne(id);
 
+    if (dto.email) {
+      const conflict = await this.prisma.user.findFirst({ where: { email: dto.email, NOT: { id } } });
+      if (conflict) throw new ConflictException('E-mail já cadastrado');
+    }
+
     const data: Record<string, unknown> = { ...dto };
     if (dto.password) {
       data.password = await bcrypt.hash(dto.password, 10);
