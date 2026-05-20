@@ -32,18 +32,14 @@ export const vistoriasApi = {
   // Fotos
   listarFotos: (id: string) => api.get(`/vistorias/${id}/fotos`),
   uploadFoto: (id: string, formData: FormData) =>
-    api.post(`/vistorias/${id}/fotos`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
+    api.post(`/vistorias/${id}/fotos`, formData),
   removerFoto: (vistoriaId: string, fotoId: string) =>
     api.delete(`/vistorias/${vistoriaId}/fotos/${fotoId}`),
 
   // Anexos
   listarAnexos: (id: string) => api.get(`/vistorias/${id}/anexos`),
   uploadAnexo: (id: string, formData: FormData) =>
-    api.post(`/vistorias/${id}/anexos`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
+    api.post(`/vistorias/${id}/anexos`, formData),
   removerAnexo: (vistoriaId: string, anexoId: string) =>
     api.delete(`/vistorias/${vistoriaId}/anexos/${anexoId}`),
 

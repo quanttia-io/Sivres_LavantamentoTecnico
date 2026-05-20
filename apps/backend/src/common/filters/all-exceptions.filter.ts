@@ -32,8 +32,12 @@ export class AllExceptionsFilter implements ExceptionFilter {
         status = HttpStatus.CONFLICT;
         message = 'Registro duplicado';
       }
-      // Prisma not found
-      if (exception.message.includes('Record to update not found') || exception.message.includes('No')) {
+      // Prisma not found — match specific Prisma messages only, avoid false positives
+      if (
+        exception.message.includes('Record to update not found') ||
+        exception.message.includes('No record was found') ||
+        exception.message.includes('required but not found')
+      ) {
         status = HttpStatus.NOT_FOUND;
         message = 'Registro não encontrado';
       }

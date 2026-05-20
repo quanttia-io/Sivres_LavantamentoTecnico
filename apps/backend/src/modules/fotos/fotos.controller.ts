@@ -1,6 +1,6 @@
 import {
   Controller, Post, Get, Delete, Param, UploadedFile,
-  UseInterceptors, Body,
+  UseInterceptors, Body, BadRequestException,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiTags, ApiOperation, ApiBearerAuth, ApiConsumes } from '@nestjs/swagger';
@@ -29,6 +29,7 @@ export class FotosController {
     @Body('categoria') categoria: FotoCategoria,
     @Body('descricao') descricao?: string,
   ) {
+    if (!file) throw new BadRequestException('Arquivo não recebido. Verifique o campo "file" no formulário.');
     return this.service.upload(vistoriaId, file, categoria, descricao);
   }
 

@@ -46,10 +46,27 @@ export class StorageService implements OnModuleInit {
   }
 
   async upload(bucket: string, key: string, buffer: Buffer, mimeType: string): Promise<string> {
-    const { error } = await this.supabase.storage.from(bucket).upload(key, buffer, {
+    let { error } = await this.supabase.storage.from(bucket).upload(key, buffer, {
       contentType: mimeType,
       upsert: true,
     });
+
+    if (error) {
+      // Bucket might not exist yet — try to create it and retry once
+      const msg = error.message.toLowerCase();
+      if (msg.includes('bucket') || msg.includes('not found') || msg.includes('does not exist')) {
+        this.logger.warn(`Bucket "${bucket}" não encontrado, tentando criar...`);
+        await this.supabase.storage.createBucket(bucket, { public: true }).catch((e: any) => {
+          this.logger.warn(`Falha ao criar bucket "${bucket}": ${e?.message}`);
+        });
+        const retry = await this.supabase.storage.from(bucket).upload(key, buffer, {
+          contentType: mimeType,
+          upsert: true,
+        });
+        error = retry.error;
+      }
+    }
+
     if (error) throw new Error(`Storage upload error (bucket "${bucket}"): ${error.message}`);
 
     const { data } = this.supabase.storage.from(bucket).getPublicUrl(key);

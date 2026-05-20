@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Post, UploadedFile, UseInterceptors } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, UploadedFile, UseInterceptors, BadRequestException } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiTags, ApiOperation, ApiBearerAuth, ApiConsumes } from '@nestjs/swagger';
 import { AnexoTipo } from '@prisma/client';
@@ -24,6 +24,7 @@ export class AnexosController {
     @UploadedFile() file: Express.Multer.File,
     @Body('tipo') tipo: AnexoTipo,
   ) {
+    if (!file) throw new BadRequestException('Arquivo não recebido. Verifique o campo "file" no formulário.');
     return this.service.upload(vistoriaId, file, tipo);
   }
 
